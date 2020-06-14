@@ -55,49 +55,49 @@ const tvWatched = [
         poster: "https://image.tmdb.org/t/p/w200/m4iNYM0ZaaH10Qzebd9dwSa6Zy6.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "62560",
+        title: "Mr. Robot",
+        poster: "https://image.tmdb.org/t/p/w200//oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "67744",
+        title: "Mindhunter",
+        poster: "https://image.tmdb.org/t/p/w200/fbKE87mojpIETWepSbD5Qt741fp.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "63351",
+        title: "Narcos",
+        poster: "https://image.tmdb.org/t/p/w200/rTmal9fDbwh5F0waol2hq35U4ah.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "1436",
+        title: "Justified",
+        poster: "https://image.tmdb.org/t/p/w200/aVYuGDlOZMCRt89fAnHTYgk3BMr.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "4546",
+        title: "Curb Your Enthusiasm",
+        poster: "https://image.tmdb.org/t/p/w200/kWQDOnLs5DK0ta8xQZLsaienIHp.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "1621",
+        title: "Boardwalk Empire",
+        poster: "https://image.tmdb.org/t/p/w200/kL6SqlVPpfAof2nQbh1VxkUuXBQ.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "65495",
+        title: "Atlanta",
+        poster: "https://image.tmdb.org/t/p/w200/xVmzrYFAtKzqfbweGM8KSgOiEvT.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "15621",
+        title: "The Newsroom",
+        poster: "https://image.tmdb.org/t/p/w200/oRt7aL1D4WZhqqOLpgh9KGODjQK.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "61859",
+        title: "The Night Manager",
+        poster: "https://image.tmdb.org/t/p/w200/hdCC5N42cXERbzIn6ED7oqTKtkq.jpg"
     },
 ]
 
@@ -118,39 +118,39 @@ const tvWatching = [
         poster: "https://image.tmdb.org/t/p/w200/oy7Peo5iFIt9sNM59lN6csbJeX2.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "1915a",
+        title: "The Larry Sanders Show",
+        poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "60625",
+        title: "Rick and Morty",
+        poster: "https://image.tmdb.org/t/p/w200/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "2710",
+        title: "It's Always Sunny in Philadelphia",
+        poster: "https://image.tmdb.org/t/p/w200/xX3vAWdCb828T48HM9OvvD0p4PC.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "1406",
+        title: "Deadwood",
+        poster: "https://image.tmdb.org/t/p/w200/4Yp35DVbVOAWkfQUIQ7pbh3u0aN.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "1426",
+        title: "Luther",
+        poster: "https://image.tmdb.org/t/p/w200/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "73375",
+        title: "Tom Clancy's  Jack Ryan",
+        poster: "https://image.tmdb.org/t/p/w200/1raUrQr8Y2tSYjTDbk8wfWGKTmX.jpg"
     },
     {
-        id: "",
-        title: "",
-        poster: ""
+        id: "60694",
+        title: "Last Week Tonight with John Oliver",
+        poster: "https://image.tmdb.org/t/p/w200/hUpW9ZakeKpgIzvkck2T59RCHcH.jpg"
     },
    
 ]
