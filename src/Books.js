@@ -2,20 +2,27 @@ import React from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from './bookList'
 
 
+
+
+
+
 function Books() {
+
+
+
  const bookHandshake = handshakeFiveBooks.map(book => (
      
-        <div className="bookHandshake">
+        <div className="bookHandshake"  key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
         </div>
     ))
     const nowReading = booksReading.map(book => (
-        <div className="now_reading">
+        <div className="now_reading"    key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
         </div>
     ))
     const recentlyRead = booksRead.map(book => (
-        <div className="recently_read">
+        <div className="recently_read"  key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
         </div>
     ))
