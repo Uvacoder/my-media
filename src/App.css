@@ -24,7 +24,8 @@ html {
 .book, .movie, .tv {
   height: 200px;
   width: auto;
-  padding: 1rem;
+  margin: 1rem;
+  border: 0.5px solid black;
 }
 
 .star {
