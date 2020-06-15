@@ -105,7 +105,7 @@ const booksRead = [
     },
     {   
         id: "20",
-        title: "Dream Team: How Michael, Magic, Larry, Charles, and the Greatest Team of All Time Conquered the World and Changed the Game of Basketball Forever",
+        title: "Dream Team",
         isbn: "0345520491",
         rating: 4
     }

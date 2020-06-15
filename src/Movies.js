@@ -7,20 +7,32 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
     const handshakeId = handshakeFiveMovies.map(movie => (
      
         <div className="movieHandshake"  key={movie.id}>
-            { <img src={movie.poster} alt="movie posters" className="movie" /> }
-            <h4 className="star">{Array(movie.rating).fill(<span>&#10029;</span>)}</h4>
+            <img src={movie.poster} alt="movie posters" className="movie" />
+            <div className="word_box">
+            <h4 className="title">{movie.title}</h4>
+            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            </div>
+            
         </div>
     ))
     const nowWatchingMovies = moviesWatching.map(movie => (
         <div className="now_watching_movies"    key={movie.id}>
-            { <img src={movie.poster} alt="movie posters" className="movie" /> }
-            <h4 className="star">{Array(movie.rating).fill(<span>&#10029;</span>)}</h4>
+            <img src={movie.poster} alt="movie posters" className="movie" />
+            <div className="word_box">
+            <h4 className="title">{movie.title}</h4>
+            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            </div>    
+            
         </div>
     ))
     const recentlyWatchedMovies = moviesWatched.map(movie => (
         <div className="recently_watched_movies"  key={movie.id}>
-            { <img src={movie.poster} alt="movie posters" className="movie" /> }
-            <h4 className="star">{Array(movie.rating).fill(<span>&#10029;</span>)}</h4>
+            <img src={movie.poster} alt="movie posters" className="movie" />
+            <div className="word_box">
+            <h4 className="title">{movie.title}</h4>
+            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            </div>   
+            
         </div>
     ))
     

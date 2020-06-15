@@ -9,22 +9,34 @@ import {tvWatched, tvWatching, handshakeFiveTv} from './tvList'
 function Tv() {
 
     const handshakeTv = handshakeFiveTv.map(tv => (
-     
+        
         <div className="tvHandshake"  key={tv.id}>
-            { <img src={tv.poster} alt="tv posters" className="tv" /> }
-            <h4 className="star">{Array(tv.rating).fill(<span>&#10029;</span>)}</h4>
+             <img src={tv.poster} alt="tv posters" className="tv" />
+             <div className="word_box">
+             <h4 className="title">{tv.title}</h4>
+            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            </div> 
+             
         </div>
     ))
     const nowWatchingTv = tvWatching.map(tv => (
         <div className="now_watching_tv"    key={tv.id}>
-            { <img src={tv.poster} alt="tv posters" className="tv" /> }
-            <h4 className="star">{Array(tv.rating).fill(<span>&#10029;</span>)}</h4>
+             <img src={tv.poster} alt="tv posters" className="tv" />
+             <div className="word_box">
+            <h4 className="title">{tv.title}</h4>
+            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            </div>
+             
         </div>
     ))
     const recentlyWatchedTv = tvWatched.map(tv => (
         <div className="recently_watched_tv"  key={tv.id}>
-            { <img src={tv.poster} alt="tv posters" className="tv" /> }
-            <h4 className="star">{Array(tv.rating).fill(<span>&#10029;</span>)}</h4>
+            <img src={tv.poster} alt="tv posters" className="tv" />
+            <div className="word_box"> 
+            <h4 className="title">{tv.title}</h4>
+            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            </div>    
+            
         </div>
     ))
 

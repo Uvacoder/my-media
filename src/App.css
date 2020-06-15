@@ -2,6 +2,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-bottom: 2rem;
 }
 
 html {
@@ -24,13 +25,25 @@ html {
 .book, .movie, .tv {
   height: 200px;
   width: auto;
-  margin: 1rem;
+  margin: 1rem 1rem -.5rem 1rem;
   border: 0.5px solid black;
 }
 
 .star {
   color: gold;
   margin-top: -.5rem;
+}
+.title {
+  font-size: .75rem;
+  width: 200px;
+}
+
+.word_box {
+  /* border: 1px solid red; */
+  height: 50px;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  width: auto;
 }
 
 
