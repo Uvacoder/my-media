@@ -14,16 +14,19 @@ function Books() {
      
         <div className="bookHandshake"  key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <h4 className="star">{Array(book.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     const nowReading = booksReading.map(book => (
         <div className="now_reading"    key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <h4 className="star">{Array(book.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     const recentlyRead = booksRead.map(book => (
         <div className="recently_read"  key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <h4 className="star">{Array(book.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
    

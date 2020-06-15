@@ -8,17 +8,19 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
      
         <div className="movieHandshake"  key={movie.id}>
             { <img src={movie.poster} alt="movie posters" className="movie" /> }
-           
+            <h4 className="star">{Array(movie.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     const nowWatchingMovies = moviesWatching.map(movie => (
         <div className="now_watching_movies"    key={movie.id}>
             { <img src={movie.poster} alt="movie posters" className="movie" /> }
+            <h4 className="star">{Array(movie.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     const recentlyWatchedMovies = moviesWatched.map(movie => (
         <div className="recently_watched_movies"  key={movie.id}>
             { <img src={movie.poster} alt="movie posters" className="movie" /> }
+            <h4 className="star">{Array(movie.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     

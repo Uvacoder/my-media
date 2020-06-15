@@ -12,17 +12,19 @@ function Tv() {
      
         <div className="tvHandshake"  key={tv.id}>
             { <img src={tv.poster} alt="tv posters" className="tv" /> }
-           
+            <h4 className="star">{Array(tv.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     const nowWatchingTv = tvWatching.map(tv => (
         <div className="now_watching_tv"    key={tv.id}>
             { <img src={tv.poster} alt="tv posters" className="tv" /> }
+            <h4 className="star">{Array(tv.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
     const recentlyWatchedTv = tvWatched.map(tv => (
         <div className="recently_watched_tv"  key={tv.id}>
             { <img src={tv.poster} alt="tv posters" className="tv" /> }
+            <h4 className="star">{Array(tv.rating).fill(<span>&#10029;</span>)}</h4>
         </div>
     ))
 
