@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from './bookList'
+import {Context} from './Context'
 
 
 
@@ -7,18 +8,23 @@ import {booksReading, booksRead, handshakeFiveBooks} from './bookList'
 
 
 function Books() {
+      
+ 
 
-        
+    const {toggleReview, review} = useContext(Context)
 
- const bookHandshake = handshakeFiveBooks.map(book => (
-     
+    
+
+
+   const bookHandshake = handshakeFiveBooks.map(book => (
+    
         <div className="bookHandshake"  key={book.id}>
             
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
-            <p className="review">{book.review}</p>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow" onClick={(event) => toggleReview()}>&#9664;</span>
+            <p className="review" style={{display: review ? "none" : "block"}}>{book.review}</p>
             </div>   
         </div>
     ))
@@ -27,7 +33,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
             <p className="review">{book.review}</p>
             </div>    
             
@@ -38,7 +44,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
             <p className="review">{book.review}</p>
             </div>   
         </div>

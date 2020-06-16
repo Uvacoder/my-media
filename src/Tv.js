@@ -14,7 +14,7 @@ function Tv() {
              <img src={tv.poster} alt="tv posters" className="tv" />
              <div className="word_box">
              <h4 className="title">{tv.title}</h4>
-            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
             <p className="review">{tv.review}</p>
             </div> 
              
@@ -25,7 +25,7 @@ function Tv() {
              <img src={tv.poster} alt="tv posters" className="tv" />
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
-            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
             <p className="review">{tv.review}</p>
             </div>
              
@@ -36,7 +36,7 @@ function Tv() {
             <img src={tv.poster} alt="tv posters" className="tv" />
             <div className="word_box"> 
             <h4 className="title">{tv.title}</h4>
-            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
             <p className="review">{tv.review}</p>
             </div>    
             
