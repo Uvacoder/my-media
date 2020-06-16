@@ -11,6 +11,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{movie.review}</p>
             </div>
             
         </div>
@@ -21,6 +22,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{movie.review}</p>
             </div>    
             
         </div>
@@ -31,6 +33,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{movie.review}</p>
             </div>   
             
         </div>

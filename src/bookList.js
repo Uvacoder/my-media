@@ -123,7 +123,8 @@ const handshakeFiveBooks = [
         id: "2",
         title: "Post Office",
         isbn: "0061177571",
-        rating: 5
+        rating: 5,
+        review: "This book made me decide to change careers. Let's see how many words it takes to fill up the container. I dont want to little or too many. Maybe i should set the height to auto so that it will adjust to the words in my reivew. it looks like its getting close to being full. how about a few more words "
     },
     {   
         id: "3",

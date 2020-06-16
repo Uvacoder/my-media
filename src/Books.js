@@ -18,6 +18,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{book.review}</p>
             </div>   
         </div>
     ))
@@ -27,6 +28,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{book.review}</p>
             </div>    
             
         </div>
@@ -37,6 +39,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{book.review}</p>
             </div>   
         </div>
     ))
