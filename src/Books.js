@@ -23,7 +23,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow" onClick={(event) => toggleReview()}>&#9664;</span>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow" onClick={() => toggleReview()}>&#9664;</span>
             <p className="review" style={{display: review ? "none" : "block"}}>{book.review}</p>
             </div>   
         </div>
