@@ -11,6 +11,22 @@ html {
   background: linear-gradient(to bottom right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.main_title {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-bottom: 1px solid grey;
+  padding: 1rem 0;
+  margin-top: 0;
+  background-color: rgb(24, 23, 23);
+}
+
+.section_title {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding-top: 2rem;
+}
+
+
 .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
     display: flex;
     justify-content: center;
@@ -37,6 +53,8 @@ html {
   font-size: .75rem;
   width: 200px;
 }
+
+
 
 .word_box {
   /* border: 1px solid red; */

@@ -54,7 +54,7 @@ function Books() {
 
     return (
         <div>
-            <h1>Books</h1>
+            <h1 className="section_title">Books</h1>
             <h2>Handshake Five</h2>
             <div className="book_handshake_flex">
             {bookHandshake}

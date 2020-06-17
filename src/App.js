@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Media Consumption</h1>
+     <h1 className="main_title">Media Consumption</h1>
      <Books />
      <Movies />
      <Tv />

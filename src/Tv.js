@@ -45,7 +45,7 @@ function Tv() {
 
     return (
         <div>
-             <h1>Television</h1>
+             <h1 className="section_title">Television</h1>
             <h2>Handshake Five</h2>
             <div className="tv_handshake_flex">
             {handshakeTv}

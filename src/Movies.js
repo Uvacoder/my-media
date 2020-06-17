@@ -45,7 +45,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
     
     return (
         <div>
-            <h1>Movies</h1>
+            <h1 className="section_title">Movies</h1>
             <h2>Handshake Five</h2>
             <div className="movies_handshake_flex">
             {handshakeId}
