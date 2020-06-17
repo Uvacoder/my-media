@@ -10,7 +10,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
+            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
             <p className="review">{movie.review}</p>
             </div>
             
@@ -21,7 +21,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
+            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
             <p className="review">{movie.review}</p>
             </div>    
             
@@ -32,7 +32,7 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
+            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
             <p className="review">{movie.review}</p>
             </div>   
             

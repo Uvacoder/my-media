@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from './bookList'
-import {Context} from './Context'
+
 
 
 
@@ -11,7 +11,7 @@ function Books() {
       
  
 
-    const {toggleReview, review} = useContext(Context)
+    
 
     
 
@@ -23,8 +23,8 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow" onClick={() => toggleReview()}>&#9664;</span>
-            <p className="review" style={{display: review ? "block" : "none"}}>{book.review}</p>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <p className="review">{book.review}</p>
             </div>   
         </div>
     ))
@@ -33,7 +33,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
             <p className="review">{book.review}</p>
             </div>    
             
@@ -44,7 +44,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow">&#9664;</span>
+            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
             <p className="review">{book.review}</p>
             </div>   
         </div>
