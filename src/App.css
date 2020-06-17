@@ -52,7 +52,7 @@ html {
   width: 150px;
   height: auto;
   font-size: .85rem;
-  border: 1px solid silver;
+  border: .5px solid silver;
   border-radius: 5px;
   text-align: left;
   position: relative;
