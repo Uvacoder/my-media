@@ -71,6 +71,10 @@ html {
   
 }
 
+.review_arrow:hover {
+  cursor: pointer;
+}
+
 
 
 

@@ -24,7 +24,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4><span className="review_arrow" onClick={() => toggleReview()}>&#9664;</span>
-            <p className="review" style={{display: review ? "none" : "block"}}>{book.review}</p>
+            <p className="review" style={{display: review ? "block" : "none"}}>{book.review}</p>
             </div>   
         </div>
     ))
