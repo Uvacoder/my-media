@@ -46,16 +46,16 @@ function Tv() {
     return (
         <div>
              <h1 className="section_title">Television</h1>
-            <h2>Handshake Five</h2>
+            <h2 className="sub_section_title">Handshake Five</h2>
             <div className="tv_handshake_flex">
             {handshakeTv}
             </div>
-            <h2>Currently Watching
+            <h2 className="sub_section_title">Currently Watching
             </h2>
             <div className="currently_watching_tv_flex">
             {nowWatchingTv}
             </div>
-            <h2>Recently Watched</h2>
+            <h2 className="sub_section_title">Recently Watched</h2>
             <div className="recently_watched__tv_flex">
             {recentlyWatchedTv}
             </div>

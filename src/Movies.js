@@ -46,16 +46,16 @@ import {moviesWatched, moviesWatching, handshakeFiveMovies} from './movieList'
     return (
         <div>
             <h1 className="section_title">Movies</h1>
-            <h2>Handshake Five</h2>
+            <h2 className="sub_section_title">Handshake Five</h2>
             <div className="movies_handshake_flex">
             {handshakeId}
             </div>
-            <h2>Currently Watching
+            <h2 className="sub_section_title">Currently Watching
             </h2>
             <div className="currently_watching_flex">
             {nowWatchingMovies}
             </div>
-            <h2>Recently Watched</h2>
+            <h2 className="sub_section_title">Recently Watched</h2>
             <div className="recently_watched_flex">
             {recentlyWatchedMovies}
             </div>

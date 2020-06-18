@@ -2,28 +2,59 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 html {
-  background: #ffd89b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, #434343, #000000 30%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  
 }
+
 
 .main_title {
   color: white;
-  text-shadow: 2px 2px 2px black;
-  border-bottom: 1px solid grey;
-  padding: 1rem 0;
+  /* text-shadow: 2px 2px 2px black; */
+  /* border-bottom: .5px solid grey; */
+  padding: 1rem 2rem;
   margin-top: 0;
-  background-color: rgb(24, 23, 23);
+  font-size: 1.5rem;
+  background: transparent;  /* fallback for old browsers */
+  text-align: end;
+}
+
+.logo {
+  border-radius: 50%;
+  float:left;
+  width: 50px;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  
+  
 }
 
 .section_title {
   color: white;
-  text-shadow: 2px 2px 2px black;
-  padding-top: 2rem;
+  text-shadow: 4px 4px 4px black;
+  padding-top: 4rem;
+  margin-left: 20%;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  /* border-bottom: 2px solid silver; */
+  padding-bottom: 1rem;
+  text-align: start;
+}
+
+.sub_section_title {
+  color: white;
+  /* text-shadow: 2px 2px 2px black; */
+  font-size: 1.25rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  
 }
 
 
@@ -33,16 +64,19 @@ html {
     align-items: center;
     flex-direction: row;
     /* border: 1px solid red; */
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
+    background-color: rgba(24, 23, 23, .95);
+    border-radius: 10px;
+    padding-top: 1.5rem
 }
 
 .book, .movie, .tv {
   height: 200px;
   width: auto;
   margin: 1rem 1rem -.5rem 1rem;
-  border: 0.5px solid rgb(24, 23, 23);
+  border: 0.5px solid black;
 }
 
 .star {
@@ -52,6 +86,8 @@ html {
 .title {
   font-size: .75rem;
   width: 200px;
+  color: white;
+  
 }
 
 

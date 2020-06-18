@@ -55,15 +55,15 @@ function Books() {
     return (
         <div>
             <h1 className="section_title">Books</h1>
-            <h2>Handshake Five</h2>
+            <h2 className="sub_section_title">Handshake Five</h2>
             <div className="book_handshake_flex">
             {bookHandshake}
             </div>
-            <h2>Currently Reading</h2>
+            <h2 className="sub_section_title">Currently Reading</h2>
             <div className="currently_reading_flex">
             {nowReading}
             </div>
-            <h2>Recently Read</h2>
+            <h2 className="sub_section_title">Recently Read</h2>
             <div className="recently_read_flex">
             {recentlyRead}
             </div>

@@ -13,7 +13,18 @@ function App() {
 
   return (
     <div className="App">
-     <h1 className="main_title">Media Consumption</h1>
+      
+         <a href="https://scottjellen.me/" target="_blank" rel="noopener noreferrer">
+          <img src="https://s3.us-east-2.amazonaws.com/scottjellen.me.projectlist/sJellenLogo.jpg"
+          alt="logo"
+          className="logo"
+          />
+         </a>
+          
+      <h1 className="main_title">Media Consumption</h1>
+
+     
+     
      <Books />
      <Movies />
      <Tv />
