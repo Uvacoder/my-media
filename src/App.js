@@ -28,6 +28,9 @@ function App() {
      <Books />
      <Movies />
      <Tv />
+
+
+     <h1 className="copy_footer"> by Scott Jellen  &#169; 2020</h1>
     </div>
   );
 }

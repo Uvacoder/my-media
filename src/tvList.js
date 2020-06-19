@@ -11,7 +11,7 @@ const tvWatched = [
         title: "What We Do in the Shadows",
         poster: "https://image.tmdb.org/t/p/w200/aEwa2kqu5XORbmMwdhEHufODcIr.jpg",
         rating: 4,
-        review: ""
+        review: "Season 2 was just as good as the first. A lot more Colin Robinson which is always a good thing.  The best part of the season was the debut of \"Jackie Daytona\". Guillermo wonders off only to save the day. I can't wait for season 3.  "
     },
     {
         id: "93219",

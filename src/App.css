@@ -1,51 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+
 .App {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 html {
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom right, #434343, #000000 30%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  
 }
 
 
 .main_title {
-  color: white;
+  color: rgba(255, 255, 255, .95);
   /* text-shadow: 2px 2px 2px black; */
   /* border-bottom: .5px solid grey; */
   padding: 1rem 2rem;
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   background: transparent;  /* fallback for old browsers */
   text-align: end;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+  /* font-style: italic; */
+}
+
+.copy_footer {
+  color: rgba(255, 255, 255, .95);
+  padding: 0rem 2rem;
+  margin-top: 6rem;
+  margin-bottom: -1rem;
+  font-size: .75rem;
+  background: transparent;  /* fallback for old browsers */
+  text-align: end;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
 }
 
 .logo {
   border-radius: 50%;
   float:left;
   width: 50px;
-  margin-left: 1rem;
-  margin-top: .5rem;
-  
-  
+  margin-left: 1.5rem;
+  margin-top: .75rem;
 }
 
 .section_title {
   color: white;
-  text-shadow: 4px 4px 4px black;
+  text-shadow: -2px 0px 0px rgba(18, 18, 18, .85);;
   padding-top: 4rem;
   margin-left: 20%;
-  font-size: 3rem;
-  letter-spacing: 3px;
+  font-size: 2.75rem;
+  letter-spacing: 2px;
   /* border-bottom: 2px solid silver; */
   padding-bottom: 1rem;
   text-align: start;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  
 }
 
 .sub_section_title {
@@ -54,7 +71,7 @@ html {
   font-size: 1.25rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  
+  font-weight: 400;
 }
 
 
@@ -65,6 +82,7 @@ html {
     flex-direction: row;
     /* border: 1px solid red; */
     width: 80%;
+    
     margin: 0 auto;
     flex-wrap: wrap;
     background-color: rgba(24, 23, 23, .95);
@@ -87,10 +105,7 @@ html {
   font-size: .75rem;
   width: 200px;
   color: white;
-  
 }
-
-
 
 .word_box {
   /* border: 1px solid red; */
@@ -117,6 +132,7 @@ html {
   color: white;
   padding: 1rem .5rem;
   cursor: pointer;
+  line-height: 1.5;
 }
 
 .review:hover {
