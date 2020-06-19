@@ -4,7 +4,7 @@ const tvWatched = [
         title: "Tiger King: Murder, Mayhem and Madness",
         poster: "https://image.tmdb.org/t/p/w200/pmjYMCnSwndlEpiFZhhOWSWmUsu.jpg",
         rating: 3,
-        review: ""
+        review: "A fun watch where all the characters are bad people. Perhaps 2 episodes too long. Certainly didn't need a after show."
     },
     {
         id: "83631",
@@ -18,42 +18,42 @@ const tvWatched = [
         title: "The Movies That Made Us",
         poster: "https://image.tmdb.org/t/p/w200/kowlD5nELdhoJcQY6J8JZUTeNXN.jpg",
         rating: 3,
-        review: ""
+        review: "A nice little show that benefits from not having commercials. This is the kinda show that 20 years ago would be on cable jammed with ads. I really like Die Hard and Home Alone and I'll watch a second season."
     },
     {
         id: "688",
         title: "The West Wing",
         poster: "https://image.tmdb.org/t/p/w200/rMdRbtqJPIO6d71JD7bOwTl8105.jpg",
         rating: 4,
-        review: ""
+        review: "The first four seasons are the greatest four season's of any show ever. Then Sorkin gets booted and the show becomes a lesser version. The Zoe kidnapping being a word for word rip from the earlier Bartlet lecture is unforgivable. The last 2 seasons are very good. "
     },
     {
         id: "74204",
         title: "Big Mouth",
         poster: "https://image.tmdb.org/t/p/w200/h6InpGTYbu03b6iVsnniVPqPfIw.jpg",
         rating: 3,
-        review: ""
+        review: "The first 2 seasons are really funny. The third season wasn't up to par. This show could really use a break. The episodes are coming out too fast and it's losing quality. "
     },
     {
         id: "2316",
         title: "The Office",
         poster: "https://image.tmdb.org/t/p/w200/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
         rating: 4,
-        review: ""
+        review: "The show gets better with age. FYI Pam isn't a nice person. My only problems are: The first season is the same as the British version. And as soon as Michael Scott left the show almost became unwatchable."
     },
     {
         id: "59659",
         title: "Halt and Catch Fire",
         poster: "https://image.tmdb.org/t/p/w200/l4qvJ0lq59wR3ODX42DxBVFGoxx.jpg",
         rating: 5,
-        review: ""
+        review: "Cheers isn't about a bar. This show isn't about the tech industry. It's all about characters. When one of the character dies it's one of the saddest, and beautiful 2 episodes in all of television. Wildly underrated.  If this show was on HBO and not AMC people would still be talking about it. "
     },
     {
         id: "59717",
         title: "Comedians in Cars Getting Coffee",
         poster: "https://image.tmdb.org/t/p/w200/xvQ0jJmrYjxjPMEHP4e8IYIjojF.jpg",
         rating: 3,
-        review: ""
+        review: "A fun show that really depends on who the guest is. The episodes with Jerry's friends are 1000% better than the rest. The best episode is the one with Garry Shandling. "
     },
     {
         id: "66732",
