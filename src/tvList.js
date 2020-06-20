@@ -60,84 +60,84 @@ const tvWatched = [
         title: "Stranger Things",
         poster: "https://image.tmdb.org/t/p/w200/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
         rating: 4,
-        review: ""
+        review: "Probably Netflix's best show. Yes it's retroporn. But as a kid in the 80's I love it. The last season was very emotional and I still want to see more. I really hope that the end it too early as apposed to too late. I've had to bail on a few Netflix show's that lost direction.  "
     },
     {
         id: "2693",
         title: "Extras",
         poster: "https://image.tmdb.org/t/p/w200/zV4Xpdkk6IrGk2mnhrKdtQOHj4I.jpg",
         rating: 4,
-        review: ""
+        review: "My favorite Ricky Gervais show. The friendship of Maggie and Andy as they struggle to get work as extras. The show has some of the best cameos. What happens when one of them hits it big... "
     },
     {
         id: "88728",
         title: "I Think You Should Leave with Tim Robinson",
         poster: "https://image.tmdb.org/t/p/w200/m4iNYM0ZaaH10Qzebd9dwSa6Zy6.jpg",
         rating: 4,
-        review: ""
+        review: "If you took Tim & Eric down a notch and turned up SNL, this is what you'd get. Highly quotable and memorable. This is the only sketch show that matter right now."
     },
     {
         id: "62560",
         title: "Mr. Robot",
         poster: "https://image.tmdb.org/t/p/w200//oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg",
         rating: 5,
-        review: ""
+        review: "Mr Robot keeps you on your feet. What is real and what is in Elliot's head? Christian Slater is perfect as the father/imaginary instigator. I'm waiting for the final season to hit Prime."
     },
     {
         id: "67744",
         title: "Mindhunter",
         poster: "https://image.tmdb.org/t/p/w200/fbKE87mojpIETWepSbD5Qt741fp.jpg",
         rating: 5,
-        review: ""
+        review: "The fist season laid such a great foundation. In season 2 it was a rouges gallery. Casting has been great for this show. Dead-on. I really like the main storyline in Atlanta. Not sure the storyline with Bill's son worked."
     },
     {
         id: "63351",
         title: "Narcos",
         poster: "https://image.tmdb.org/t/p/w200/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
         rating: 4,
-        review: ""
+        review: "I haven't watched Mexico yet. The Escobar story was great. Wagner Moura overpowered the entire show, when Escobar dies he left a sizable hole in the show. The Cali season was a hair lesser. Despite what IMBB say Pedro Pascal is know for this! "
     },
     {
         id: "1436",
         title: "Justified",
         poster: "https://image.tmdb.org/t/p/w200/aVYuGDlOZMCRt89fAnHTYgk3BMr.jpg",
         rating: 5,
-        review: ""
+        review: "A wild cast of character's. Raylan Givens isn't even the most interesting. Walter Goggins wins every scene he's in, and the Ava Crowder character hold your attention. Call back's to classic crime stories of the past. A big nod to The Friends of Eddie Coyle in one of the episodes."
     },
     {
         id: "4546",
         title: "Curb Your Enthusiasm",
         poster: "https://image.tmdb.org/t/p/w200/kWQDOnLs5DK0ta8xQZLsaienIHp.jpg",
         rating: 4,
-        review: ""
+        review: "The show is still really funny. But its not as great as it once was. It's a lot more cringe. It's a 20 year old show so it's probably more that I've moved on. For me It's become akin to the last year of Seinfeld."
     },
     {
         id: "1621",
         title: "Boardwalk Empire",
         poster: "https://image.tmdb.org/t/p/w200/kL6SqlVPpfAof2nQbh1VxkUuXBQ.jpg",
         rating: 4,
-        review: ""
+        review: "In 100 years it's funny to see that not much has changed. It was fun to see the embryo of Murder Inc. Also you see Arnold Rothstein as more than the guy who fixed the World Series. Stephen Graham IS the definitive Al Capone. I wonder how much of the ending was a direct result of the Sopranos blowback. "
     },
     {
         id: "65495",
         title: "Atlanta",
         poster: "https://image.tmdb.org/t/p/w200/xVmzrYFAtKzqfbweGM8KSgOiEvT.jpg",
         rating: 4,
-        review: ""
+        review: "When someone leave's a creative show because they're too creative, you need to follow along. This show has very memorable and poignant single episodes. And Teddy Perkins !! "
     },
     {
         id: "15621",
         title: "The Newsroom",
         poster: "https://image.tmdb.org/t/p/w200/oRt7aL1D4WZhqqOLpgh9KGODjQK.jpg",
         rating: 4,
-        review: ""
+        review: "A show that was cut way too short. My second favorite Sorkin show. Sometimes though Sorkin goes to the well too often. There are many instances of rehash from his other work.  "
     },
     {
         id: "61859",
         title: "The Night Manager",
         poster: "https://image.tmdb.org/t/p/w200/hdCC5N42cXERbzIn6ED7oqTKtkq.jpg",
         rating: 4,
-        review: ""
+        review: "I'm in on any adaptation of John le Carré. Tom Hiddleston and Hugh Laurie going toe to toe. A very thrilling watch thats on high end of le John le Carré adaptation's. "
     },
 ]
 
@@ -222,14 +222,14 @@ const handshakeFiveTv = [
         title: "The Sopranos",
         poster: "https://image.tmdb.org/t/p/w200/6nNZnnUkXcI3DvdrkclulanYXzg.jpg",
         rating: 5,
-        review: ""
+        review: "It one of the greatest shows of all time that changed television forever. I never hated the ending and it is even better when bingeing the final season. The worst thing that Sopranos did was create a spit last season were HBO tries to milk it as much as they can. HBO still does this today and it hurts show that are saddled with this device. "
     },
     {
         id: "1915",
         title: "The Larry Sanders Show",
         poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
         rating: 5,
-        review: ""
+        review: "Meta before meta. "
     },
     {
         id: "1400",
