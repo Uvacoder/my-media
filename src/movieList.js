@@ -1,5 +1,61 @@
 const moviesWatched = [
     {
+        id: "1103",
+        title: "Escape from New York",
+        poster: "https://image.tmdb.org/t/p/w200/yreqWiQ7IOkXWVB2Tz4LJIs7xqA.jpg",
+        rating: 4,
+        review: ""
+    }, 
+    {
+        id: "11963",
+        title: "Three Days of the Condor",
+        poster: "https://image.tmdb.org/t/p/w200/zinwtZqdb7gnc4zMu8dfkK1fMN3.jpg",
+        rating: 5,
+        review: ""
+    }, 
+    {
+        id: "3112",
+        title: "The Night of the Hunter",
+        poster: "https://image.tmdb.org/t/p/w200/8Xs3TNgxdiJqUiBOpFYxF0W9yoo.jpg",
+        rating: 5,
+        review: ""
+    }, 
+    {
+        id: "32030",
+        title: "Hopscotch",
+        poster: "https://image.tmdb.org/t/p/w200/7ZTasNoTehrypra0X97zh8Amk3.jpg",
+        rating: 3,
+        review: ""
+    }, 
+    {
+        id: "341956",
+        title: "The Long Good Friday",
+        poster: "https://image.tmdb.org/t/p/w200/pXS667me5Jfoj1b0xuxgjEMKunF.jpg",
+        rating: 5,
+        review: ""
+    }, 
+    {
+        id: "145086",
+        title: "Anatomy of a Murder",
+        poster: "https://image.tmdb.org/t/p/w200/lMWWs7IskGldLfwwnVxHhffsVLw.jpg",
+        rating: 4,
+        review: ""
+    }, 
+    {
+        id: "28528",
+        title: "The Harder They Fall",
+        poster: "https://image.tmdb.org/t/p/w200/9Y0wXuQdNkB0nAS87FQWU8A4WL4.jpg",
+        rating: 4,
+        review: ""
+    }, 
+    {
+        id: "21849",
+        title: "A Face in the Crowd",
+        poster: "https://image.tmdb.org/t/p/w200/iKCLk4Ec6ahc7ofnGHCzm7EYjri.jpg",
+        rating: 5,
+        review: ""
+    }, 
+    {
         id: "388",
         title: "Inside Man",
         poster: "https://image.tmdb.org/t/p/w200/mf4i9zZVXMmqWsEb9D0OAY7k3t.jpg",
