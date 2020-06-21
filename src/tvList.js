@@ -147,7 +147,7 @@ const tvWatching = [
         title: "Community",
         poster: "https://image.tmdb.org/t/p/w200/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
         rating: 4,
-        review: ""
+        review: "A really fun and imaginative show. Like almost every comedy show on NBC at the time, it never saw its full potential due to NBC's upper management.  "
     },
     
     {
@@ -155,7 +155,7 @@ const tvWatching = [
         title: "The Wire",
         poster: "https://image.tmdb.org/t/p/w200/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
         rating: 5,
-        review: ""
+        review: "One of the greatest show's of all time. It rewards repeated viewing. I don't hate the second season like most people seem to. "
     },
     {
         id: "69740",
@@ -169,7 +169,7 @@ const tvWatching = [
         title: "The Larry Sanders Show",
         poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
         rating: 5,
-        review: ""
+        review: "Meta before meta. Such a perfect show that was so far ahead of it's time. Hank Kingsley is one of the greatest characters in TV history. It pairs well with Seinfeld and the Bill Carter books The Late Shift and The War for Late Night. "
     },
     {
         id: "60625",
@@ -229,28 +229,28 @@ const handshakeFiveTv = [
         title: "The Larry Sanders Show",
         poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
         rating: 5,
-        review: "Meta before meta. "
+        review: "Meta before meta. Such a perfect show that was so far ahead of it's time. Hank Kingsley is one of the greatest characters in TV history. It pairs well with Seinfeld and the Bill Carter books The Late Shift and The War for Late Night. "
     },
     {
         id: "1400",
         title: "Seinfeld",
         poster: "https://image.tmdb.org/t/p/w200/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
         rating: 5,
-        review: ""
+        review: "I'm never going to not love this show. The last season is soft and more like Looney Toons. Plus a lot of actors double dip. Some characters are played by new actors.  The last episode is just not good. But It's still the greatest sitcom ever. Check out the podcast SeinCast."
     },
     {
         id: "1918",
         title: "The Twilight Zone",
         poster: "https://image.tmdb.org/t/p/w200/s6YY9noG1vPDs59ajkEWXBb1fpk.jpg",
         rating: 5,
-        review: ""
+        review: "Some of the greatest scifi stories of all time, acted but a who's who of character actors. The episodes are just a powerful now as they were 60 years ago. My personal favorite is Time Enough at Last."
     },
     {
         id: "46533",
         title: "The Americans",
         poster: "https://image.tmdb.org/t/p/w200/qB7WPVQnmODg2mZ1xUmPOrCa0wL.jpg",
         rating: 5,
-        review: ""
+        review: "My favorite show of the 10's. A perfect television spy thriller set in the 80's, with a great cast. Just a thrilling show to watch. How can you not be hooked after the first episode? "
     }
    
 ]
