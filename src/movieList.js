@@ -4,84 +4,84 @@ const moviesWatched = [
         title: "Escape from New York",
         poster: "https://image.tmdb.org/t/p/w200/yreqWiQ7IOkXWVB2Tz4LJIs7xqA.jpg",
         rating: 4,
-        review: ""
+        review: "A great movie to watch after dark. Snake has to save the president or die trying. I wish that we got more Escape movies or at least a better one than LA."
     }, 
     {
         id: "11963",
         title: "Three Days of the Condor",
         poster: "https://image.tmdb.org/t/p/w200/zinwtZqdb7gnc4zMu8dfkK1fMN3.jpg",
         rating: 5,
-        review: ""
+        review: "Redford figure out a hidden message that he wasn't suppose to find and is on the run from a assassin. This and Redford in Spygame are my go to when I want to be entertained by a spy thriller. Max von Sydow speech at the end steal's the movie."
     }, 
     {
         id: "3112",
         title: "The Night of the Hunter",
         poster: "https://image.tmdb.org/t/p/w200/8Xs3TNgxdiJqUiBOpFYxF0W9yoo.jpg",
         rating: 5,
-        review: ""
+        review: "Robert Mitchum as the sinister Harry Powell. This is a better movie than Cape Fear. The black and white helps the creepiness. A must see film for people who like movies.  "
     }, 
     {
         id: "32030",
         title: "Hopscotch",
         poster: "https://image.tmdb.org/t/p/w200/7ZTasNoTehrypra0X97zh8Amk3.jpg",
         rating: 3,
-        review: ""
+        review: "They try to force Walter Matthau's character out of the CIA. So he decides to write a tell-all and leads them on a wild goose chase around the world. A really fun watch. "
     }, 
     {
         id: "341956",
         title: "The Long Good Friday",
         poster: "https://image.tmdb.org/t/p/w200/pXS667me5Jfoj1b0xuxgjEMKunF.jpg",
         rating: 5,
-        review: ""
+        review: "Maybe the best British gangster movie. Great last moment of the movie, Bob Hoskins is able to say everything with his facial expressions."
     }, 
     {
         id: "145086",
         title: "Anatomy of a Murder",
         poster: "https://image.tmdb.org/t/p/w200/lMWWs7IskGldLfwwnVxHhffsVLw.jpg",
         rating: 4,
-        review: ""
+        review: "A really good courtroom drama. Probably not for today's audiences who watch hundreds of episodes of Law and Orders. James Stewart, Ben Gazzara, Goerge C. Scott and a Duke Ellington score. Worth your time."
     }, 
     {
         id: "28528",
         title: "The Harder They Fall",
         poster: "https://image.tmdb.org/t/p/w200/9Y0wXuQdNkB0nAS87FQWU8A4WL4.jpg",
         rating: 4,
-        review: ""
+        review: "Bogart's last film, he's noticeably frail. It's an expose on the boxing industry and not much has changed. A good movie but when Hollywood shifted in the late sixties Bogart's character would have certainly been killed."
     }, 
     {
         id: "21849",
         title: "A Face in the Crowd",
         poster: "https://image.tmdb.org/t/p/w200/iKCLk4Ec6ahc7ofnGHCzm7EYjri.jpg",
         rating: 5,
-        review: ""
+        review: "Andy Griffith as the Lonesome Rhodes is brilliant. He's a bad person that only gets worse as he get more fame. Patrica Neal dotes on him up to the end. Pay close attention to everything Matthau says. A masterpiece. "
     }, 
     {
         id: "388",
         title: "Inside Man",
         poster: "https://image.tmdb.org/t/p/w200/mf4i9zZVXMmqWsEb9D0OAY7k3t.jpg",
         rating: 4,
-        review: ""
+        review: "This is a perfect Channel 11 Saturday afternoon heist movie. Very entertaining and Spike still gives you the raid that never happened."
     }, 
     {
         id: "44048",
         title: "Unstoppable",
         poster: "https://image.tmdb.org/t/p/w200/uZ1aFZA5qCBUBnmeyNAcip8oRaa.jpg",
         rating: 4,
-        review: ""
+        review: "I'm a Tony Scott fan so this is perfect for me. Denzel and Chris Pine have to stop a Runaway train headed for a population center. It's a thrill ride and it entertaining to watch. You can't eat steak everyday. "
     },
     {
         id: "449443",
         title: "Den of Thieves",
         poster: "https://image.tmdb.org/t/p/w200/AfybH6GbGFw1F9bcETe2yu25mIE.jpg",
         rating: 3,
-        review: ""
+        review: "Not the greatest heist movie but definitely intense. Nice reveal at the end. Part Heat part Usual Suspects. I would watch a sequel."
     },
     {
         id: "105",
         title: "Back to the Future",
         poster: "https://image.tmdb.org/t/p/w200/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
         rating: 5,
-        review: ""
+        review: "The right movie at the right time when I was the right age. "
     }, 
     {
         id: "68718",
@@ -178,21 +178,21 @@ const moviesWatched = [
         title: "Le Samouraï",
         poster: "https://image.tmdb.org/t/p/w200/axuBeLVBeXfVZPGg6ph2taWRDFq.jpg",
         rating: 4,
-        review: ""
+        review: "A very influential Melville film. And it's better than everything it inspired.  It's very good, great even. It's just not my favorite Melville or Delon. "
     },
     {
         id: "11657",
         title: "Le Cercle Rouge",
         poster: "https://image.tmdb.org/t/p/w200/3X1EqovVKNpHoYHAhPznWDwQmqB.jpg",
         rating: 4,
-        review: ""
+        review: "A prison escapee hides in the truck of a man who's planning a heist. A detective is onto them almost from the beginning. One of the better Melville movies. Long stretches of silence draw you in. Top tier heist work."
     }, 
     {
         id: "42741",
         title: "Un flic",
         poster: "https://image.tmdb.org/t/p/w200/zem0JFFU0AYAlXU0rwHVLPotStq.jpg",
         rating: 4,
-        review: ""
+        review: "Alian Delon play a cop this time. The movie has a blue tint to it that adds atmosphere. The opening in the rain is gorgeous. This is Melville's last film.  In the last scene of the last Melville film Delon is crying. "
     },
   
 ]
