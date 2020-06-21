@@ -162,7 +162,7 @@ const tvWatching = [
         title: "Ozark",
         poster: "https://image.tmdb.org/t/p/w200/oy7Peo5iFIt9sNM59lN6csbJeX2.jpg",
         rating: 4,
-        review: ""
+        review: "A really good show where the couple seem like they enjoy digging a deeper hole rather than ever getting out. I'm close to the beginning of the 3rd season. "
     },
     {
         id: "1915a",
@@ -176,42 +176,42 @@ const tvWatching = [
         title: "Rick and Morty",
         poster: "https://image.tmdb.org/t/p/w200/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg",
         rating: 4,
-        review: ""
+        review: "The only animated show that I watch. I'm watching for the 4th season to show up on streaming. The Ricklantis Mixup is one of the best single episodes of a show to come out.  "
     },
     {
         id: "2710",
         title: "It's Always Sunny in Philadelphia",
         poster: "https://image.tmdb.org/t/p/w200/xX3vAWdCb828T48HM9OvvD0p4PC.jpg",
         rating: 3,
-        review: ""
+        review: "Now the show is more hit or miss. I still like when a new season shows up on streaming but I now pick and choose rather than bingeing. "
     },
     {
         id: "1406",
         title: "Deadwood",
         poster: "https://image.tmdb.org/t/p/w200/4Yp35DVbVOAWkfQUIQ7pbh3u0aN.jpg",
         rating: 4,
-        review: ""
+        review: "I'm somewhere in the first season. Haven't yet ventured back. But So far its a good, well acted show."
     },
     {
         id: "1426",
         title: "Luther",
         poster: "https://image.tmdb.org/t/p/w200/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
         rating: 4,
-        review: ""
+        review: "A very good detective show that probably works so well because the seasons are short. There are some pretty intense scenes in this show. The chemistry between Luther and Alice Morgan is arresting. "
     },
     {
         id: "73375",
         title: "Tom Clancy's  Jack Ryan",
         poster: "https://image.tmdb.org/t/p/w200/1raUrQr8Y2tSYjTDbk8wfWGKTmX.jpg",
         rating: 3,
-        review: ""
+        review: "I love everything Jack Ryan so I was onboard. Ive become bogged down in the middle of season one though."
     },
     {
         id: "60694",
         title: "Last Week Tonight with John Oliver",
         poster: "https://image.tmdb.org/t/p/w200/hUpW9ZakeKpgIzvkck2T59RCHcH.jpg",
         rating: 3,
-        review: ""
+        review: "It's a fun if not infuriating watch. The number of researchers that they must employ. The best parts are And Now This or when John wastes HBO's money on something strange. "
     },
    
 ]
