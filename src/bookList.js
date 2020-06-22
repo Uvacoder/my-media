@@ -27,7 +27,7 @@ const booksRead = [
         title: "Burning Chrome",
         isbn: "9780060539825",
         rating: 4,
-        review: ""
+        review: "Fast moving short stories.  Very engrossing book. All but two of the stories were very good. As prelude to Neuromancer, it made me want to read the next book as soon as possible."
 
     },
     {   
