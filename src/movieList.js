@@ -95,62 +95,63 @@ const moviesWatched = [
         title: "Magnet of Doom",
         poster: "https://image.tmdb.org/t/p/w200/s0lLCnTNqvo10KbEFAc6neoSi7Z.jpg",
         rating: 3,
-        review: ""
+        review: "A lot of little parts that don't add up. There is also a change half way through that seems off. If you took out the scene by the river, perhaps it would be a better movie."
     },
     {
         id: "466272",
         title: "Once Upon a Time… in Hollywood",
         poster: "https://image.tmdb.org/t/p/w200/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
         rating: 5,
-        review: ""
+        review: "Imagine if someone was overwhelming know for how they were murdered and you had the power to reframe that. It took 8 other films for Tarantino tp be able to create something so great. Not his best movie, but his most mature."
     }, 
     {
         id: "78",
         title: "Blade Runner: The Final Cut",
         poster: "https://image.tmdb.org/t/p/w200/vfzE3pjE5G7G7kcZWrA3fnbZo7V.jpg",
         rating: 4,
-        review: ""
+        review: "This movie now looks amazing. When I think about watching this movie I think of the VHS quality that it's been presented. Now It looks nearly modern. Harrison Ford's voice over is unforgivable."
     },
     {
         id: "49517",
         title: "Tinker, Tailor, Soldier, Spy",
         poster: "https://image.tmdb.org/t/p/w200/hkzLFj4u6RLumrkkkWTUrFAupUN.jpg",
-        rating: 4
+        rating: 4,
+        review: "Nice spy thriller. Middling John le Carré though. Oldman, Firth, Graham, Cumberbatch and Hardy are great as always. "
     },
     {
         id: "28387",
         title: "Kicking and Screaming",
         poster: "https://image.tmdb.org/t/p/w200/186brkmaBmopqcM0dPs71tj9BfM.jpg",
         rating: 4,
-        review: ""
+        review: "I really love this movie now that I'm past this time in my life. The trivia, your parents as actual people, not making a choice. Then you make the choice but things don't line up. Perfect end credit song."
     }, 
     {
         id: "203",
         title: "Mean Streets",
         poster: "https://image.tmdb.org/t/p/w200/9msfwOeGc9uL1iRRTBdEf15XonC.jpg",
         rating: 4,
-        review: ""
+        review: "Everything that makes Scorsese a great director is here. It's just very raw. And because it's so raw it's better than some of his later movies that use music as a crutch. "
     },
     {
         id: "9319",
         title: "The Last Boy Scout",
         poster: "https://image.tmdb.org/t/p/w200/hAejapki8nDEHsdsoffsxETQpjZ.jpg",
         rating: 3,
-        review: ""
+        review: "Nowhere near Tony Scott or Bruce Willis' best movie. But its a fun movie. Pro Football movies start in the hole because they have to use fake team names. "
     },
     {
         id: "10729",
         title: "Quick Change",
         poster: "https://image.tmdb.org/t/p/w200/zH7tQXh1GL28EV31ErPr7Csli4D.jpg",
         rating: 3,
-        review: ""
+        review: "Fun little heist movie. A Channel 11 special. Bill Murray, Genna Davis and Randy Quaid try to escape New York after robbing a bank. Well worth your 90 minutes."
     }, 
     {
         id: "31044",
         title: "My Favorite Year",
         poster: "https://image.tmdb.org/t/p/w200/sQ5TLQ24ivOTqpUDQYd5x5m9Oz8.jpg",
         rating: 4,
-        review: ""
+        review: "A love letter to Your Show of Shows. A really sweet movie that came out on the wrong weekend.  Pairs well with the Kliph Nesteroff book The Comedians and Gilbert Gottfried's Amazing Colossal Podcast. "
     },
     {
         id: "934",
@@ -164,7 +165,7 @@ const moviesWatched = [
         title: "Bob le Flambeur",
         poster: "https://image.tmdb.org/t/p/w200/zg03eDA4Z7KLU5b1zsgXhNijYWW.jpg",
         rating: 5,
-        review: ""
+        review: "A great movie with a great ending. The final casino part is just amazing. The only problem is how bad the fonts of the subtitles are. They need to be fixed. I watched on the Criterion Channel so I expect it's the best quality available. Studio Canal please fix this."
     }, 
     {
         id: "25047",
