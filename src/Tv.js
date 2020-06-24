@@ -15,7 +15,7 @@ function Tv() {
              <div className="word_box">
              <h4 className="title">{tv.title}</h4>
             <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
-            <p className="review">{tv.review}</p>
+            <p className="review" style={{display:  tv.review ? "block" : "none"}}>{tv.review}</p>
             </div> 
              
         </div>
@@ -26,7 +26,7 @@ function Tv() {
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
             <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
-            <p className="review">{tv.review}</p>
+            <p className="review" style={{display:  tv.review ? "block" : "none"}}>{tv.review}</p>
             </div>
              
         </div>
@@ -37,7 +37,7 @@ function Tv() {
             <div className="word_box"> 
             <h4 className="title">{tv.title}</h4>
             <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
-            <p className="review">{tv.review}</p>
+            <p className="review" style={{display:  tv.review ? "block" : "none"}}>{tv.review}</p>
             </div>    
             
         </div>

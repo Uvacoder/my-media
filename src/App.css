@@ -133,12 +133,19 @@ html {
   /* padding: 1rem .5rem; */
   cursor: pointer;
   line-height: 1.5;
+  
 }
 
 .review:hover {
   opacity: 1;
   transition: ease-out .25s;
   padding: 1rem .5rem;
+}
+
+.review::first-letter {
+  font-size: 1.25rem;
+  color: gold;
+  font-weight: 500;
 }
 
 
