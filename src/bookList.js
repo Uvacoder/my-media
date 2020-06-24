@@ -148,7 +148,7 @@ const handshakeFiveBooks = [
         title: "Post Office",
         isbn: "0061177571",
         rating: 5,
-        review: "This book made me decide to change careers. In the same way Dunces was relevant to be in my late 20's this was in my 30's."
+        review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's."
     },
     {   
         id: "3",
