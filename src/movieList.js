@@ -285,7 +285,7 @@ const handshakeFiveMovies = [
         title: "Rear Window",
         poster: "https://image.tmdb.org/t/p/w200/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
         rating: 5,
-        review: ""
+        review: "The set is amazing especially for the time. Grace Kelly jumps off the screen. It's my favorite Hitchcock movie. Jimmy Stewart is perfect as Jefferies. Pair's well with Coppola's The Conversation."
     },
     {
         id: "389",
