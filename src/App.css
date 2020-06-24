@@ -121,7 +121,7 @@ html {
   margin-top: -18.5rem;
   width: 150px;
   height: auto;
-  min-height: 100px;
+  min-height: 0;
   font-size: .85rem;
   border: .5px solid silver;
   border-radius: 5px;
@@ -130,28 +130,18 @@ html {
   z-index: 100;
   background-color: rgba(18, 18, 18, .85);
   color: white;
-  padding: 1rem .5rem;
+  /* padding: 1rem .5rem; */
   cursor: pointer;
   line-height: 1.5;
 }
 
 .review:hover {
   opacity: 1;
-  transition: ease-in .5s;
+  transition: ease-out .25s;
+  padding: 1rem .5rem;
 }
 
-.review_arrow {
-  color: black;
-  position: relative;
-  z-index: 4;
-  margin-left: 6rem;
-  top: -2.35rem;
-  
-}
 
-.review_arrow:hover {
-  cursor: pointer;
-}
 
 
 

@@ -254,21 +254,21 @@ const moviesWatching = [
         title: "Europa",
         poster: "https://image.tmdb.org/t/p/w200/ot4yJ4Hi1pXPaQpejUGtOIcAN18.jpg",
         rating: 4,
-        review: "Watch this movie at night. Listen closely to Max von Sydow.   If you let the movie take you in it's really engrossing."
+        review: "Only watch this movie at night. Listen very closely to Max von Sydow.  If you let the movie take you in it's really engrossing."
     },
     {
         id: "6538",
         title: "Charlie Wilson's War",
         poster: "https://image.tmdb.org/t/p/w200/45FghqcdSYRWK7PsHUInaFPNd8l.jpg",
         rating: 3,
-        review: "Why isn't this much better. It has Hanks, Hoffman, Sorkin's writing and a good premise.  "
+        review: "Why isn't this much better. It has Hanks, Hoffman, Sorkin's writing and a good premise. This is still a good movie, it's just really disappointing.  "
     },
     {
         id: "10021",
         title: "The Secret of My Success",
         poster: "https://image.tmdb.org/t/p/w200/67I1gaW6IA82Ac8lVDpHovDHIz7.jpg",
         rating: 3,
-        review: "One of my favorite movies as a kid. The scene with Micheal J Fox applying for jobs is on the nose. "
+        review: "One of my favorite movies as a kid. The scene with Micheal J Fox applying for jobs is on the nose. Seems like every 80's movie had people working their way up from the mail room."
     },
 ]
 
@@ -292,21 +292,21 @@ const handshakeFiveMovies = [
         title: "12 Angry Men",
         poster: "https://image.tmdb.org/t/p/w200/7sf9CgJz30aXDvrg7DYYUQ2U91T.jpg",
         rating: 5,
-        review: ""
+        review: "Not my favorite Lumet movie, but it's a masterpiece. It works as a movie, a play or as a plot on a tv show. As long as there is media being produced this can be remade, thats how strong the core is. This movie version is stacked with great actors."
     },
     {
         id: "25364",
         title: "Ace in the Hole",
         poster: "https://image.tmdb.org/t/p/w200/1NwZ6Sx4Eq7eT02abcI7YqfXdJk.jpg",
         rating: 5,
-        review: ""
+        review: "Kirk Douglas as a washed out journalist looking to get back to New York. How far will he go to gin up a story? An overlooked movie that is so timely right now.  "
     },
     {
         id: "562",
         title: "Die Hard",
         poster: "https://image.tmdb.org/t/p/w200/aJCpHDC6RoGz7d1Fzayl019xnxX.jpg",
         rating: 5,
-        review: ""
+        review: "This movie never gets old. It spawned a lot of imitators some of them bearing the Die Hard name. One major flaw that once you see it, it can't be unseen. So many quotable line.  "
     }
 
 ]
