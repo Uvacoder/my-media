@@ -141,21 +141,21 @@ const handshakeFiveBooks = [
         title: "A Confederacy of Dunces",
         isbn: "0802130208",
         rating: 5,
-        review: ""
+        review: "A great book to read when your young and think your smarter then everybody. but really you know nothing and do nothing. A sprint to the finish. Great book."
     },
     {
         id: "2",
         title: "Post Office",
         isbn: "0061177571",
         rating: 5,
-        review: "This book made me decide to change careers. Let's see how many words it takes to fill up the container. I dont want to little or too many. Maybe i should set the height to auto so that it will adjust to the words in my reivew. it looks like its getting close to being full. how about a few more words "
+        review: "This book made me decide to change careers. In the same way Dunces was relevant to be in my late 20's this was in my 30's."
     },
     {   
         id: "3",
         title: "The Bonfire of the Vanities",
         isbn: "9780553381344",
         rating: 5,
-        review: ""
+        review: "This book is more relevant today than it was then. "
     },
     {   
         id: "4",

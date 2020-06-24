@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "3090",
+        title: "The Treasure of the Sierra Madre",
+        poster: "https://image.tmdb.org/t/p/w200/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
+        rating: 5,
+        review: "2 drifter team up with an ex-miner to look for gold. They find gold and trouble with bandits. Brilliant direction not to subtitle the Spanish. "
+    },
+    {
         id: "1103",
         title: "Escape from New York",
         poster: "https://image.tmdb.org/t/p/w200/yreqWiQ7IOkXWVB2Tz4LJIs7xqA.jpg",
@@ -81,14 +88,14 @@ const moviesWatched = [
         title: "Back to the Future",
         poster: "https://image.tmdb.org/t/p/w200/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
         rating: 5,
-        review: "The right movie at the right time when I was the right age. "
+        review: "The right movie at the right time when I was the right age. Probably responsible for my love of movies. I wish the reference to the second movie wasn't there."
     }, 
     {
         id: "68718",
         title: "Django Unchained",
         poster: "https://image.tmdb.org/t/p/w200/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
         rating: 4,
-        review: ""
+        review: "Tarantino tackles slavery, a tough watch but worth it. A really good revenge film. As a straight watch it works, but here isn't a lot of hidden nuggets that reward rewatch.  "
     },
     {
         id: "69729",
@@ -158,7 +165,7 @@ const moviesWatched = [
         title: "Rififi",
         poster: "https://image.tmdb.org/t/p/w200/heVdAFNZUxXVmO6jiJcEHCvI5lK.jpg",
         rating: 5,
-        review: ""
+        review: "Everything that makes a French height movie is here. A perfect robbery but it really takes off after. One hand doesn't know what the other is doing. The final drive through the city is thrilling."
     },
     {
         id: "26030",
@@ -172,7 +179,7 @@ const moviesWatched = [
         title: "Le Deuxième Souffle",
         poster: "https://image.tmdb.org/t/p/w200/kg6c92YKzu0spxILE4EEXQxZNpT.jpg",
         rating: 5,
-        review: ""
+        review: "My favorite Melville movie. Gu escapes jail, gets involved in a heist, gets arrested, escapes and tries to clear his name. When a movie is great the length doesn't matter. "
     },
     {
         id: "5511",
@@ -199,13 +206,7 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "3090",
-        title: "The Treasure of the Sierra Madre",
-        poster: "https://image.tmdb.org/t/p/w200/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
-        rating: 5,
-        review: ""
-    },
+    
     {
         id: "473033",
         title: "Uncut Gems",
@@ -253,21 +254,21 @@ const moviesWatching = [
         title: "Europa",
         poster: "https://image.tmdb.org/t/p/w200/ot4yJ4Hi1pXPaQpejUGtOIcAN18.jpg",
         rating: 4,
-        review: ""
+        review: "Watch this movie at night. Listen closely to Max von Sydow.   If you let the movie take you in it's really engrossing."
     },
     {
         id: "6538",
         title: "Charlie Wilson's War",
         poster: "https://image.tmdb.org/t/p/w200/45FghqcdSYRWK7PsHUInaFPNd8l.jpg",
         rating: 3,
-        review: ""
+        review: "Why isn't this much better. It has Hanks, Hoffman, Sorkin's writing and a good premise.  "
     },
     {
         id: "10021",
         title: "The Secret of My Success",
         poster: "https://image.tmdb.org/t/p/w200/67I1gaW6IA82Ac8lVDpHovDHIz7.jpg",
         rating: 3,
-        review: ""
+        review: "One of my favorite movies as a kid. The scene with Micheal J Fox applying for jobs is on the nose. "
     },
 ]
 
