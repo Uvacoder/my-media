@@ -4,7 +4,7 @@ const moviesWatched = [
         title: "The Treasure of the Sierra Madre",
         poster: "https://image.tmdb.org/t/p/w200/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
         rating: 5,
-        review: "2 drifter team up with an ex-miner to look for gold. They find gold and trouble with bandits. Brilliant direction not to subtitle the Spanish. "
+        review: "2 drifter team up with an ex-miner to look for gold. They find gold and trouble with bandits. Brilliant choice not to subtitle the Spanish. A mean, angry, petty Bogart in this one. "
     },
     {
         id: "1103",
@@ -278,7 +278,7 @@ const handshakeFiveMovies = [
         title: "Casablanca",
         poster: "https://image.tmdb.org/t/p/w200/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
         rating: 5,
-        review: ""
+        review: "One of the things that really makes this movie so great is the use of black and white. There is a colorized version and while interesting to see. It takes away from the movie. Great on your first watch, but gets better with each additional watch. "
     },
     {
         id: "567",

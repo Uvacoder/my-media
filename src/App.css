@@ -128,7 +128,7 @@ html {
   text-align: left;
   position: relative;
   z-index: 100;
-  background-color: rgba(18, 18, 18, .85);
+  background-color: rgba(18, 18, 18, .95);
   color: white;
   /* padding: 1rem .5rem; */
   cursor: pointer;
@@ -144,7 +144,7 @@ html {
 
 .review::first-letter {
   font-size: 1.25rem;
-  color: gold;
+  color: #0892EF;
   font-weight: 500;
 }
 
