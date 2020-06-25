@@ -88,7 +88,7 @@ const booksRead = [
         title: "Post Office",
         isbn: "0061177571",
         rating: 5,
-        review: ""
+        review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's."
     },
     {   
         id: "15",
@@ -102,35 +102,35 @@ const booksRead = [
         title: "The New Confessions of an Economic Hit Man",
         isbn: "1626566747",
         rating: 3,
-        review: ""
+        review: "At first it's an interesting read. Then you start to wonder if nay of it's true. But because of the things you know to be true, you wonder how much of it's true. In the end I'd say its mostly true stories of multiple people. Worth the read, but so aren't the Pentagon Paper's."
     },
     {   
         id: "17",
         title: "The Outfit",
         isbn: "0446674672",
         rating: 4,
-        review: ""
+        review: "A really fun culmination of the arc. Parker get his pals to help him steal from the mob. A nice scene around a racetrack. I would say of the three: The Hunter then The Man With The Getaway Face and lastly The Outfit. "
     },
     {   
         id: "18",
         title: "The Man With The Getaway Face",
         isbn: "0446674664",
         rating: 4,
-        review: ""
+        review: "On the run from the mob, Parker gets a new face. But what happens when the Doctor who performs the operation threatens to rat him out? The University of Chicago digital versions need to be reformated. It's difficult to read them on a mobile device. "
     },
     {   
         id: "19",
         title: "The Hunter",
         isbn: "0226770990",
         rating: 4,
-        review: ""
+        review: "The first appearance of the Parker character. The first novel zips partly because the story has been retold a few times. It's the foundation for all the following Parker books. But for me the best versions of this story are Point Blank then  Darwyn Cooks adaptation then this book."
     },
     {   
         id: "20",
         title: "Dream Team",
         isbn: "0345520491",
         rating: 4,
-        review: ""
+        review: "The story of the greatest team ever. Tells how the team came together and what happened in 1992. A lot of behind the scene tales and how Michael Jordan came out of the Olympics as the sole greatest player. Pairs well with McCallum's Dream Team podcast."
     }
     
 ]
@@ -141,7 +141,7 @@ const handshakeFiveBooks = [
         title: "A Confederacy of Dunces",
         isbn: "0802130208",
         rating: 5,
-        review: "A great book to read when your young and think your smarter then everybody. but really you know nothing and do nothing. A sprint to the finish. Great book."
+        review: "A great book to read when your young and think your smarter then everybody. but really you know nothing and do nothing. A sprint to the finish. Great book. "
     },
     {
         id: "2",
@@ -169,7 +169,7 @@ const handshakeFiveBooks = [
         title: "Slaughterhouse-Five",
         isbn: "0385333846",
         rating: 5,
-        review: ""
+        review: "It was between this and Catch-22. "
     }
 ]
 
