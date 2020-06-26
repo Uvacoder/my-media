@@ -35,7 +35,7 @@ const booksRead = [
         title: "Mexico set",
         isbn: "0345314999",
         rating: 4,
-        review: ""
+        review: "Really took off as compared to the first book. Bernard is out on a island after what happened with his wife. Some really scene that get you going. I'm not jumping into the third book just yet. "
 
     },
     {   
@@ -43,7 +43,7 @@ const booksRead = [
         title: "Berlin game",
         isbn: "9780345418340",
         rating: 4,
-        review: ""
+        review: "A lot of set-up. It's a really good book with a couple of goode scene's. Thing's start to come together at the end to make you wanna read Mexico Set."
 
     },
     {   
@@ -51,7 +51,7 @@ const booksRead = [
         title: "The Score",
         isbn: "0446677736",
         rating: 4,
-        review: ""
+        review: "This is my favorite of the Parker books by far. Parker and a band of criminals try to rob a whole town. Parker from the start is skeptical but comes aboard. It read's like a French heist film."
 
     },
     {   
@@ -59,7 +59,7 @@ const booksRead = [
         title: "The Mourner",
         isbn: "9780446677721",
         rating: 3,
-        review: ""
+        review: "In order to protect his identity Parker must steal a statue. This is an okay Parker book. If you told me someone else wrote it, I'd believe you. You could skip right over this book and go right to The Score."
 
     },
     {   
@@ -95,7 +95,7 @@ const booksRead = [
         title: "Pulp",
         isbn: "9780876859261",
         rating: 3,
-        review: ""
+        review: "Bukowski's final novel. Its disjointed but a quick read. Read's like almost a fan fiction of what it would be if Bukowski wrote a pulp."
     },
     {   
         id: "16",
@@ -155,21 +155,21 @@ const handshakeFiveBooks = [
         title: "The Bonfire of the Vanities",
         isbn: "9780553381344",
         rating: 5,
-        review: "This book is more relevant today than it was then. "
+        review: " When Sherman McCoy is with his mistress he hit's and kill someone. The story of politics and the media and how they effect justice. This book is more relevant today than it was then."
     },
     {   
         id: "4",
         title: "The Guns of August",
         isbn: "0345476093",
         rating: 5,
-        review: ""
+        review: "A Masterpiece. It perfectly lines up all the dominoes just before they fall. Those same dominoes are still falling down today. Pairs well with the Great War YouTube channel."
     },
     {   
         id: "5",
         title: "Slaughterhouse-Five",
         isbn: "0385333846",
         rating: 5,
-        review: "It was between this and Catch-22. "
+        review: "It was between this and Catch-22. I like Catch more but with Slaughterhouse I get more out of each reading. In fact each time I read it like a fresh read. Where as Catch is cemented."
     }
 ]
 
