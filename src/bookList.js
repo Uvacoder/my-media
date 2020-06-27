@@ -3,7 +3,7 @@
         title: "Neuromancer",
         isbn: "0441012035",
         rating: 4,
-        review: "I can certainly see all that it has influenced."
+        review: ""
     },
     {   
         id: "22",
@@ -74,21 +74,21 @@ const booksRead = [
         title: "Our Man in Havana",
         isbn: "9780140184938",
         rating: 4,
-        review: ""
+        review: "A vacuum cleaner salesman in Cuba trying to make extra money is recruited into M16. He then starts to make things up. And Mi-6 believe his tale. A really fun read. "
     },
     {   
         id: "13",
         title: "Factotum",
         isbn: "9780876852637",
         rating: 3,
-        review: ""
+        review: "I'd love to have some long winded review about this book. I know people love it. I read it and remember the beats. But it left no long lasting feeling."
     },
     {   
         id: "14",
         title: "Post Office",
         isbn: "0061177571",
         rating: 5,
-        review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's."
+        review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's. There are part's of this book as far as the job that are scene's from my real life."
     },
     {   
         id: "15",
@@ -148,7 +148,7 @@ const handshakeFiveBooks = [
         title: "Post Office",
         isbn: "0061177571",
         rating: 5,
-        review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's."
+        review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's. There are part's of this book as far as the job that are scene's from my real life."
     },
     {   
         id: "3",
