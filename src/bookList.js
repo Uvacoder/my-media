@@ -3,14 +3,14 @@
         title: "Neuromancer",
         isbn: "0441012035",
         rating: 4,
-        review: ""
+        review: "I can certainly see all that it has influenced."
     },
     {   
         id: "22",
         title: "What It Takes: The Way to the White House",
         isbn: "9780679746492",
         rating: 4,
-        review: ""
+        review: "Just read the first couple of chapters and see what these guy's went through in their early years. Look around and ask yourself how many of the current politicians have what it takes?"
     },
     {   
         id: "23",
@@ -67,7 +67,7 @@ const booksRead = [
         title: "The Quiet American",
         isbn: "0140185003",
         rating: 5,
-        review: ""
+        review: "A really great book to read. Really puts you into pre Vietnam War era. An American C.I.A agent and a British journalist in a love triangle with a Vietnamese woman. The movie is also very good."
     },
     {   
         id: "12",
