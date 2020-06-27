@@ -146,9 +146,35 @@ html {
   font-size: 1.25rem;
   color: gold;
   font-weight: 900;
+  font-family: 'Libre Baskerville', serif;
 }
 
 
+
+@media only screen and (min-width: 1500px) {
+  .App {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
+    width: 100%;
+  }
+}
 
 
 
