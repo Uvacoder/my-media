@@ -148,13 +148,7 @@ html {
   font-family: 'Libre Baskerville', serif;
 }
 
-@media(hover: none) {
-  .review:hover {
-    opacity: 1;
-    transition: ease-out .25s;
-    padding: 1rem .5rem;
-  }
-}
+
 
 @media only screen and (min-width: 1500px) {
   .App {
