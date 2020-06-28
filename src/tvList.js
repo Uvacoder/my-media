@@ -7,6 +7,13 @@ const tvWatched = [
         review: "A fun watch where all the characters are bad people. Perhaps 2 episodes too long. Certainly didn't need a after show."
     },
     {
+        id: "100698",
+        title: "Tiger King: Murder, Mayhem and Madness",
+        poster: "https://image.tmdb.org/t/p/w200/pmjYMCnSwndlEpiFZhhOWSWmUsu.jpg",
+        rating: 3,
+        review: "A fun watch where all the characters are bad people. Perhaps 2 episodes too long. Certainly didn't need a after show."
+    },
+    {
         id: "83631",
         title: "What We Do in the Shadows",
         poster: "https://image.tmdb.org/t/p/w200/aEwa2kqu5XORbmMwdhEHufODcIr.jpg",
@@ -255,7 +262,8 @@ const handshakeFiveTv = [
    
 ]
 
-// const tvWatched = tvWatch.slice(10) 
+// let tvWatched = tvWatch.reverse().slice() 
+//  tvWatched = tvWatch.slice(10) 
 
 
 
