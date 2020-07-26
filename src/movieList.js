@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "175924",
+        title: "Between the Lines",
+        poster: "https://image.tmdb.org/t/p/w200/wjSyo92neG1UG6PYAf2HYxNdB6g.jpg",
+        rating: 3,
+        review: "A really fun movie not so subtly about the Boston Phoenix. Some really great actors early in their career's like John Heard, Bruno Kirby and Jeff Goldblum. Goldblum and Kirby have a really funny scene in a record store.  "
+    },
+    {
         id: "3090",
         title: "The Treasure of the Sierra Madre",
         poster: "https://image.tmdb.org/t/p/w200/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
