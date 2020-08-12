@@ -24,7 +24,8 @@ html, body {
   height: 5rem;
   top: 0;
   z-index: 99;
-  background-color: rgba(11, 61, 145, .985);
+  background-color: rgba(16,49,107, .975);
+  
 }
 
 
@@ -35,7 +36,7 @@ nav {
   position: relative;
   border-right: 1px solid white;
   padding-bottom: 2rem;
-  background-color: #10316b;
+  background-color: rgba(11, 61, 145, .985);
   width: 500px;
 }
 
@@ -281,7 +282,7 @@ nav > a:hover {
 
 @media only screen and (max-width: 750px) {
   nav {
-    background-color:rgba(16,49,107, .975);
+    background-color: rgba(11, 61, 145, .975);
     width: 200px;
     height: 167px;
     top: 0rem;
@@ -291,11 +292,13 @@ nav > a:hover {
     z-index: 99;
     border: none;
     border-bottom-right-radius: 15px;
+
+    box-shadow: 3px 3px 5px black;
   }
 
   .firstAnchor {
     margin-left: 0;
-    margin-top: 3rem;
+    margin-top: 2rem;
     
   }
 
@@ -315,11 +318,12 @@ nav > a:hover {
   nav > a:hover {
     transition: .5s ease-in;
     background-color: rgba(11, 61, 145, .975);
+    background-color:rgba(16,49,107, .975);
     
   }
 
   .lastAnchor {
-    border-bottom-right-radius: 15px;
+    /* border-bottom-right-radius: 15px; */
     
   }
 
@@ -349,7 +353,7 @@ nav > a:hover {
 } 
 .close-icon:hover {
   cursor: pointer;
-  color: rgba(11, 61, 145, .975);
+  color: gray;
   transition: .5s ease-in;
 }
 
@@ -407,7 +411,7 @@ nav > a:hover {
   }
 
   .lastAnchor {
-    border-bottom-left-radius: 15px;
+    /* border-bottom-left-radius: 15px; */
   }
 
 
