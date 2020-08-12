@@ -3,7 +3,7 @@ import './App.css';
 import Books from './Books'
 import Movies from './Movies'
 import Tv from './Tv'
-
+import Footer from './Footer'
 
 
 
@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="App">
       
-         <a href="https://scottjellen.me/" target="_blank" rel="noopener noreferrer">
+         {/* <a href="https://scottjellen.me/" target="_blank" rel="noopener noreferrer">
           <img src="https://s3.us-east-2.amazonaws.com/scottjellen.me.projectlist/sJellenLogo.jpg"
           alt="logo"
           className="logo"
           />
-         </a>
+         </a> */}
           
       <h1 className="main_title">Media Consumption</h1>
 
@@ -27,11 +27,11 @@ function App() {
      <Movies />
      <Tv />
      <Books />
-     
+     <Footer />
      
 
 
-     <h1 className="copy_footer"> by Scott Jellen  &#169; 2020</h1>
+     {/* <h1 className="copy_footer"> by Scott Jellen  &#169; 2020</h1> */}
     </div>
   );
 }

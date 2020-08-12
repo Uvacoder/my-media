@@ -34,25 +34,6 @@ html, body {
   /* font-style: italic; */
 }
 
-.copy_footer {
-  color: rgba(255, 255, 255, .95);
-  padding: 0rem 2rem;
-  margin-top: 6rem;
-  margin-bottom: -1rem;
-  font-size: .75rem;
-  background: transparent;  /* fallback for old browsers */
-  text-align: end;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 100;
-}
-
-.logo {
-  border-radius: 50%;
-  float:left;
-  width: 50px;
-  margin-left: 1.5rem;
-  margin-top: .75rem;
-}
 
 .section_title {
   color: white;
@@ -151,6 +132,39 @@ html, body {
   color: gold;
   font-weight: 900;
   font-family: 'Libre Baskerville', serif;
+}
+
+.footer {
+  margin-top: 7rem;
+  margin-bottom: -2rem;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.copy_footer {
+  color: rgba(255, 255, 255, .95);
+  padding: 0rem 2rem;
+  margin-top: 2rem;
+  font-size: .75rem;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 50px;
+  margin-left: 1.5rem;
+  margin-top: .5rem;
+  box-shadow: 3px 0px .5px .5px rgba(29,60,138,1);
+}
+
+.logo:hover {
+  box-shadow: 3px 0px .5px .5px rgba(255, 172, 65, 1);
+  transition: 1s ease-in;
 }
 
 
