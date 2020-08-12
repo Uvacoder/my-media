@@ -24,10 +24,11 @@ function App() {
       <h1 className="main_title">Media Consumption</h1>
 
      
-     
-     <Books />
      <Movies />
      <Tv />
+     <Books />
+     
+     
 
 
      <h1 className="copy_footer"> by Scott Jellen  &#169; 2020</h1>

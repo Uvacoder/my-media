@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "105489",
+        title: "Fear City: New York vs The Mafia",
+        poster: "https://image.tmdb.org/t/p/w200/jQntaJvCakqbGJs8ihahXV8xk9f.jpg",
+        rating: 3,
+        review: "While it seems like ever documentary series is too long. This series seems like its missing an episode between 3 and 4. A nice easy watch."
+    },
+    {
         id: "85922",
         title: "Space Force",
         poster: "https://image.tmdb.org/t/p/w200/zgu3p4NvisS8CI68cUfBKbvAvu8.jpg",

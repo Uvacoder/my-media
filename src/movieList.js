@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "1535",
+        title: "Spy Game",
+        poster: "https://image.tmdb.org/t/p/w200/6y8M1rxjKofQCRKKe6xeV91K2Fc.jpg",
+        rating: 4,
+        review: "Like all Tony Scott movies It's very easy to be critical of this movie and nitpick. But it's really a great spy action movie. The best parts happen in the office building with Redford outwitting the C.I.A. I watch this movie every time it's streaming.  "
+    },
+    {
+        id: "10843",
+        title: "After Hours",
+        poster: "https://image.tmdb.org/t/p/w200/1mh5QtpNYpHp3SQ2Bkj4dnmX0bA.jpg",
+        rating: 4,
+        review: "I hadn't seen this movie in 25 years but as and still it's one of my most watched movies. Watching this as a kid and then again as an adult is like before and after a tornado. Such a great underappreciated and under distributed movie.   "
+    },
+    {
         id: "175924",
         title: "Between the Lines",
         poster: "https://image.tmdb.org/t/p/w200/wjSyo92neG1UG6PYAf2HYxNdB6g.jpg",
@@ -213,6 +227,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "473033",
+        title: "Once a Thief",
+        poster: "https://image.tmdb.org/t/p/w200/gQfNFsYfE5a7kB0jiQE4uhnhNYk.jpg",
+        rating: 3,
+        review: "It's funny that this movie shares a name with a Chow Yun-Fat movie because just like Fat, Hollywood never wasn't able to fully capture what makes Delon a star. "
+    },
     
     {
         id: "473033",
