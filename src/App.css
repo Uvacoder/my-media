@@ -193,22 +193,22 @@ nav > a:hover {
 .review {
   opacity: 1;
   margin: 0 auto;
-  
   width: 150px;
   height: auto;
   min-height: 0;
-  font-size: .85rem;
-  border: .5px solid silver;
+  font-size: .75rem;
+  /* border: .5px solid silver; */
   border-radius: 5px;
-  text-align: left;
+  text-align: start;
   position: relative;
   z-index: 5;
-  background-color: rgba(18, 18, 18, .95);
+  /* background-color: rgba(18, 18, 18, .95); */
+  background-color: rgba(11, 61, 145, .95);
   color: white;
   padding: 1rem .5rem;
   cursor: pointer;
   line-height: 1.5;
-  
+  margin-top: -1rem;
 }
 
 .arrow_right_icon {
@@ -225,7 +225,7 @@ nav > a:hover {
 .arrow_drop_up_icon {
   position: absolute;
   color: white;
-  margin-top: -2.55rem;
+  margin-top: -1.5rem;
   margin-left: -3.75rem;
 }
 
@@ -235,7 +235,7 @@ nav > a:hover {
 
 
 .review::first-letter {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: gold;
   font-weight: 900;
   font-family: 'Libre Baskerville', serif;

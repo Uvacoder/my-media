@@ -32,7 +32,7 @@ const moviesWatched = [
         title: "The Treasure of the Sierra Madre",
         poster: "https://image.tmdb.org/t/p/w200/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
         rating: 5,
-        review: "2 drifter team up with an ex-miner to look for gold. They find gold and trouble with bandits. Brilliant choice not to subtitle the Spanish. A mean, angry, petty Bogart in this one. "
+        review: "2 drifters team up with an ex-miner to look for gold. They find gold and trouble with bandits. Brilliant choice not to subtitle the Spanish. A mean, angry, petty Bogart in this one. "
     },
     {
         id: "1103",
