@@ -1,5 +1,13 @@
 const moviesWatched = [
     {
+        id: "501979",
+        title: "Bill & Ted Face the Music",
+        poster: "https://image.tmdb.org/t/p/w200/4V2nTPfeB59TcqJcUfQ9ziTi7VN.jpg",
+        rating: 3,
+        review: "A really fun movie that is faithful to the original movies. However the last third is not good. The world is ending, another planet is clearly visible and your on a bridge, lets play music. "
+    },
+
+    {
         id: "73317",
         title: "Once a Thief",
         poster: "https://image.tmdb.org/t/p/w200/gQfNFsYfE5a7kB0jiQE4uhnhNYk.jpg",

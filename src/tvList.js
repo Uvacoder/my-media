@@ -157,6 +157,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "79525",
+        title: "The Last Dance",
+        poster: "https://image.tmdb.org/t/p/w200/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "18347",
         title: "Community",
         poster: "https://image.tmdb.org/t/p/w200/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",

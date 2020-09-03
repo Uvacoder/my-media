@@ -235,6 +235,7 @@ nav > a:hover {
 
 
 .review::first-letter {
+  padding-left: 5px;
   font-size: 1rem;
   color: gold;
   font-weight: 900;
