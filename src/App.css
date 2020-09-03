@@ -7,7 +7,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
   
 }
 
@@ -191,9 +191,9 @@ nav > a:hover {
 }
 
 .review {
-  opacity: 0;
+  opacity: 1;
   margin: 0 auto;
-  margin-top: -18.5rem;
+  
   width: 150px;
   height: auto;
   min-height: 0;
@@ -205,19 +205,34 @@ nav > a:hover {
   z-index: 5;
   background-color: rgba(18, 18, 18, .95);
   color: white;
-  /* padding: 1rem .5rem; */
+  padding: 1rem .5rem;
   cursor: pointer;
   line-height: 1.5;
   
 }
 
-.review:hover {
-  position: relative;
-  z-index: 1;
-  opacity: 1;
-  transition: ease-out .25s;
-  padding: 1rem .5rem;
+.arrow_right_icon {
+  position: absolute;
+  color: white;
+  margin-top: -2.55rem;
+  margin-left: -3.75rem;
 }
+
+.arrow_right_icon:hover {
+  cursor: pointer;
+}
+
+.arrow_drop_up_icon {
+  position: absolute;
+  color: white;
+  margin-top: -2.55rem;
+  margin-left: -3.75rem;
+}
+
+.arrow_drop_up_icon:hover {
+  cursor: pointer;
+}
+
 
 .review::first-letter {
   font-size: 1.25rem;
@@ -227,8 +242,8 @@ nav > a:hover {
 }
 
 .footer {
-  margin-top: 7rem;
-  margin-bottom: -2rem;
+  margin-top: 15rem;
+  margin-bottom: -10rem;
   width: 100%;
   height: 75px;
   display: flex;

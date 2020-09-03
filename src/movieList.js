@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "73317",
+        title: "Once a Thief",
+        poster: "https://image.tmdb.org/t/p/w200/gQfNFsYfE5a7kB0jiQE4uhnhNYk.jpg",
+        rating: 3,
+        review: "It's funny that this movie shares a name with a Chow Yun-Fat movie because just like Fat, Hollywood never wasn't able to fully capture what makes Delon a star. "
+    },
+    {
         id: "1535",
         title: "Spy Game",
         poster: "https://image.tmdb.org/t/p/w200/6y8M1rxjKofQCRKKe6xeV91K2Fc.jpg",
@@ -227,13 +234,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "73317",
-        title: "Once a Thief",
-        poster: "https://image.tmdb.org/t/p/w200/gQfNFsYfE5a7kB0jiQE4uhnhNYk.jpg",
-        rating: 3,
-        review: "It's funny that this movie shares a name with a Chow Yun-Fat movie because just like Fat, Hollywood never wasn't able to fully capture what makes Delon a star. "
-    },
     
     {
         id: "473033",
