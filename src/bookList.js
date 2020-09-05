@@ -43,7 +43,7 @@ const booksRead = [
         title: "Berlin game",
         isbn: "9780345418340",
         rating: 4,
-        review: "A lot of set-up. It's a really good book with a couple of goode scene's. Thing's start to come together at the end to make you wanna read Mexico Set."
+        review: "A lot of set-up. It's a really good book with a couple of good scene's. Thing's start to come together at the end to make you wanna read Mexico Set."
 
     },
     {   
