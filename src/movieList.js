@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "891",
+        title: "All the President's Men",
+        poster: "https://image.tmdb.org/t/p/w200/cPtSHR7D2WGsDBfnC5DxV927hKn.jpg",
+        rating: 5,
+        review: "Another William Goldman screenplay and another great movie. Jason Robards as Ben Bradlee is perfect. The movie comes out so quickly. 4 years after Watergate and 1 1/2 years after Nixon resigns, and gets you up to the 1972 Election. In a way you the viewer are dangling on a time thread in the middle.  "
+    },
+    {
         id: "10518",
         title: "Marathon Man",
         poster: "https://image.tmdb.org/t/p/w200/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
