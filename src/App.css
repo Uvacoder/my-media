@@ -12,9 +12,11 @@
 }
 
 html, body {
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom right, #434343, #000000 30%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgba(0, 0, 0);  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to bottom right, #434343, #000000); */
+    /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to bottom right, #434343, #000000 30%); */
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -24,7 +26,7 @@ html, body {
   height: 5rem;
   top: 0;
   z-index: 99;
-  background-color: rgba(16,49,107, .975);
+  background-color: rgba(15, 15, 15, .95);
   
 }
 
@@ -36,7 +38,7 @@ nav {
   position: relative;
   border-right: 1px solid white;
   padding-bottom: 2rem;
-  background-color: rgba(11, 61, 145, .985);
+  background-color: rgba(27, 28, 37);
   width: 500px;
 }
 
@@ -138,7 +140,7 @@ nav > a:hover {
 }
 
 #movies {
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .sub_section_title {
@@ -158,10 +160,10 @@ nav > a:hover {
     flex-direction: row;
     /* border: 1px solid red; */
     width: 80%;
-    
+    max-width: fit-content;
     margin: 0 auto;
     flex-wrap: wrap;
-    background-color: rgba(24, 23, 23, .95);
+    background-color: rgba(27, 28, 37);
     border-radius: 10px;
     padding-top: 1.5rem
 }
@@ -202,8 +204,9 @@ nav > a:hover {
   text-align: start;
   position: relative;
   z-index: 5;
-  /* background-color: rgba(18, 18, 18, .95); */
-  background-color: rgba(11, 61, 145, .95);
+  background-color: rgba(18, 18, 18, .95);
+  /* background-color: rgba(11, 61, 145, .95); */
+  /* background-color: rgba(15, 15, 15, .95); */
   color: white;
   padding: 1rem .5rem;
   cursor: pointer;
