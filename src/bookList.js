@@ -18,6 +18,13 @@
         isbn: "0345332687",
         rating: 3,
         review: ""
+    },
+    {   
+        id: "24",
+        title: "Adventures in the screen trade",
+        isbn: "044376256",
+        rating: 4,
+        review: ""
     }
 ]
 
