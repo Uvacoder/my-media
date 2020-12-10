@@ -164,6 +164,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "109332",
+        title: "The Comedy Store",
+        poster: "https://image.tmdb.org/t/p/w200/5ya8191KScDWpfB1z1v4iuMgk3z.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "79525",
         title: "The Last Dance",
         poster: "https://image.tmdb.org/t/p/w200/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
