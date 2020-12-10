@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "8963",
+        title: "Crimson Tide",
+        poster: "https://image.tmdb.org/t/p/w200/21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
+        rating: 4,
+        review: "What really great about this movie beside Tarantino dialog, is that you could argue that for much of the movie both Denzel's and Hackman's characters are correct. The two actors going at each other while the tension rises keeps you on the edge of your seat. Tony Scott's directing makes this still even today seem like a very modern movie."
+    },
+    {
+        id: "9331",
+        title: "Clear and Present Danger",
+        poster: "https://image.tmdb.org/t/p/w200/6xTM8FPxrLRYwz6I3fqtwh7xybs.jpg",
+        rating: 4,
+        review: "Harrison Ford's Jack Ryan movies are not the best of the series. But Ford is the best Jack Ryan. This movie is a not so subtle Carlos Escabar story / Iran Contra. If you want a more realistic version of I'd suggest the first three seasons of NARCOs. Me personally though I could watch any Ryan over any superhero. "
+    },
+    {
         id: "891",
         title: "All the President's Men",
         poster: "https://image.tmdb.org/t/p/w200/cPtSHR7D2WGsDBfnC5DxV927hKn.jpg",
