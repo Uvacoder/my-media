@@ -1,5 +1,33 @@
 const moviesWatched = [
     {
+        id: "10518",
+        title: "Marathon Man",
+        poster: "https://image.tmdb.org/t/p/w200/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
+        rating: 5,
+        review: "This is a masterpiece. Two of the greatest actors of all time going head to head. Roy Scheider is fantastic as Doc. As we get further and further away from the Holocaust and people forget or even more sinister deny, this movie sadly likely loses it's impact on younger viewers. "
+    },
+    {
+        id: "820",
+        title: "JFK",
+        poster: "https://image.tmdb.org/t/p/w200/r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+        rating: 5,
+        review: "As a kid I watched this movie almost everyday the summer it was on HBO and I don't care what anyone says, this is a great movie. The cast is loaded. John Candy, Ed Asner Walter Mathau, Pesci and Tommy Lee Jone to name a few. One of the best scenes is with Costner and Sutherland. Also Costner's giant closing statement. This might be the apex for Oliver Stone. "
+    },
+    {
+        id: "9522",
+        title: "Wedding Crashers",
+        poster: "https://image.tmdb.org/t/p/w200/lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg",
+        rating: 4,
+        review: "Unlike much of the 00's comedy movies, this movie is still really funny. Owen Wilson and Vince Vaughan are a great comic duo and you have an ascendent Bradley Copper as the heel."
+    },
+    {
+        id: "2088",
+        title: "Romeo Is Bleeding",
+        poster: "https://image.tmdb.org/t/p/w200/mgCwAZBG0PCkZflC6nzsxwvG2vu.jpg",
+        rating: 3,
+        review: "It's a fun movie that just doesn't go all the way. It leaves a lot on the table. 90's Gary Oldman is always fun to watch. Worth watching if you see it pop up on a streaming service but in reality True Romance is a better version of this movie."
+    },
+    {
         id: "501979",
         title: "Bill & Ted Face the Music",
         poster: "https://image.tmdb.org/t/p/w200/4V2nTPfeB59TcqJcUfQ9ziTi7VN.jpg",
