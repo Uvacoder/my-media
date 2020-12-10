@@ -1,5 +1,68 @@
 const moviesWatched = [
     {
+        id: "42120",
+        title: "City on Fire",
+        poster: "https://image.tmdb.org/t/p/w200/zO2MFwAiFoHC2mGjfxTc5JFlXGU.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "500",
+        title: "Reservoir Dogs",
+        poster: "https://image.tmdb.org/t/p/w200/AjTtJNumZyUDz33VtMlF1K8JPsE.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "9798",
+        title: "Enemy of the State",
+        poster: "https://image.tmdb.org/t/p/w200/x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "4566",
+        title: "Michael Clayton",
+        poster: "https://image.tmdb.org/t/p/w200/zqNn9qqDlK8K0AxO7Vf038kilnR.jpg",
+        rating: 5,
+        review: ""
+    },
+    {
+        id: "10673",
+        title: "Wall Street",
+        poster: "https://image.tmdb.org/t/p/w200/2tQYq9ntzn2dEwDIGLBSipYPenv.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "12706",
+        title: "Croupier",
+        poster: "https://image.tmdb.org/t/p/w200/7qrSiRn0TEsg7LKQA7yeGOdv9zI.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "20649",
+        title: "Clockers",
+        poster: "https://image.tmdb.org/t/p/w200/c79uqLJleho2a7OQayfrW5Ypphf.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
+        id: "141824",
+        title: "Loophole",
+        poster: "https://image.tmdb.org/t/p/w200/x9iryW8EglZY4m1Jb5SH4dyhIi7.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
+        id: "1669",
+        title: "The Hunt for Red October",
+        poster: "https://image.tmdb.org/t/p/w200/yVl7zidse4KiWtGMqHFtZCx4X3N.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "8963",
         title: "Crimson Tide",
         poster: "https://image.tmdb.org/t/p/w200/21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
@@ -291,7 +354,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    
+    {
+        id: "5919",
+        title: "The Towering Inferno",
+        poster: "https://image.tmdb.org/t/p/w200/mFM1GbrRrT3DWUFFo8koSITFnYe.jpg",
+        rating: 3,
+        review: ""
+    },
     {
         id: "473033",
         title: "Uncut Gems",
