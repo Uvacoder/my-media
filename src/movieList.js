@@ -18,14 +18,14 @@ const moviesWatched = [
         title: "Enemy of the State",
         poster: "https://image.tmdb.org/t/p/w200/x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
         rating: 4,
-        review: ""
+        review: "A Tony Scott movie so right of the bat I love it. Also Will Smith at the height of his powers. I forgot how late in the movie that Hackman show's up. I love The Conversation, so the idea that this is a soft sequel makes very happy. What seemed far fetched in 1998, 20 years later society caught up to this movie."
     },
     {
         id: "4566",
         title: "Michael Clayton",
         poster: "https://image.tmdb.org/t/p/w200/zqNn9qqDlK8K0AxO7Vf038kilnR.jpg",
         rating: 5,
-        review: ""
+        review: "This is really a 70's movie made in the 00's. There are a bunch of great lines in this movie. For me this is Clooney's best movie. Some of Clooney's better liked movies are more ensemble. As a staring role, this is the best.  I could watch this every day for a month if I had to.  "
     },
     {
         id: "10673",
