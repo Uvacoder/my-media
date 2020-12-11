@@ -32,35 +32,35 @@ const moviesWatched = [
         title: "Wall Street",
         poster: "https://image.tmdb.org/t/p/w200/2tQYq9ntzn2dEwDIGLBSipYPenv.jpg",
         rating: 4,
-        review: ""
+        review: "By the time that the Talking Heads starts playing you are all in on this movie. It's funny the difference of watching now compared to the early 90's when I saw it. It almost seem modest now. It really almost impossible to see anyone other than Martin and Charlie Sheen play their parts. Douglas is firing on all cylinders. I'm not sure will ever find out how many yachts can you water-ski behind"
     },
     {
         id: "12706",
         title: "Croupier",
         poster: "https://image.tmdb.org/t/p/w200/7qrSiRn0TEsg7LKQA7yeGOdv9zI.jpg",
         rating: 4,
-        review: ""
+        review: "This is the type of movie that I love. A simple little story with a twist and a lead that you instantly want to see every movie he makes for the next twenty years. It also is the perfect runtime, 90 minutes. It also allow for some ambiguity if you watch it another way. I can almost guarantee that Clive Owen got parts in the 00's from people in the industry who saw this film."
     },
     {
         id: "20649",
         title: "Clockers",
         poster: "https://image.tmdb.org/t/p/w200/c79uqLJleho2a7OQayfrW5Ypphf.jpg",
         rating: 4,
-        review: ""
+        review: "Maybe not a top 5 Spike Lee movie, but It's not far out. There are some heavy hitters in this movie. Clockers has a lot of the things that make Spike films great and limits some of the things that can be over used like the dolly shot. I might even recommend this to someone who hadn't seen a Spike Lee movie even before Do the Right Thing. The video game part it not good though."
     },
     {
         id: "141824",
         title: "Loophole",
         poster: "https://image.tmdb.org/t/p/w200/x9iryW8EglZY4m1Jb5SH4dyhIi7.jpg",
         rating: 3,
-        review: ""
+        review: "Martin Sheen is an architect who is between high end jobs and need money. Hw get roped into robbing a bank. A nice heist movie. I just wish the Amazon Prime version was better quality."
     },
     {
         id: "1669",
         title: "The Hunt for Red October",
         poster: "https://image.tmdb.org/t/p/w200/yVl7zidse4KiWtGMqHFtZCx4X3N.jpg",
         rating: 4,
-        review: ""
+        review: "The only thing wrong in this movie is Alec Baldwin as Jack Ryan. He's really good in this role, but as the character of Ryan he's off. It's the best Jack Ryan movie but a middling performance of Ryan"
     },
     {
         id: "8963",
