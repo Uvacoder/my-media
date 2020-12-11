@@ -4,14 +4,14 @@ const moviesWatched = [
         title: "City on Fire",
         poster: "https://image.tmdb.org/t/p/w200/zO2MFwAiFoHC2mGjfxTc5JFlXGU.jpg",
         rating: 4,
-        review: ""
+        review: "It's really a sad that The bulk of Chow Yun Fat's movies are not streaming. This CYF young and full of energy. A really good cops and robber movie and Hong Kong 80's Hong Kong is in full effect. I think I like A Better Tomorrow a little more though."
     },
     {
         id: "500",
         title: "Reservoir Dogs",
         poster: "https://image.tmdb.org/t/p/w200/AjTtJNumZyUDz33VtMlF1K8JPsE.jpg",
-        rating: 4,
-        review: ""
+        rating: 3,
+        review: "Not my favorite Tarantino movie. In fact closer to the bottom. Its a series of scenes. Good scenes, but just that. The more times I watch it, the less I like it and the more I can see where a choice was made due to budget constraints."
     },
     {
         id: "9798",
