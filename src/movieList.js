@@ -1,5 +1,47 @@
 const moviesWatched = [
     {
+        id: "22650",
+        title: "Any Number Can Win",
+        poster: "https://image.tmdb.org/t/p/w200/A5RojrQiGsrwbe1WDRtruodcu3Z.jpg",
+        rating: 4,
+        review: "A Young Delon plays a screw up and an older Jean Gabit fresh out of prison in a heist movie on the French Rivera. The heist goes about how every French heist movie goes but the last scene around the pool is perfect.  "
+    },
+    {
+        id: "4836",
+        title: "Layer Cake",
+        poster: "https://image.tmdb.org/t/p/w200/fSE9AI2Ytz2mBZjelc32NiZGcj9.jpg",
+        rating: 4,
+        review: "Probably Matthew Vaughan's best movie. A really fun British crime film that catches Daniel Craig at just the right time. Also not too much of the flash that overpowers the latter Vaughan movies."
+    },
+    {
+        id: "11975",
+        title: "The Rainmaker",
+        poster: "https://image.tmdb.org/t/p/w200/cDQVS47ZiA3TsoIU6iTWhgZikoc.jpg",
+        rating: 4,
+        review: "This is the type of movie that shows that a really great director can take a movie and make it good without having to have their fingerprints all over it. I'm willing to bet that Coppola needed the money so he took the least insulting corporate movie and made it. "
+    },
+    {
+        id: "1572",
+        title: "Die Hard: With a Vengeance",
+        poster: "https://image.tmdb.org/t/p/w200/sOqB9iMEcbGhAgH70dbs8U58UW5.jpg",
+        rating: 4,
+        review: "John McTiernan returns as the director and creates an actual new movie and not a rehash. Released in the middle of the 90's, the stunts start to become unrealistic. But this is still a good movie. Sam Jackson and Willis have really good chemistry coming off Pulp Fiction. "
+    },
+    {
+        id: "11973",
+        title: "Thirteen Days",
+        poster: "https://image.tmdb.org/t/p/w200/aLx9UXH9fK2v6NDMvMyW4X88K3u.jpg",
+        rating: 4,
+        review: "Thirteen Days is a really good, almost great movie. Except for Costner's Boston accent. If I owned the rights to this movie I would pay Costner to rerecord all his lines in his normal voice. Bruce Greenwood does one of the best jobs as JFK ever on film. "
+    },
+    {
+        id: "1573",
+        title: "Die Hard 2",
+        poster: "https://image.tmdb.org/t/p/w200/aLPtvDbigpHIZVVLnBjjbl5J0sh.jpg",
+        rating: 3,
+        review: "This is a fine movie and a fun watch, but really it's basically a Die Hard fan fiction. There are some nice scenes, and solid actors but you can tell that this is a cash in. It's almost like someone watched Die Hard and wrote down a checklist and this movie tried to hit every one of the items.  "
+    },
+    {
         id: "9283",
         title: "Beautiful Girls",
         poster: "https://image.tmdb.org/t/p/w200/sHcx1fBmrtZYvFmUywU0d5cvIFd.jpg",

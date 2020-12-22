@@ -177,7 +177,7 @@ nav > a:hover {
   text-align: start;
   position: relative;
   z-index: 5;
-  background-color: rgba(18, 18, 18, .95);
+  background-color:black;
   color: white;
   padding: 1rem .5rem;
   cursor: pointer;
