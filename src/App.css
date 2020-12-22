@@ -8,17 +8,11 @@
   margin: 0;
   padding: 0;
   padding-bottom: 10rem;
-  
 }
 
 html, body {
-  background: rgba(0, 0, 0);  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to bottom right, #434343, #000000); */
-    /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to bottom right, #434343, #000000 30%); */
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgba(0, 0, 0); 
 }
-
 
 .header {
   width: 100%;
@@ -27,9 +21,7 @@ html, body {
   top: 0;
   z-index: 99;
   background-color: rgba(15, 15, 15, .95);
-  
 }
-
 
 nav {
   margin-top: -5.3275rem;
@@ -41,8 +33,6 @@ nav {
   background-color: rgba(27, 28, 37);
   width: 500px;
 }
-
-
 
 nav > a {
   display: inline;
@@ -82,8 +72,6 @@ nav > a:hover {
   transition: .5s ease-in;
 }
 
-
-
 .close-icon {
   color: white;
   font-size: 2rem;
@@ -102,41 +90,29 @@ nav > a:hover {
 }
 
 
-
-
 .main_title {
   color: rgba(255, 255, 255, .95);
-  /* text-shadow: 2px 2px 2px black; */
-  /* border-bottom: .5px solid grey; */
   padding: 1rem 2rem;
   margin-top: 1;
   font-size: 1.25rem;
-  background: transparent;  /* fallback for old browsers */
+  background: transparent;  
   text-align: end;
   font-family: 'Libre Baskerville', serif;
   font-weight: 100;
-  /* font-style: italic; */
 }
-
-
-
-
-
 
 .section_title {
   color: white;
   text-shadow: -2px 0px 0px rgba(18, 18, 18, .85);;
   padding-top: 10rem;
   margin-left: 20%;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   letter-spacing: 2px;
-  /* border-bottom: 2px solid silver; */
   padding-bottom: 1rem;
   text-align: start;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  
 }
 
 #movies {
@@ -145,7 +121,6 @@ nav > a:hover {
 
 .sub_section_title {
   color: white;
-  /* text-shadow: 2px 2px 2px black; */
   font-size: 1.25rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -158,7 +133,6 @@ nav > a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    /* border: 1px solid red; */
     width: 80%;
     max-width: fit-content;
     margin: 0 auto;
@@ -199,14 +173,11 @@ nav > a:hover {
   height: auto;
   min-height: 0;
   font-size: .75rem;
-  /* border: .5px solid silver; */
   border-radius: 5px;
   text-align: start;
   position: relative;
   z-index: 5;
   background-color: rgba(18, 18, 18, .95);
-  /* background-color: rgba(11, 61, 145, .95); */
-  /* background-color: rgba(15, 15, 15, .95); */
   color: white;
   padding: 1rem .5rem;
   cursor: pointer;
@@ -236,7 +207,6 @@ nav > a:hover {
   cursor: pointer;
 }
 
-
 .review::first-letter {
   padding-left: 5px;
   font-size: 1rem;
@@ -254,7 +224,6 @@ nav > a:hover {
   flex-direction: row;
   justify-content: space-between;
 }
-
 
 .copy_footer {
   color: rgba(255, 255, 255, .95);
@@ -278,8 +247,6 @@ nav > a:hover {
   transition: 1s ease-in;
 }
 
-
-
 @media only screen and (min-width: 1500px) {
   .App {
     max-width: 75%;
@@ -289,14 +256,12 @@ nav > a:hover {
       width: 100%;
       margin-left: -12.5%;
     }
-
 }
 
 @media only screen and (max-width: 1250px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
     width: 90%;
   }
-  
 }
 
 @media only screen and (max-width: 750px) {
@@ -311,19 +276,15 @@ nav > a:hover {
     z-index: 99;
     border: none;
     border-bottom-right-radius: 15px;
-
     box-shadow: 3px 3px 5px black;
   }
 
   .firstAnchor {
     margin-left: 0;
     margin-top: 2rem;
-    
   }
 
-
   nav > a {
-  
   color: white;
   text-decoration: none;
   display: flex;
@@ -338,12 +299,6 @@ nav > a:hover {
     transition: .5s ease-in;
     background-color: rgba(11, 61, 145, .975);
     background-color:rgba(16,49,107, .975);
-    
-  }
-
-  .lastAnchor {
-    /* border-bottom-right-radius: 15px; */
-    
   }
 
   .menu-icon {
@@ -360,7 +315,6 @@ nav > a:hover {
     transition: .5s ease-in;
     color: silver;
   }
-
 
 .close-icon {
   font-size: 2rem;
@@ -428,12 +382,6 @@ nav > a:hover {
     width: 100%;
     border-bottom-left-radius: 15px;
   }
-
-  .lastAnchor {
-    /* border-bottom-left-radius: 15px; */
-  }
-
-
 }
 
 @media only screen and (max-width: 300px) {
