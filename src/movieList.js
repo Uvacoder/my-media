@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "9283",
+        title: "Beautiful Girls",
+        poster: "https://image.tmdb.org/t/p/w200/sHcx1fBmrtZYvFmUywU0d5cvIFd.jpg",
+        rating: 4,
+        review: "A working class version of the Big Chill. None of the stars of this movie aside from Portman and Thurman are as big as the Murderers' Row that the Big Chill's cast has. I think that if Ted Demme had been alive and making the same quality movies over the last 20 years that this movie would be more well regarded.  "
+    },
+    {
         id: "42120",
         title: "City on Fire",
         poster: "https://image.tmdb.org/t/p/w200/zO2MFwAiFoHC2mGjfxTc5JFlXGU.jpg",

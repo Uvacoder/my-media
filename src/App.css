@@ -137,7 +137,7 @@ nav > a:hover {
     max-width: fit-content;
     margin: 0 auto;
     flex-wrap: wrap;
-    background-color: rgba(27, 28, 37);
+    background-color: rgba(15, 15, 15, .95);
     border-radius: 10px;
     padding-top: 1.5rem
 }
