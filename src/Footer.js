@@ -1,9 +1,6 @@
 import React from 'react'
 
-
-
 function Footer() {
-
 
     return (
             <div  className="footer"> 
@@ -15,11 +12,8 @@ function Footer() {
                     />
             </a>
                 <h1 className="copy_footer"> by Scott Jellen  &#169; 2020</h1>
-            
-            
             </div>
     )
 }
-
 
 export default Footer

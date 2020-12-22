@@ -1,18 +1,12 @@
 import React, {useState} from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from './bookList'
 
-
-
 function Books() {
       
-    
-
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-
-
     function handleHandshakeReviewClick(e) {
         let selection = handshakeFiveBooks[e].review
         setHandshakeReview(selection)
@@ -37,13 +31,8 @@ function Books() {
         }
     }
 
-    
-
-
    const bookHandshake = handshakeFiveBooks.map((book, index) => (
-    
         <div className="bookHandshake"  key={book.id}>
-            
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
@@ -64,7 +53,6 @@ function Books() {
         </div>
     ))
 
-
     const nowReading = booksReading.map((book, index) => (
         <div className="now_reading"    key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
@@ -83,9 +71,9 @@ function Books() {
                  >arrow_right_icon</i>
             }
             </div>    
-            
         </div>
     ))
+
     const recentlyRead = booksRead.map((book, index) => (
         <div className="recently_read"  key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
@@ -107,8 +95,6 @@ function Books() {
         </div>
     ))
    
-
-
     return (
         <div>
             <h1 className="section_title" id="books">Books</h1>
@@ -124,7 +110,6 @@ function Books() {
             <div className="recently_read_flex">
             {recentlyRead}
             </div>
-
         </div>
     )
 }

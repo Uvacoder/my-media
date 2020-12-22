@@ -2,17 +2,12 @@ import React, {useState} from 'react'
 import {tvWatched, tvWatching, handshakeFiveTv} from './tvList'
 
 
-
 function Tv() {
-
-    
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-
-
     function handleHandshakeReviewClick(e) {
         let selection = handshakeFiveTv[e].review
         setHandshakeReview(selection)
@@ -38,7 +33,6 @@ function Tv() {
     }
 
     const handshakeTv = handshakeFiveTv.map((tv, index) => (
-        
         <div className="tvHandshake"  key={tv.id}>
              <img src={tv.poster} alt="tv posters" className="tv" />
              <div className="word_box">
@@ -59,7 +53,6 @@ function Tv() {
             </div>   
         </div>
     ))
-
 
     const nowWatchingTv = tvWatching.map((tv, index) => (
         <div className="now_watching_tv"    key={tv.id}>

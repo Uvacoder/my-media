@@ -1,8 +1,6 @@
 import React from 'react'
 import useToggler from './useToggler'
 
-
-
 function Header(){
     const [show, toggle] = useToggler(true)
 
@@ -12,9 +10,7 @@ function Header(){
         <i className="material-icons menu-icon" 
              onClick={toggle}
              style={{ display: show ? "block" : "none"}}
-             
              >menu_icon</i>
-       
         <nav style={{display: show ? "none" : "block"}}>
           
           <i className="material-icons close-icon"
@@ -25,11 +21,8 @@ function Header(){
             <a href="#television">Television</a>
             <a href="#books" className="lastAnchor">Books</a> 
         </nav>
-
         </div>
     )
 }
-
-
 
 export default Header

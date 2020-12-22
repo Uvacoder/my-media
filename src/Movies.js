@@ -3,13 +3,10 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
 
  function Movies() {
 
-
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-
-
     function handleHandshakeReviewClick(e) {
         let selection = handshakeFiveMovies[e].review
         setHandshakeReview(selection)
@@ -35,11 +32,7 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
     }
 
         
-    
-
-
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
-     
         <div className="movieHandshake"  key={movie.id}>
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
@@ -58,9 +51,9 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
                  >arrow_right_icon</i>
             }
             </div>
-            
         </div>
     ))
+
     const nowWatchingMovies = moviesWatching.map((movie, index) => (
         <div className="now_watching_movies"    key={movie.id}>
             <img src={movie.poster} alt="movie posters" className="movie" />
@@ -79,9 +72,9 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
                  >arrow_right_icon</i>
             }
             </div>    
-            
         </div>
     ))
+
     const recentlyWatchedMovies = moviesWatched.map((movie, index) => (
         <div className="recently_watched_movies"  key={movie.id}>
             <img src={movie.poster} alt="movie posters" className="movie" />
@@ -99,14 +92,9 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
                  style={{display: movie.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
-            </div>   
-            
+            </div>     
         </div>
     ))
-    
-    
-    
-    
     
     return (
         <div>
