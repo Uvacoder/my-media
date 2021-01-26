@@ -20,15 +20,29 @@
         review: ""
     },
     {   
-        id: "24",
-        title: "Adventures in the screen trade",
-        isbn: "044376256",
+        id: "27",
+        title: "Heir to the Empire",
+        isbn: "9780606107211",
         rating: 4,
-        review: ""
+        review: "Not the biggest Star Wars fan but after watching the Mandalorian, I pick this up. This is a really fun read. I can't put it down.  "
     }
 ]
 
 const booksRead = [
+    {   
+        id: "26",
+        title: "Guns, germs, and steel",
+        isbn: "0393038912",
+        rating: 4,
+        review: "A great history book about how and why the world and societies came to be. This is should really be a book that is read in high school.It lays the foundation for a person to learn history upon. "
+    },
+    {   
+        id: "24",
+        title: "Adventures in the Screen Trade",
+        isbn: "044376256",
+        rating: 4,
+        review: "A really fascinating book about movie making and the creative process. Even at forty years old the book is relevant. "
+    },
     {   
         id: "6",
         title: "Burning Chrome",
