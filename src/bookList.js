@@ -25,8 +25,17 @@
         isbn: "9780606107211",
         rating: 4,
         review: "Not the biggest Star Wars fan but after watching the Mandalorian, I pick this up. This is a really fun read. I can't put it down.  "
+    },
+    {   
+        id: "28",
+        title: "Caesar Life of a Colossus",
+        isbn: "9780300120486",
+        rating: 4,
+        review: ""
     }
-]
+].reverse()
+
+
 
 const booksRead = [
     {   
@@ -193,6 +202,8 @@ const handshakeFiveBooks = [
         review: "It was between this and Catch-22. I like Catch more but with Slaughterhouse I get more out of each reading. In fact each time I read it like a fresh read. Where as Catch is cemented."
     }
 ]
+
+
 
 export {booksRead, booksReading, handshakeFiveBooks}
 
