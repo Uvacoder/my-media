@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "11974",
+        title: "The Burbs",
+        poster: "https://image.tmdb.org/t/p/w200/vrVPAcv2njVdnkqhBwGBc7UxCjz.jpg",
+        rating: 4,
+        review: "I must have seen this movie over 100 times. Only Joe Dante could've made this movie, or rather made this movie as good. Add an ascendant Tom Hanks to the The Monsters Are Due On Maple Street and you have a highly re-watchable comedy. "
+    },
+    {
+        id: "546554",
+        title: "Knives Out",
+        poster: "https://image.tmdb.org/t/p/w200/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+        rating: 4,
+        review: "I was really surprised how much I liked this movie. Theres underlying politics but unlike most modern movies they don't overpower the actual story itself. Modern writers seem to think that they are the first generation to bring politics into movies, but thats ignorance on their part. Writers from older generations were just as political, they were just better at burying the message so that you came to the realization yourself. Rather than spending 2 hours preaching to the converted and turning off anybody who's mind you could change. A great cast, its  like a great crock pot meal. Almost everyone in this movie by themselves would make any movie their in better. Makes me want to go bak and watch Clue."
+    },
+    {
         id: "22650",
         title: "Any Number Can Win",
         poster: "https://image.tmdb.org/t/p/w200/A5RojrQiGsrwbe1WDRtruodcu3Z.jpg",
