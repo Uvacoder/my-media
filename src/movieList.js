@@ -1,5 +1,26 @@
 const moviesWatched = [
     {
+        id: "25237",
+        title: "Come and See",
+        poster: "https://image.tmdb.org/t/p/w200/90A8sXK9QZVJ7Rj8nLdsj5NuO5s.jpg",
+        rating: 5,
+        review: "This is one of the greatest war movies ever made. There are many scenes in this movie that will stay with you forever. I'd be interested to here what the Soviets forced out of this movie. "
+    },
+    {
+        id: "25338",
+        title: "The Silent Partner",
+        poster: "https://image.tmdb.org/t/p/w200/r9wKz4D6Oz422RW2mAs0tjNsWug.jpg",
+        rating: 4,
+        review: "A really intense bank robbery movie with Elliot Gould and Christopher Plummer. Gould a teller at the bank is stealing money under the counter when Plummer robs the bank. A young John Candy also appears. The cat and mouse between Gould and an evil Plummer is riveting. Be for warned though that there is a really gruesome scene towards the end."
+    },
+    {
+        id: "9087",
+        title: "The American President",
+        poster: "https://image.tmdb.org/t/p/w200/yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg",
+        rating: 4,
+        review: "Everything that The West Wing became is in this movie. I really like this movie just as I really love the West Wing. Almost every part except Douglass' could have been played by their WW counterpart and the movie still would have been just as good. I think that a major issue With West Wing besides the post Sorkin era, is that the pilot plays less like a continuation of The American President an more like slamming on the brakes."
+    },
+    {
         id: "571417",
         title: "The Best Man",
         poster: "https://image.tmdb.org/t/p/w200/6AFUZxoZsWW5sNqGTsbOCeLOC2Y.jpg",
