@@ -1,5 +1,19 @@
 const tvWatched = [
     {
+        id: "69886",
+        title: "The Odd Couple",
+        poster: "https://image.tmdb.org/t/p/w200/5NYUeWc7lXq6pbHDP0Pz3xxKhPC.jpg",
+        rating: 5,
+        review: "Over 50 years old and still great. You could pluck Klugman and Randall out of time and put a modern version and it would still be funny. Every generation some young tv exec will try to remake it, and they just won't get what makes it special."
+    },
+    {
+        id: "69886",
+        title: "Ultimate Beastmaster",
+        poster: "https://image.tmdb.org/t/p/w200/yYRkguaVv8Cw25AZwT7xpkMitpr.jpg",
+        rating: 3,
+        review: "I binged all three seasons very quickly. That led to me seeing the evolution of the show happen very quickly. Oddly, season 3 isn't a lot better than season 1. Some how there is a really really good show here if you cherry picked the best parts from every season. I do think that the commentary is bad and distracting. "
+    },
+    {
         id: "104999",
         title: "Floor is Lava",
         poster: "https://image.tmdb.org/t/p/w200/wRdnYWCGoJGHsDfPr0A929rEn2Y.jpg",
