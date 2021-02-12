@@ -1,5 +1,26 @@
 const moviesWatched = [
     {
+        id: "571417",
+        title: "The Best Man",
+        poster: "https://image.tmdb.org/t/p/w200/6AFUZxoZsWW5sNqGTsbOCeLOC2Y.jpg",
+        rating: 4,
+        review: "I really enjoy Henry Fonda's political movies, this and Advice and Consent. I think that this movie/play was still relevant until almost very recently. Really interesting look inside the jockeying for power at the time. "
+    },
+    {
+        id: "865",
+        title: "The Running Man",
+        poster: "https://image.tmdb.org/t/p/w200/yADpAIbHCQBNy9xv9WmR9uGilK9.jpg",
+        rating: 3,
+        review: "A middling Arnold movie, but I've always liked it. Richard Dawson as the host is just perfect. Probably has the best collection of funny bad Arnold quotes."
+    },
+    {
+        id: "927",
+        title: "Gremlins",
+        poster: "https://image.tmdb.org/t/p/w200/72Y1X9pMSjXQ7mKB6pBEoMhL0OQ.jpg",
+        rating: 3,
+        review: "Not as good as The Burbs for me, but a really fun and an iconic movie. This is a movie though that I would love to see an annotated version of. "
+    },
+    {
         id: "11974",
         title: "The Burbs",
         poster: "https://image.tmdb.org/t/p/w200/vrVPAcv2njVdnkqhBwGBc7UxCjz.jpg",
