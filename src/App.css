@@ -182,20 +182,21 @@ nav > a:hover {
 .review {
   opacity: 1;
   margin: 0 auto;
-  width: 150px;
+  width: 200px;
   height: auto;
   min-height: 0;
   font-size: .75rem;
   border-radius: 5px;
   text-align: start;
-  position: relative;
-  z-index: 5;
+  position: absolute;
+  z-index: 95;
   background-color:black;
   color: white;
-  padding: 1rem .5rem;
+  padding: 1rem 1rem;
   cursor: pointer;
   line-height: 1.5;
   margin-top: -1rem;
+  margin-left: -1rem;
 }
 
 .arrow_right_icon {
@@ -212,7 +213,7 @@ nav > a:hover {
 .arrow_drop_up_icon {
   position: absolute;
   color: white;
-  margin-top: -1.5rem;
+  margin-top: -2.5rem;
   margin-left: -3.75rem;
 }
 
