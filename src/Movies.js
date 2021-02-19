@@ -1,49 +1,52 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
 import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
+import { Context } from './Context'
 
  function Movies() {
+
+    const {fullStarMaker, halfStarMaker, reviewToggle} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-    function handleHandshakeReviewClick(e) {
-        let selection = handshakeFiveMovies[e].review
-        setHandshakeReview(selection)
-        if (selection === handshakeReview) {
-            setHandshakeReview()
-        }
-    }
+    // function handleHandshakeReviewClick(e) {
+    //     let selection = handshakeFiveMovies[e].review
+    //     setHandshakeReview(selection)
+    //     if (selection === handshakeReview) {
+    //         setHandshakeReview()
+    //     }
+    // }
 
-    function handleWatchingReviewClick(e) {
-        let selection = moviesWatching[e].review
-        setWatchingReview(selection)
-        if (selection === watchingReview) {
-            setWatchingReview()
-        }
-    }
+    // function handleWatchingReviewClick(e) {
+    //     let selection = moviesWatching[e].review
+    //     setWatchingReview(selection)
+    //     if (selection === watchingReview) {
+    //         setWatchingReview()
+    //     }
+    // }
 
-    function handleWatchedReviewClick(e) {
-        let selection = moviesWatched[e].review
-        setWatchedReview(selection)
-        if (selection === watchedReview) {
-            setWatchedReview()
-        }
-    }
+    // function handleWatchedReviewClick(e) {
+    //     let selection = moviesWatched[e].review
+    //     setWatchedReview(selection)
+    //     if (selection === watchedReview) {
+    //         setWatchedReview()
+    //     }
+    // }
 
-    function fullStarMaker(rating) {
-        const  ratingSplit= rating.toString().split('.')
-        const fullStarNumber = parseInt(ratingSplit[0])
-        const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
-        return full   
-    }
+    // function fullStarMaker(rating) {
+    //     const  ratingSplit= rating.toString().split('.')
+    //     const fullStarNumber = parseInt(ratingSplit[0])
+    //     const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
+    //     return full   
+    // }
 
-    function halfStarMaker(rating) {
-        const  ratingSplit= rating.toString().split('.')
-        const halfStarNumber = parseInt(ratingSplit[1])
-        const half = halfStarNumber === 5 ?  '1/2' : ''
-        return half   
-    }
+    // function halfStarMaker(rating) {
+    //     const  ratingSplit= rating.toString().split('.')
+    //     const halfStarNumber = parseInt(ratingSplit[1])
+    //     const half = halfStarNumber === 5 ?  '1/2' : ''
+    //     return half   
+    // }
 
     
 
@@ -56,13 +59,13 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { handshakeReview === movie.review ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => handleHandshakeReviewClick(index)}
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveMovies, handshakeReview, setHandshakeReview)}
                 style={{display: movie.review === "" ? "none" : ""}}
                 >arrow_drop_up_icon</i>
                 <p className="review" style={{display:  movie.review ? "block" : "none"}}>{movie.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => handleHandshakeReviewClick(index)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveMovies, handshakeReview, setHandshakeReview)}
                  style={{display: movie.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -78,12 +81,12 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
             <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchingReview === movie.review ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchingReviewClick(index)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)} 
                 style={{display: movie.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  movie.review ? "block" : "none"}}>{movie.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => handleWatchingReviewClick(index)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)}
                  style={{display: movie.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -99,12 +102,12 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
             <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchedReview === movie.review ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchedReviewClick(index)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatched, watchedReview, setWatchedReview)} 
                 style={{display: movie.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  movie.review ? "block" : "none"}}>{movie.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => handleWatchedReviewClick(index)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, moviesWatched, watchedReview, setWatchedReview)}
                  style={{display: movie.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }

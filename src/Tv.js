@@ -1,50 +1,52 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
 import {tvWatched, tvWatching, handshakeFiveTv} from './tvList'
-
+import { Context } from './Context'
 
 function Tv() {
+
+    const {fullStarMaker, halfStarMaker, reviewToggle} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-    function handleHandshakeReviewClick(e) {
-        let selection = handshakeFiveTv[e].review
-        setHandshakeReview(selection)
-        if (selection === handshakeReview) {
-            setHandshakeReview()
-        }
-    }
+    // function handleHandshakeReviewClick(e) {
+    //     let selection = handshakeFiveTv[e].review
+    //     setHandshakeReview(selection)
+    //     if (selection === handshakeReview) {
+    //         setHandshakeReview()
+    //     }
+    // }
 
-    function handleWatchingReviewClick(e) {
-        let selection = tvWatching[e].review
-        setWatchingReview(selection)
-        if (selection === watchingReview) {
-            setWatchingReview()
-        }
-    }
+    // function handleWatchingReviewClick(e) {
+    //     let selection = tvWatching[e].review
+    //     setWatchingReview(selection)
+    //     if (selection === watchingReview) {
+    //         setWatchingReview()
+    //     }
+    // }
 
-    function handleWatchedReviewClick(e) {
-        let selection = tvWatched[e].review
-        setWatchedReview(selection)
-        if (selection === watchedReview) {
-            setWatchedReview()
-        }
-    }
+    // function handleWatchedReviewClick(e) {
+    //     let selection = tvWatched[e].review
+    //     setWatchedReview(selection)
+    //     if (selection === watchedReview) {
+    //         setWatchedReview()
+    //     }
+    // }
 
-    function fullStarMaker(rating) {
-        const  ratingSplit= rating.toString().split('.')
-        const fullStarNumber = parseInt(ratingSplit[0])
-        const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
-        return full   
-    }
+    // function fullStarMaker(rating) {
+    //     const  ratingSplit= rating.toString().split('.')
+    //     const fullStarNumber = parseInt(ratingSplit[0])
+    //     const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
+    //     return full   
+    // }
 
-    function halfStarMaker(rating) {
-        const  ratingSplit= rating.toString().split('.')
-        const halfStarNumber = parseInt(ratingSplit[1])
-        const half = halfStarNumber === 5 ?  '1/2' : ''
-        return half   
-    }
+    // function halfStarMaker(rating) {
+    //     const  ratingSplit= rating.toString().split('.')
+    //     const halfStarNumber = parseInt(ratingSplit[1])
+    //     const half = halfStarNumber === 5 ?  '1/2' : ''
+    //     return half   
+    // }
 
     const handshakeTv = handshakeFiveTv.map((tv, index) => (
         <div className="tvHandshake"  key={tv.id}>
@@ -54,13 +56,13 @@ function Tv() {
              <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { handshakeReview === tv.review ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => handleHandshakeReviewClick(index)}
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveTv, handshakeReview, setHandshakeReview)}
                 style={{display: tv.review === "" ? "none" : ""}}
                 >arrow_drop_up_icon</i>
                 <p className="review" style={{display:  tv.review ? "block" : "none"}}>{tv.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => handleHandshakeReviewClick(index)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveTv, handshakeReview, setHandshakeReview)}
                  style={{display: tv.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -76,12 +78,12 @@ function Tv() {
             <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchingReview === tv.review ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchingReviewClick(index)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatching, watchingReview, setWatchingReview)} 
                 style={{display: tv.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  tv.review ? "block" : "none"}}>{tv.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => handleWatchingReviewClick(index)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, tvWatching, watchingReview, setWatchingReview)}
                  style={{display: tv.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
@@ -98,12 +100,12 @@ function Tv() {
             <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchedReview === tv.review ? 
                 <div>
-                <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchedReviewClick(index)} 
+                <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatched, watchedReview, setWatchedReview)} 
                 style={{display: tv.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
                 <p className="review" style={{display:  tv.review ? "block" : "none"}}>{tv.review}</p>
                 </div>
                  :
-                 <i className="material-icons arrow_right_icon" onClick={() => handleWatchedReviewClick(index)}
+                 <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, tvWatched, watchedReview, setWatchedReview)}
                  style={{display: tv.review === "" ? "none" : ""}}
                  >arrow_right_icon</i>
             }
