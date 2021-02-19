@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "9571",
+        title: "Dazed and Confused",
+        poster: "https://image.tmdb.org/t/p/w200/yJDJ2svbSHECzhr5tEV9JZTblhV.jpg",
+        rating: 4,
+        review: "I sure that they make tons of these movies but we only remember the better ones. I keep waiting for my generation's because it's long over due. Every time I watch this movie I fall into a different character. As my school memories fade and completely disappear, who I was is an amalgamation of a copy of a memory and a Dazed character. "
+    },
+    {
+        id: "117",
+        title: "The Untouchables",
+        poster: "https://image.tmdb.org/t/p/w200/iK4twY48a1nVCez0qXE5w4JFvXw.jpg",
+        rating: 4,
+        review: "It's a great movie that some how has falling in regard over the last 20 years. The movie zips along while on cable stuffed with commercials(how most people watched it) it takes forever. The score is tremendous. Theres a nice Battleship Potemkin send up on the stairs. It's really De Palma saying he could be an all time great if wanted to, but he'd rather follow his own interests. "
+    },
+    {
         id: "25237",
         title: "Come and See",
         poster: "https://image.tmdb.org/t/p/w200/90A8sXK9QZVJ7Rj8nLdsj5NuO5s.jpg",
