@@ -2,14 +2,14 @@
     {   id: "21",
         title: "Neuromancer",
         isbn: "0441012035",
-        rating: 4,
+        rating: 3.5,
         review: ""
     },
     {   
         id: "22",
         title: "What It Takes: The Way to the White House",
         isbn: "9780679746492",
-        rating: 4,
+        rating: 4.5,
         review: "Just read the first couple of chapters and see what these guy's went through in their early years. Look around and ask yourself how many of the current politicians have what it takes?"
     },
     {   
@@ -72,7 +72,7 @@ const booksRead = [
         id: "8",
         title: "Berlin game",
         isbn: "9780345418340",
-        rating: 4,
+        rating: 3.5,
         review: "A lot of set-up. It's a really good book with a couple of good scene's. Thing's start to come together at the end to make you wanna read Mexico Set."
 
     },
@@ -96,7 +96,7 @@ const booksRead = [
         id: "11",
         title: "The Quiet American",
         isbn: "0140185003",
-        rating: 5,
+        rating: 4.5,
         review: "A really great book to read. Really puts you into pre Vietnam War era. An American C.I.A agent and a British journalist in a love triangle with a Vietnamese woman. The movie is also very good."
     },
     {   
@@ -117,7 +117,7 @@ const booksRead = [
         id: "14",
         title: "Post Office",
         isbn: "0061177571",
-        rating: 5,
+        rating: 4.5,
         review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's. There are part's of this book as far as the job that are scene's from my real life."
     },
     {   
@@ -159,7 +159,7 @@ const booksRead = [
         id: "20",
         title: "Dream Team",
         isbn: "0345520491",
-        rating: 4,
+        rating: 3.5,
         review: "The story of the greatest team ever. Tells how the team came together and what happened in 1992. A lot of behind the scene tales and how Michael Jordan came out of the Olympics as the sole greatest player. Pairs well with McCallum's Dream Team podcast."
     }
     
@@ -177,14 +177,14 @@ const handshakeFiveBooks = [
         id: "2",
         title: "Post Office",
         isbn: "0061177571",
-        rating: 5,
+        rating: 4.5,
         review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's. There are part's of this book as far as the job that are scene's from my real life."
     },
     {   
         id: "3",
         title: "The Bonfire of the Vanities",
         isbn: "9780553381344",
-        rating: 5,
+        rating: 4.5,
         review: " When Sherman McCoy is with his mistress he hit's and kill someone. The story of politics and the media and how they effect justice. This book is more relevant today than it was then."
     },
     {   
@@ -198,7 +198,7 @@ const handshakeFiveBooks = [
         id: "5",
         title: "Slaughterhouse-Five",
         isbn: "0385333846",
-        rating: 5,
+        rating: 4.5,
         review: "It was between this and Catch-22. I like Catch more but with Slaughterhouse I get more out of each reading. In fact each time I read it like a fresh read. Where as Catch is cemented."
     }
 ]

@@ -3,7 +3,7 @@ const tvWatched = [
         id: "1809",
         title: "The Odd Couple",
         poster: "https://image.tmdb.org/t/p/w200/5NYUeWc7lXq6pbHDP0Pz3xxKhPC.jpg",
-        rating: 4,
+        rating: 4.5,
         review: "Over 50 years old and still great. You could pluck Klugman and Randall out of time and put a modern version and it would still be funny. Every generation some young tv exec will try to remake it, and they just won't get what makes it special."
     },
     {
@@ -80,7 +80,7 @@ const tvWatched = [
         id: "59659",
         title: "Halt and Catch Fire",
         poster: "https://image.tmdb.org/t/p/w200/l4qvJ0lq59wR3ODX42DxBVFGoxx.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "Cheers isn't about a bar. This show isn't about the tech industry. It's all about characters. When one of the character dies it's one of the saddest, and beautiful 2 episodes in all of television. Wildly underrated.  If this show was on HBO and not AMC people would still be talking about it. "
     },
     {
@@ -115,14 +115,14 @@ const tvWatched = [
         id: "62560",
         title: "Mr. Robot",
         poster: "https://image.tmdb.org/t/p/w200//oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "Mr Robot keeps you on your feet. What is real and what is in Elliot's head? Christian Slater is perfect as the father/imaginary instigator. I'm waiting for the final season to hit Prime."
     },
     {
         id: "67744",
         title: "Mindhunter",
         poster: "https://image.tmdb.org/t/p/w200/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "The fist season laid such a great foundation. In season 2 it was a rouges gallery. Casting has been great for this show. Dead-on. I really like the main storyline in Atlanta. Not sure the storyline with Bill's son worked."
     },
     {
@@ -136,7 +136,7 @@ const tvWatched = [
         id: "1436",
         title: "Justified",
         poster: "https://image.tmdb.org/t/p/w200/aVYuGDlOZMCRt89fAnHTYgk3BMr.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "A wild cast of character's. Raylan Givens isn't even the most interesting. Walter Goggins wins every scene he's in, and the Ava Crowder character hold your attention. Call back's to classic crime stories of the past. A big nod to The Friends of Eddie Coyle in one of the episodes."
     },
     {
@@ -181,7 +181,7 @@ const tvWatching = [
         id: "109332",
         title: "The Comedy Store",
         poster: "https://image.tmdb.org/t/p/w200/5ya8191KScDWpfB1z1v4iuMgk3z.jpg",
-        rating: 4,
+        rating: 3.5,
         review: ""
     },
     {
@@ -203,7 +203,7 @@ const tvWatching = [
         id: "1438",
         title: "The Wire",
         poster: "https://image.tmdb.org/t/p/w200/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "One of the greatest show's of all time. It rewards repeated viewing. I don't hate the second season like most people seem to. "
     },
     {

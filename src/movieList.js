@@ -10,7 +10,7 @@ const moviesWatched = [
         id: "25338",
         title: "The Silent Partner",
         poster: "https://image.tmdb.org/t/p/w200/r9wKz4D6Oz422RW2mAs0tjNsWug.jpg",
-        rating: 5,
+        rating: 4,
         review: "A really intense bank robbery movie with Elliot Gould and Christopher Plummer. Gould a teller at the bank is stealing money under the counter when Plummer robs the bank. A young John Candy also appears. The cat and mouse between Gould and an evil Plummer is riveting. Be for warned though that there is a really gruesome scene towards the end."
     },
     {
@@ -38,7 +38,7 @@ const moviesWatched = [
         id: "927",
         title: "Gremlins",
         poster: "https://image.tmdb.org/t/p/w200/72Y1X9pMSjXQ7mKB6pBEoMhL0OQ.jpg",
-        rating: 3,
+        rating: 3.5,
         review: "Not as good as The Burbs for me, but a really fun and an iconic movie. This is a movie though that I would love to see an annotated version of. "
     },
     {
@@ -101,7 +101,7 @@ const moviesWatched = [
         id: "9283",
         title: "Beautiful Girls",
         poster: "https://image.tmdb.org/t/p/w200/sHcx1fBmrtZYvFmUywU0d5cvIFd.jpg",
-        rating: 4,
+        rating: 3.5,
         review: "A working class version of the Big Chill. None of the stars of this movie aside from Portman and Thurman are as big as the Murderers' Row that the Big Chill's cast has. I think that if Ted Demme had been alive and making the same quality movies over the last 20 years that this movie would be more well regarded.  "
     },
     {
@@ -115,21 +115,21 @@ const moviesWatched = [
         id: "500",
         title: "Reservoir Dogs",
         poster: "https://image.tmdb.org/t/p/w200/AjTtJNumZyUDz33VtMlF1K8JPsE.jpg",
-        rating: 3,
+        rating: 3.5,
         review: "Not my favorite Tarantino movie. In fact closer to the bottom. Its a series of scenes. Good scenes, but just that. The more times I watch it, the less I like it and the more I can see where a choice was made due to budget constraints."
     },
     {
         id: "9798",
         title: "Enemy of the State",
         poster: "https://image.tmdb.org/t/p/w200/x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
-        rating: 4,
+        rating: 3.5,
         review: "A Tony Scott movie so right of the bat I love it. Also Will Smith at the height of his powers. I forgot how late in the movie that Hackman show's up. I love The Conversation, so the idea that this is a soft sequel makes very happy. What seemed far fetched in 1998, 20 years later society caught up to this movie."
     },
     {
         id: "4566",
         title: "Michael Clayton",
         poster: "https://image.tmdb.org/t/p/w200/zqNn9qqDlK8K0AxO7Vf038kilnR.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "This is really a 70's movie made in the 00's. There are a bunch of great lines in this movie. For me this is Clooney's best movie. Some of Clooney's better liked movies are more ensemble. As a staring role, this is the best.  I could watch this every day for a month if I had to.  "
     },
     {
@@ -185,21 +185,21 @@ const moviesWatched = [
         id: "891",
         title: "All the President's Men",
         poster: "https://image.tmdb.org/t/p/w200/cPtSHR7D2WGsDBfnC5DxV927hKn.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "Another William Goldman screenplay and another great movie. Jason Robards as Ben Bradlee is perfect. The movie comes out so quickly. 4 years after Watergate and 1 1/2 years after Nixon resigns, and gets you up to the 1972 Election. In a way you the viewer are dangling on a time thread in the middle.  "
     },
     {
         id: "10518",
         title: "Marathon Man",
         poster: "https://image.tmdb.org/t/p/w200/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "This is a masterpiece. Two of the greatest actors of all time going head to head. Roy Scheider is fantastic as Doc. As we get further and further away from the Holocaust and people forget or even more sinister deny, this movie sadly likely loses it's impact on younger viewers. "
     },
     {
         id: "820",
         title: "JFK",
         poster: "https://image.tmdb.org/t/p/w200/r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "As a kid I watched this movie almost everyday the summer it was on HBO and I don't care what anyone says, this is a great movie. The cast is loaded. John Candy, Ed Asner Walter Mathau, Pesci and Tommy Lee Jone to name a few. One of the best scenes is with Costner and Sutherland. Also Costner's giant closing statement. This might be the apex for Oliver Stone. "
     },
     {
@@ -256,7 +256,7 @@ const moviesWatched = [
         id: "3090",
         title: "The Treasure of the Sierra Madre",
         poster: "https://image.tmdb.org/t/p/w200/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "2 drifters team up with an ex-miner to look for gold. They find gold and trouble with bandits. Brilliant choice not to subtitle the Spanish. A mean, angry, petty Bogart in this one. "
     },
     {
@@ -270,14 +270,14 @@ const moviesWatched = [
         id: "11963",
         title: "Three Days of the Condor",
         poster: "https://image.tmdb.org/t/p/w200/zinwtZqdb7gnc4zMu8dfkK1fMN3.jpg",
-        rating: 5,
+        rating: 4,
         review: "Redford figure out a hidden message that he wasn't suppose to find and is on the run from a assassin. This and Redford in Spygame are my go to when I want to be entertained by a spy thriller. Max von Sydow speech at the end steal's the movie."
     }, 
     {
         id: "3112",
         title: "The Night of the Hunter",
         poster: "https://image.tmdb.org/t/p/w200/8Xs3TNgxdiJqUiBOpFYxF0W9yoo.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "Robert Mitchum as the sinister Harry Powell. This is a better movie than Cape Fear. The black and white helps the creepiness. A must see film for people who like movies.  "
     }, 
     {
@@ -291,7 +291,7 @@ const moviesWatched = [
         id: "341956",
         title: "The Long Good Friday",
         poster: "https://image.tmdb.org/t/p/w200/pXS667me5Jfoj1b0xuxgjEMKunF.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "Maybe the best British gangster movie. Great last moment of the movie, Bob Hoskins is able to say everything with his facial expressions."
     }, 
     {
@@ -340,7 +340,7 @@ const moviesWatched = [
         id: "105",
         title: "Back to the Future",
         poster: "https://image.tmdb.org/t/p/w200/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "The right movie at the right time when I was the right age. Probably responsible for my love of movies. I wish the reference to the second movie wasn't there."
     }, 
     {
@@ -361,7 +361,7 @@ const moviesWatched = [
         id: "466272",
         title: "Once Upon a Time… in Hollywood",
         poster: "https://image.tmdb.org/t/p/w200/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "Imagine if someone was overwhelming know for how they were murdered and you had the power to reframe that. It took 8 other films for Tarantino tp be able to create something so great. Not his best movie, but his most mature."
     }, 
     {
@@ -424,14 +424,14 @@ const moviesWatched = [
         id: "26030",
         title: "Bob le Flambeur",
         poster: "https://image.tmdb.org/t/p/w200/zg03eDA4Z7KLU5b1zsgXhNijYWW.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "A great movie with a great ending. The final casino part is just amazing. The only problem is how bad the fonts of the subtitles are. They need to be fixed. I watched on the Criterion Channel so I expect it's the best quality available. Studio Canal please fix this."
     }, 
     {
         id: "25047",
         title: "Le Deuxième Souffle",
         poster: "https://image.tmdb.org/t/p/w200/kg6c92YKzu0spxILE4EEXQxZNpT.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "My favorite Melville movie. Gu escapes jail, gets involved in a heist, gets arrested, escapes and tries to clear his name. When a movie is great the length doesn't matter. "
     },
     {
@@ -445,7 +445,7 @@ const moviesWatched = [
         id: "11657",
         title: "Le Cercle Rouge",
         poster: "https://image.tmdb.org/t/p/w200/3X1EqovVKNpHoYHAhPznWDwQmqB.jpg",
-        rating: 4,
+        rating: 4.5,
         review: "A prison escapee hides in the truck of a man who's planning a heist. A detective is onto them almost from the beginning. One of the better Melville movies. Long stretches of silence draw you in. Top tier heist work."
     }, 
     {
@@ -470,14 +470,14 @@ const moviesWatching = [
         id: "473033",
         title: "Uncut Gems",
         poster: "https://image.tmdb.org/t/p/w200/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg",
-        rating: 4,
+        rating: 3.5,
         review: ""
     },
     {
         id: "7345",
         title: "There Will Be Blood",
         poster: "https://image.tmdb.org/t/p/w200/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
-        rating: 4,
+        rating: 4.5,
         review: ""
     },
     {
@@ -491,7 +491,7 @@ const moviesWatching = [
         id: "11228",
         title: "Daylight",
         poster: "https://image.tmdb.org/t/p/w200/a4W0QmwlOEKMlvVH4O6ICaN7Kcy.jpg",
-        rating: 3,
+        rating: 2.5,
         review: ""
     },
     {
@@ -519,7 +519,7 @@ const moviesWatching = [
         id: "6538",
         title: "Charlie Wilson's War",
         poster: "https://image.tmdb.org/t/p/w200/45FghqcdSYRWK7PsHUInaFPNd8l.jpg",
-        rating: 3,
+        rating: 2.5,
         review: "Why isn't this much better. It has Hanks, Hoffman, Sorkin's writing and a good premise. This is still a good movie, it's just really disappointing.  "
     },
     {
@@ -564,7 +564,7 @@ const handshakeFiveMovies = [
         id: "562",
         title: "Die Hard",
         poster: "https://image.tmdb.org/t/p/w200/aJCpHDC6RoGz7d1Fzayl019xnxX.jpg",
-        rating: 5,
+        rating: 4.5,
         review: "This movie never gets old. It spawned a lot of imitators some of them bearing the Die Hard name. One major flaw that once you see it, it can't be unseen. So many quotable line.  "
     }
 
