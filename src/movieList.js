@@ -10,7 +10,7 @@ const moviesWatched = [
         id: "25338",
         title: "The Silent Partner",
         poster: "https://image.tmdb.org/t/p/w200/r9wKz4D6Oz422RW2mAs0tjNsWug.jpg",
-        rating: 4.5,
+        rating: 5,
         review: "A really intense bank robbery movie with Elliot Gould and Christopher Plummer. Gould a teller at the bank is stealing money under the counter when Plummer robs the bank. A young John Candy also appears. The cat and mouse between Gould and an evil Plummer is riveting. Be for warned though that there is a really gruesome scene towards the end."
     },
     {
@@ -484,7 +484,7 @@ const moviesWatching = [
         id: "21610",
         title: "Nighthawks",
         poster: "https://image.tmdb.org/t/p/w200/W3YNOa27V6POZtE2TPrzmCBP6t.jpg",
-        rating: 2.5,
+        rating: 2,
         review: ""
     },
     {
@@ -536,7 +536,7 @@ const handshakeFiveMovies = [
         id: "289",
         title: "Casablanca",
         poster: "https://image.tmdb.org/t/p/w200/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
-        rating: 4.5,
+        rating: 5,
         review: "One of the things that really makes this movie so great is the use of black and white. There is a colorized version and while interesting to see. It takes away from the movie. Great on your first watch, but gets better with each additional watch. "
     },
     {
