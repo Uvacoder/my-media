@@ -31,13 +31,29 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
         }
     }
 
+    function fullStarMaker(rating) {
+        const  ratingSplit= rating.toString().split('.')
+        const fullStarNumber = parseInt(ratingSplit[0])
+        const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
+        return full   
+    }
+
+    function halfStarMaker(rating) {
+        const  ratingSplit= rating.toString().split('.')
+        const halfStarNumber = parseInt(ratingSplit[1])
+        const half = halfStarNumber === 5 ?  '1/2' : ''
+        return half   
+    }
+
+    
+
         
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
         <div className="movieHandshake"  key={movie.id}>
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+           <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { handshakeReview === movie.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleHandshakeReviewClick(index)}
@@ -59,7 +75,7 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchingReview === movie.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchingReviewClick(index)} 
@@ -80,7 +96,7 @@ import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <h4 className="star">{Array(movie.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchedReview === movie.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchedReviewClick(index)} 

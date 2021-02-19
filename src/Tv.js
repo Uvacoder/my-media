@@ -32,12 +32,26 @@ function Tv() {
         }
     }
 
+    function fullStarMaker(rating) {
+        const  ratingSplit= rating.toString().split('.')
+        const fullStarNumber = parseInt(ratingSplit[0])
+        const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
+        return full   
+    }
+
+    function halfStarMaker(rating) {
+        const  ratingSplit= rating.toString().split('.')
+        const halfStarNumber = parseInt(ratingSplit[1])
+        const half = halfStarNumber === 5 ?  '1/2' : ''
+        return half   
+    }
+
     const handshakeTv = handshakeFiveTv.map((tv, index) => (
         <div className="tvHandshake"  key={tv.id}>
              <img src={tv.poster} alt="tv posters" className="tv" />
              <div className="word_box">
              <h4 className="title">{tv.title}</h4>
-            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+             <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { handshakeReview === tv.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleHandshakeReviewClick(index)}
@@ -59,7 +73,7 @@ function Tv() {
              <img src={tv.poster} alt="tv posters" className="tv" />
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
-            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchingReview === tv.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchingReviewClick(index)} 
@@ -81,7 +95,7 @@ function Tv() {
             <img src={tv.poster} alt="tv posters" className="tv" />
             <div className="word_box"> 
             <h4 className="title">{tv.title}</h4>
-            <h4 className="star">{Array(tv.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchedReview === tv.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchedReviewClick(index)} 

@@ -1,9 +1,9 @@
 const tvWatched = [
     {
-        id: "69886",
+        id: "1809",
         title: "The Odd Couple",
         poster: "https://image.tmdb.org/t/p/w200/5NYUeWc7lXq6pbHDP0Pz3xxKhPC.jpg",
-        rating: 5,
+        rating: 4,
         review: "Over 50 years old and still great. You could pluck Klugman and Randall out of time and put a modern version and it would still be funny. Every generation some young tv exec will try to remake it, and they just won't get what makes it special."
     },
     {

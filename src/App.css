@@ -153,6 +153,19 @@ nav > a:hover {
   color: gold;
   margin-top: -.5rem;
 }
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-star {
+  color: gold;
+  margin-top: -1.5rem;
+  margin-left: .25rem;
+  font-size: .1rem;
+}
 .title {
   font-size: .75rem;
   width: 200px;

@@ -31,12 +31,26 @@ function Books() {
         }
     }
 
+    function fullStarMaker(rating) {
+        const  ratingSplit= rating.toString().split('.')
+        const fullStarNumber = parseInt(ratingSplit[0])
+        const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
+        return full   
+    }
+
+    function halfStarMaker(rating) {
+        const  ratingSplit= rating.toString().split('.')
+        const halfStarNumber = parseInt(ratingSplit[1])
+        const half = halfStarNumber === 5 ?  '1/2' : ''
+        return half   
+    }
+
    const bookHandshake = handshakeFiveBooks.map((book, index) => (
         <div className="bookHandshake"  key={book.id}>
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
             { handshakeReview === book.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleHandshakeReviewClick(index)}
@@ -58,7 +72,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
              { watchingReview === book.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchingReviewClick(index)} 
@@ -79,7 +93,7 @@ function Books() {
             <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <h4 className="star">{Array(book.rating).fill(String.fromCharCode(10029))}</h4>
+            <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
             { watchedReview === book.review ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => handleWatchedReviewClick(index)} 
