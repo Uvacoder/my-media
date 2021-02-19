@@ -10,46 +10,7 @@ import { Context } from './Context'
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
     
-    // function handleHandshakeReviewClick(e) {
-    //     let selection = handshakeFiveMovies[e].review
-    //     setHandshakeReview(selection)
-    //     if (selection === handshakeReview) {
-    //         setHandshakeReview()
-    //     }
-    // }
-
-    // function handleWatchingReviewClick(e) {
-    //     let selection = moviesWatching[e].review
-    //     setWatchingReview(selection)
-    //     if (selection === watchingReview) {
-    //         setWatchingReview()
-    //     }
-    // }
-
-    // function handleWatchedReviewClick(e) {
-    //     let selection = moviesWatched[e].review
-    //     setWatchedReview(selection)
-    //     if (selection === watchedReview) {
-    //         setWatchedReview()
-    //     }
-    // }
-
-    // function fullStarMaker(rating) {
-    //     const  ratingSplit= rating.toString().split('.')
-    //     const fullStarNumber = parseInt(ratingSplit[0])
-    //     const full = Array(fullStarNumber).fill(String.fromCharCode(10029)) 
-    //     return full   
-    // }
-
-    // function halfStarMaker(rating) {
-    //     const  ratingSplit= rating.toString().split('.')
-    //     const halfStarNumber = parseInt(ratingSplit[1])
-    //     const half = halfStarNumber === 5 ?  '1/2' : ''
-    //     return half   
-    // }
-
-    
-
+   
         
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
         <div className="movieHandshake"  key={movie.id}>
