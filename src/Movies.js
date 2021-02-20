@@ -2,6 +2,7 @@ import React, {useState, useContext} from 'react'
 import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
 import { Context } from './Context'
 
+
  function Movies() {
 
     const {fullStarMaker, halfStarMaker, reviewToggle} = useContext(Context)
@@ -77,7 +78,7 @@ import { Context } from './Context'
     ))
     
     return (
-        <div>
+        <div >
             <h1 className="section_title" id="movies">Movies</h1>
             <h2 className="sub_section_title">Handshake Five</h2>
             <div className="movies_handshake_flex">

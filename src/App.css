@@ -101,6 +101,7 @@ nav > a:hover {
   font-weight: 100;
 }
 
+
 .section_title {
   color: white;
   text-shadow: -2px 0px 0px rgba(18, 18, 18, .85);;
@@ -139,7 +140,7 @@ nav > a:hover {
     flex-wrap: wrap;
     background-color: rgba(15, 15, 15, .95);
     border-radius: 10px;
-    padding-top: 1.5rem
+    padding-top: 1.5rem;
 }
 
 .book, .movie, .tv {
@@ -186,17 +187,19 @@ nav > a:hover {
   height: auto;
   min-height: 0;
   font-size: .75rem;
-  border-radius: 5px;
+  /* border-radius: 5px;
+  border-bottom-right-radius: 0px; */
   text-align: start;
   position: absolute;
   z-index: 95;
-  background-color:black;
+  background-color:rgba(0, 0, 0, .9);
   color: white;
   padding: 1rem 1rem;
   cursor: pointer;
   line-height: 1.5;
   margin-top: -1rem;
   margin-left: -1rem;
+  box-shadow: 5px 5px 500px -3px rgba(255, 215, 0, .25);
 }
 
 .arrow_right_icon {
@@ -222,7 +225,7 @@ nav > a:hover {
 }
 
 .review::first-letter {
-  padding-left: 5px;
+  padding: 0 1px 0 10px;
   font-size: 1rem;
   color: gold;
   font-weight: 900;
