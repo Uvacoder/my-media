@@ -5,12 +5,17 @@ const Context = React.createContext()
 
 function ContextProvider({children}) {
 
+    const [notReview, setNotReview] = useState(true)
+
     function reviewToggle(e, arr, reviewArr, setter) {
         let selection = arr[e].review
         setter(selection)
+        setNotReview(true)
         if (selection === reviewArr) {
             setter()
-        }
+            setNotReview(false)
+        } 
+        
     }
 
 
@@ -33,7 +38,7 @@ function ContextProvider({children}) {
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle, notReview, setNotReview}}>
             {children}
         </Context.Provider>
     )

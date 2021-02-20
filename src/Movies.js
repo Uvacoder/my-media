@@ -5,16 +5,20 @@ import { Context } from './Context'
 
  function Movies() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, notReview, setNotReview} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
+
+    if (notReview) return 'not-review'
+
+    
     
    
         
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
-        <div className="movieHandshake"  key={movie.id}>
+        <div className={`movieHandshake ${notReview}`}  key={movie.id}>
             <img src={movie.poster} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
