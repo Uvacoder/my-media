@@ -10,10 +10,10 @@ function ContextProvider({children}) {
     function reviewToggle(e, arr, reviewArr, setter) {
         let selection = arr[e].review
         setter(selection)
-        setNotReview(true)
+        // setNotReview(true)
         if (selection === reviewArr) {
             setter()
-            setNotReview(false)
+            // setNotReview(false)
         } 
         
     }
