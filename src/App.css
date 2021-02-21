@@ -143,6 +143,14 @@ nav > a:hover {
     padding-top: 1.5rem;
 }
 
+.not-review {
+  filter: grayscale(100%);
+}
+
+.is-review {
+  filter: grayscale(0%);
+}
+
 
 
 .book, .movie, .tv {

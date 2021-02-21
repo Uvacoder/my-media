@@ -5,15 +5,13 @@ const Context = React.createContext()
 
 function ContextProvider({children}) {
 
-    const [notReview, setNotReview] = useState(true)
+    const [notReview, setNotReview] = useState('')
 
-    function reviewToggle(e, arr, reviewArr, setter) {
+    function reviewToggle(e, arr, review, setter) {
         let selection = arr[e].review
         setter(selection)
-        // setNotReview(true)
-        if (selection === reviewArr) {
+        if (selection === review) {
             setter()
-            // setNotReview(false)
         } 
         
     }

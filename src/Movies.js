@@ -11,8 +11,6 @@ import { Context } from './Context'
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
 
-    if (notReview) return 'not-review'
-
     
     
    
