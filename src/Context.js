@@ -17,10 +17,10 @@ function ContextProvider({children}) {
 
     function filterSet(item, activeReview) {
         const baseFilter = { filter: "grayscale(0%)"}
-        const grayscale = { filter: "grayscale(100%)"}
+        const grayscale = { filter: "grayscale(100%)", opacity: .05}
         const hightLight = { filter: "grayscale(0%)"}
+        
         if (activeReview === undefined ) {
-            
             return baseFilter
         } else if (item.id === activeReview) {
             return hightLight
