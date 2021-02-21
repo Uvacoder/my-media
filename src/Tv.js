@@ -4,7 +4,7 @@ import { Context } from './Context'
 
 function Tv() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
@@ -14,10 +14,10 @@ function Tv() {
 
     const handshakeTv = handshakeFiveTv.map((tv, index) => (
         <div className="tvHandshake"  key={tv.id}>
-             <img src={tv.poster} alt="tv posters" className="tv" />
+             <img src={tv.poster} alt="tv posters" className="tv" style={filterSet(tv, handshakeReview)}/>
              <div className="word_box">
              <h4 className="title">{tv.title}</h4>
-             <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
+             <span className="star-container" style={filterSet(tv, handshakeReview)}><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { handshakeReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveTv, handshakeReview, setHandshakeReview)}
@@ -36,10 +36,10 @@ function Tv() {
 
     const nowWatchingTv = tvWatching.map((tv, index) => (
         <div className="now_watching_tv"    key={tv.id}>
-             <img src={tv.poster} alt="tv posters" className="tv" />
+             <img src={tv.poster} alt="tv posters" className="tv" style={filterSet(tv, watchingReview)}/>
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
+            <span className="star-container" style={filterSet(tv, watchingReview)}><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchingReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatching, watchingReview, setWatchingReview)} 
@@ -58,10 +58,10 @@ function Tv() {
 
     const recentlyWatchedTv = tvWatched.map((tv, index) => (
         <div className="recently_watched_tv"  key={tv.id}>
-            <img src={tv.poster} alt="tv posters" className="tv" />
+            <img src={tv.poster} alt="tv posters" className="tv" style={filterSet(tv, watchedReview)}/>
             <div className="word_box"> 
             <h4 className="title">{tv.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
+            <span className="star-container" style={filterSet(tv, watchedReview)}><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
             { watchedReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatched, watchedReview, setWatchedReview)} 

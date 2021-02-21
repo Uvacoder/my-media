@@ -4,7 +4,7 @@ import { Context } from './Context'
 
 function Books() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet} = useContext(Context)
       
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
@@ -14,10 +14,10 @@ function Books() {
 
    const bookHandshake = handshakeFiveBooks.map((book, index) => (
         <div className="bookHandshake"  key={book.id}>
-            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" style={filterSet(book, handshakeReview)} />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
+            <span className="star-container" style={filterSet(book, handshakeReview)}><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
             { handshakeReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveBooks, handshakeReview, setHandshakeReview)}
@@ -36,10 +36,10 @@ function Books() {
 
     const nowReading = booksReading.map((book, index) => (
         <div className="now_reading"    key={book.id}>
-            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" style={filterSet(book, watchingReview)}/>
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
+            <span className="star-container" style={filterSet(book, watchingReview)}><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
              { watchingReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, booksReading, watchingReview, setWatchingReview)} 
@@ -57,10 +57,10 @@ function Books() {
 
     const recentlyRead = booksRead.map((book, index) => (
         <div className="recently_read"  key={book.id}>
-            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" style={filterSet(book, watchedReview)} />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
+            <span className="star-container" style={filterSet(book, watchedReview)}><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
             { watchedReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, booksRead, watchedReview, setWatchedReview)} 

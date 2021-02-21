@@ -5,22 +5,24 @@ import { Context } from './Context'
 
  function Movies() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle, notReview, setNotReview} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle,filterSet} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
 
     
+   
+    
     
    
         
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
-        <div className={`movieHandshake ${notReview}`}  key={movie.id}>
-            <img src={movie.poster} alt="movie posters" className="movie" />
+        <div className="movieHandshake"  key={movie.id} >
+            <img src={movie.poster} alt="movie posters" className="movie" style={filterSet(movie, handshakeReview)}/>
             <div className="word_box">
-            <h4 className="title">{movie.title}</h4>
-           <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
+            <h4 className="title" >{movie.title}</h4>
+           <span className="star-container" style={filterSet(movie, handshakeReview)}><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { handshakeReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveMovies, handshakeReview, setHandshakeReview)}
@@ -39,10 +41,10 @@ import { Context } from './Context'
 
     const nowWatchingMovies = moviesWatching.map((movie, index) => (
         <div className="now_watching_movies"    key={movie.id}>
-            <img src={movie.poster} alt="movie posters" className="movie" />
+            <img src={movie.poster} alt="movie posters" className="movie" style={filterSet(movie, watchingReview)}/>
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
+            <span className="star-container" style={filterSet(movie, watchingReview)}><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchingReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)} 
@@ -60,10 +62,10 @@ import { Context } from './Context'
 
     const recentlyWatchedMovies = moviesWatched.map((movie, index) => (
         <div className="recently_watched_movies"  key={movie.id}>
-            <img src={movie.poster} alt="movie posters" className="movie" />
+            <img src={movie.poster} alt="movie posters" className="movie"  style={filterSet(movie, watchedReview)}/>
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
-            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
+            <span className="star-container" style={filterSet(movie, watchedReview)}><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
             { watchedReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatched, watchedReview, setWatchedReview)} 

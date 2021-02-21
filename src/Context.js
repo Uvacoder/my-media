@@ -5,7 +5,7 @@ const Context = React.createContext()
 
 function ContextProvider({children}) {
 
-    const [notReview, setNotReview] = useState(true)
+    
 
     function reviewToggle(e, arr, review, setter) {
         let selection = arr[e].id
@@ -14,6 +14,22 @@ function ContextProvider({children}) {
             setter()  
         } 
     }
+
+    function filterSet(item, activeReview) {
+        const baseFilter = { filter: "grayscale(0%)"}
+        const grayscale = { filter: "grayscale(100%)"}
+        const hightLight = { filter: "grayscale(0%)"}
+        if (activeReview === undefined ) {
+            
+            return baseFilter
+        } else if (item.id === activeReview) {
+            return hightLight
+        } else if (item.id !== activeReview) {
+            return grayscale
+        }
+    }
+
+
 
 
 
@@ -35,7 +51,7 @@ function ContextProvider({children}) {
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle, notReview, setNotReview}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet}}>
             {children}
         </Context.Provider>
     )
