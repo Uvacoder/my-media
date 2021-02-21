@@ -18,7 +18,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
-            { handshakeReview === book.review ? 
+            { handshakeReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveBooks, handshakeReview, setHandshakeReview)}
                 style={{display: book.review === "" ? "none" : ""}}
@@ -40,7 +40,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
-             { watchingReview === book.review ? 
+             { watchingReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, booksReading, watchingReview, setWatchingReview)} 
                 style={{display: book.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
@@ -61,7 +61,7 @@ function Books() {
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
-            { watchedReview === book.review ? 
+            { watchedReview === book.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, booksRead, watchedReview, setWatchedReview)} 
                 style={{display: book.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>

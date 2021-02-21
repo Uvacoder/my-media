@@ -21,12 +21,12 @@ import { Context } from './Context'
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
            <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
-            { handshakeReview === movie.review ? 
+            { handshakeReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveMovies, handshakeReview, setHandshakeReview)}
                 style={{display: movie.review === "" ? "none" : ""}}
                 >arrow_drop_up_icon</i>
-                <p className="review" style={{display:  movie.review ? "block" : "none"}}>{movie.review}</p>
+                <p className="review" style={{display:  movie.id ? "block" : "none"}}>{movie.review}</p>
                 </div>
                  :
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, handshakeFiveMovies, handshakeReview, setHandshakeReview)}
@@ -43,11 +43,11 @@ import { Context } from './Context'
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
-            { watchingReview === movie.review ? 
+            { watchingReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)} 
                 style={{display: movie.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
-                <p className="review" style={{display:  movie.review ? "block" : "none"}}>{movie.review}</p>
+                <p className="review" style={{display:  movie.id ? "block" : "none"}}>{movie.review}</p>
                 </div>
                  :
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, moviesWatching, watchingReview, setWatchingReview)}
@@ -64,11 +64,11 @@ import { Context } from './Context'
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
-            { watchedReview === movie.review ? 
+            { watchedReview === movie.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, moviesWatched, watchedReview, setWatchedReview)} 
                 style={{display: movie.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
-                <p className="review" style={{display:  movie.review ? "block" : "none"}}>{movie.review}</p>
+                <p className="review" style={{display:  movie.id ? "block" : "none"}}>{movie.review}</p>
                 </div>
                  :
                  <i className="material-icons arrow_right_icon" onClick={() => reviewToggle(index, moviesWatched, watchedReview, setWatchedReview)}

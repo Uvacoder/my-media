@@ -18,7 +18,7 @@ function Tv() {
              <div className="word_box">
              <h4 className="title">{tv.title}</h4>
              <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
-            { handshakeReview === tv.review ? 
+            { handshakeReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, handshakeFiveTv, handshakeReview, setHandshakeReview)}
                 style={{display: tv.review === "" ? "none" : ""}}
@@ -40,7 +40,7 @@ function Tv() {
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
-            { watchingReview === tv.review ? 
+            { watchingReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatching, watchingReview, setWatchingReview)} 
                 style={{display: tv.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
@@ -62,7 +62,7 @@ function Tv() {
             <div className="word_box"> 
             <h4 className="title">{tv.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
-            { watchedReview === tv.review ? 
+            { watchedReview === tv.id ? 
                 <div>
                 <i className="material-icons arrow_drop_up_icon" onClick={() => reviewToggle(index, tvWatched, watchedReview, setWatchedReview)} 
                 style={{display: tv.review === "" ? "none" : ""}}>arrow_drop_up_icon</i>
