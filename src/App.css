@@ -14,16 +14,31 @@ html, body {
   background: rgba(0, 0, 0); 
 }
 
+.iconNav-container {
+  position: fixed;
+  z-index: 99;
+  width: 20%;
+  height: auto;
+  margin: 1.75rem auto 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .header {
   width: 100%;
   position: fixed;
   height: 5rem;
   top: 0;
-  z-index: 99;
+  z-index: 98;
   background-color: rgba(0, 0, 0, .9);
-  /* display: none; */
   border-bottom: 1px solid silver;
-  backdrop-filter: blur(5px)
+  backdrop-filter: blur(5px);
+  
+}
+
+.nav-container {
+  visibility: hidden;
 }
 
 nav {
@@ -49,6 +64,13 @@ nav > a {
   z-index: 99;
 }
 
+.iconNav-icon > svg:hover {
+  fill: silver;
+  
+}
+
+
+
 .firstAnchor {
   margin-left: 3rem;
 }
@@ -60,6 +82,7 @@ nav > a:hover {
 }
 
 .menu-icon {
+  visibility: hidden;
   font-size: 2.5rem;
   display: block;
   position: absolute;
@@ -289,6 +312,9 @@ nav > a:hover {
 }
 
 @media only screen and (max-width: 750px) {
+  .iconNav-container {
+    width: 25%;
+  }
   nav {
     background-color: rgba(11, 61, 145, .975);
     width: 200px;
@@ -362,10 +388,25 @@ nav > a:hover {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .iconNav-container {
+    width: 40%;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
     width: 100%;
   }
+
+  .iconNav-container {
+    display: none;
+  }
+
+  .nav-container {
+    visibility:visible;
+  }
+
 
   #movies {
     margin-top: 5rem;
@@ -393,6 +434,10 @@ nav > a:hover {
   .copy_footer {
     margin-top: 2rem;
     font-size: .6rem;
+  }
+
+  .menu-icon {
+    visibility:visible;
   }
 
   .close-icon {

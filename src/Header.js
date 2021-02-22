@@ -13,7 +13,7 @@ function Header(){
              onClick={toggle}
              style={{ display: show ? "block" : "none"}}
              >menu_icon</i>
-        <nav style={{display: show ? "none" : "block"}}>
+        <nav style={{display: show ? "none" : "block"}} className="nav-container">
           
           <i className="material-icons close-icon"
               onClick={toggle}
