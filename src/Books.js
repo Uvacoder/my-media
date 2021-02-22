@@ -14,7 +14,7 @@ function Books() {
 
    const bookHandshake = handshakeFiveBooks.map((book, index) => (
         <div className="bookHandshake"  key={book.id} style={filterSet(book, handshakeReview)}>
-            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book"  />
+            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book"  />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
@@ -36,7 +36,7 @@ function Books() {
 
     const nowReading = booksReading.map((book, index) => (
         <div className="now_reading"    key={book.id} style={filterSet(book, watchingReview)}>
-            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
@@ -57,7 +57,7 @@ function Books() {
 
     const recentlyRead = booksRead.map((book, index) => (
         <div className="recently_read"  key={book.id} style={filterSet(book, watchedReview)} >
-            <img src={`http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
+            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
