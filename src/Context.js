@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
 
 const Context = React.createContext()
@@ -16,16 +16,16 @@ function ContextProvider({children}) {
     }
 
     function filterSet(item, activeReview) {
-        const baseFilter = { filter: "grayscale(0%)"}
-        const grayscale = { filter: "grayscale(100%)", opacity: .05}
-        const hightLight = { filter: "grayscale(0%)"}
+        const baseOpacity = {opacity: 1}
+        const hidden = {opacity: .05}
+        const hightLight = {opacity: 1}
         
         if (activeReview === undefined ) {
-            return baseFilter
+            return baseOpacity
         } else if (item.id === activeReview) {
             return hightLight
         } else if (item.id !== activeReview) {
-            return grayscale
+            return hidden
         }
     }
 
