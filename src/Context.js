@@ -1,24 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
 const Context = React.createContext()
 
 function ContextProvider({children}) {
 
-    
+    const [currentReview, setCurrentReview] = useState()
+
 
     function reviewToggle(e, arr, review, setter) {
         let selection = arr[e].id
         setter(selection)
+        setCurrentReview(selection)
         if (selection === review) {
-            setter()  
+            setter() 
+            setCurrentReview()
         } 
     }
 
+
     function filterSet(item, activeReview) {
-        const baseOpacity = {opacity: 1}
-        const hidden = {opacity: .05}
-        const hightLight = {opacity: 1}
+        const baseOpacity = {opacity: 1, transition: ".5s"}
+        const hidden = {opacity: .05, transition: ".5s"}
+        const hightLight = {opacity: 1, transition: ".5s"}
         
         if (activeReview === undefined ) {
             return baseOpacity
@@ -28,6 +32,8 @@ function ContextProvider({children}) {
             return hidden
         }
     }
+
+    const dimmer = {opacity: currentReview === undefined ? 1 : .05, transition: ".5s" }
 
 
 
@@ -51,7 +57,7 @@ function ContextProvider({children}) {
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer}}>
             {children}
         </Context.Provider>
     )

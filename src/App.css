@@ -21,6 +21,7 @@ html, body {
   top: 0;
   z-index: 99;
   background-color: rgba(15, 15, 15, .95);
+  /* display: none; */
 }
 
 nav {
@@ -107,12 +108,12 @@ nav > a:hover {
   text-shadow: -2px 0px 0px rgba(18, 18, 18, .85);;
   padding-top: 10rem;
   margin-left: 20%;
-  font-size: 1.75rem;
+  font-size: 1.5rem ;
   letter-spacing: 2px;
   padding-bottom: 1rem;
   text-align: start;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 900;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -362,6 +363,10 @@ nav > a:hover {
 @media only screen and (max-width: 450px) {
   .currently_reading_flex, .book_handshake_flex, .recently_read_flex, .movies_handshake_flex, .currently_watching_flex, .recently_watched_flex, .tv_handshake_flex, .currently_watching_tv_flex, .recently_watched__tv_flex {
     width: 100%;
+  }
+
+  #movies {
+    margin-top: 5rem;
   }
 
   .section_title {

@@ -4,7 +4,7 @@ import { Context } from './Context'
 
 function Books() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer} = useContext(Context)
       
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
@@ -78,16 +78,16 @@ function Books() {
    
     return (
         <div>
-            <h1 className="section_title" id="books">Books</h1>
-            <h2 className="sub_section_title">Handshake Five</h2>
+            <h1 className="section_title" id="books" style={dimmer}>Books</h1>
+            <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
             {bookHandshake}
             </div>
-            <h2 className="sub_section_title">Currently Reading</h2>
+            <h2 className="sub_section_title" style={dimmer}>Currently Reading</h2>
             <div className="currently_reading_flex">
             {nowReading}
             </div>
-            <h2 className="sub_section_title">Recently Read</h2>
+            <h2 className="sub_section_title" style={dimmer}>Recently Read</h2>
             <div className="recently_read_flex">
             {recentlyRead}
             </div>

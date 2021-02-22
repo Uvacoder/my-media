@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import useToggler from './useToggler'
+import { Context } from './Context'
 
 function Header(){
     const [show, toggle] = useToggler(true)
+    const {dimmer} = useContext(Context)
 
     return (
-        <div  className="header">
+        <div  className="header" style={dimmer}>
         <h1 className="main_title">Media Consumption</h1>
         <i className="material-icons menu-icon" 
              onClick={toggle}

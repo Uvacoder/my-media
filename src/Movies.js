@@ -5,7 +5,7 @@ import { Context } from './Context'
 
  function Movies() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle,filterSet} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle,filterSet, dimmer} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
@@ -83,17 +83,17 @@ import { Context } from './Context'
     
     return (
         <div >
-            <h1 className="section_title" id="movies">Movies</h1>
-            <h2 className="sub_section_title">Handshake Five</h2>
+            <h1 className="section_title" id="movies" style={dimmer}>Movies</h1>
+            <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
             <div className="movies_handshake_flex">
             {handshakeId}
             </div>
-            <h2 className="sub_section_title">Currently Watching
+            <h2 className="sub_section_title" style={dimmer}>Currently Watching
             </h2>
             <div className="currently_watching_flex">
             {nowWatchingMovies}
             </div>
-            <h2 className="sub_section_title">Recently Watched</h2>
+            <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched_flex">
             {recentlyWatchedMovies}
             </div>
