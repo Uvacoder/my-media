@@ -24,6 +24,9 @@ function ContextProvider({children}) {
         const hidden = {opacity: .05, transition: ".5s"}
         const hightLight = {opacity: 1, transition: ".5s"}
         
+        if (currentReview !== undefined && currentReview !== activeReview) {
+            return hidden
+        }
         if (activeReview === undefined ) {
             return baseOpacity
         } else if (item.id === activeReview) {
