@@ -5,10 +5,10 @@ import { Context } from './Context'
 
 export default function IconNav() {
 
-    const {dimmer} = useContext(Context)
+    const {fullDim} = useContext(Context)
 
     return (
-        <div className="iconNav-container" style={dimmer}>
+        <div className="iconNav-container" style={fullDim}>
             <a href="#movies" 
                 style={{fill: "white"}} 
                 className="iconNav-icon" 

@@ -4,10 +4,10 @@ import { Context } from './Context'
 
 function Header(){
     const [show, toggle] = useToggler(true)
-    const {dimmer} = useContext(Context)
+    const {fullDim} = useContext(Context)
 
     return (
-        <div  className="header" style={dimmer}>
+        <div  className="header" style={fullDim}>
         <h1 className="main_title">Media Consumption</h1>
         <i className="material-icons menu-icon" 
              onClick={toggle}

@@ -37,6 +37,7 @@ function ContextProvider({children}) {
     }
 
     const dimmer = {opacity: currentReview === undefined ? 1 : .05, transition: ".5s" }
+    const fullDim = {opacity: currentReview === undefined ? 1 : .0, transition: ".5s" }
 
 
 
@@ -60,7 +61,7 @@ function ContextProvider({children}) {
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim}}>
             {children}
         </Context.Provider>
     )
