@@ -1,5 +1,26 @@
 const moviesWatched = [
     {
+        id: "19827",
+        title: "The In-Laws",
+        poster: "https://image.tmdb.org/t/p/w200/dt82c6NAqBgENPiy7LHNwYiBKkY.jpg",
+        rating: 4,
+        review: "Spy buddy comedy with Peter Falk. That's all you need to sell me. I get that after 40 years its not as edgy as a more recent movie would, be but even still this is a great comedy. You can draw a straight line from something like Meet the Parents or The Hangover to The In-Laws."
+    },
+    {
+        id: "4816",
+        title: "Ghost Dog: The Way of the Samurai",
+        poster: "https://image.tmdb.org/t/p/w200/aw7DbBqiM41Yd5YaJ7mWMoxJCIO.jpg",
+        rating: 3.5,
+        review: "A send up of Le Samouraï. I like this more than Le Samouraï. I like almost every other Melville movie more. In another directors hand this would have been a bad movie. Now it's more of a cult movie, but it's defiantly worth your time. Whitaker much like Walken, we give alot of leeway and alow our minds to adjust to their acting style. I don't no if I need a rumored sequel though."
+    },
+    {
+        id: "100",
+        title: "Lock, Stock and Two Smoking Barrels",
+        poster: "https://image.tmdb.org/t/p/w200/8kSerJrhrJWKLk1LViesGcnrUPE.jpg",
+        rating: 3.5,
+        review: "I saw this movie in the theater and was blown away. It's faded as the years have gone on but it's still a really good movie. Guy Ritchie never really topped this and Snatch for me. Great cast and still a fun time. "
+    },
+    {
         id: "9571",
         title: "Dazed and Confused",
         poster: "https://image.tmdb.org/t/p/w200/yJDJ2svbSHECzhr5tEV9JZTblhV.jpg",

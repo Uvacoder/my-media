@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "73107",
+        title: "Barry",
+        poster: "https://image.tmdb.org/t/p/w200/2rdMty10eLffdDRPkHdc9VXNFJK.jpg",
+        rating: 4,
+        review: "This show reminded me of the late 90's early 00's HBO shows. The perfect length for a show like this and overall just great energy. For a show about acting you get to see every actor play every emotion. I can't wait for season 3."
+    },
+    {
         id: "1809",
         title: "The Odd Couple",
         poster: "https://image.tmdb.org/t/p/w200/5NYUeWc7lXq6pbHDP0Pz3xxKhPC.jpg",
