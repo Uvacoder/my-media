@@ -1,5 +1,26 @@
 const moviesWatched = [
     {
+        id: "90",
+        title: "Beverly Hills Cop",
+        poster: "https://image.tmdb.org/t/p/w200/cCSqo23BEHDcnx7xgFyFqjBykOj.jpg",
+        rating: 4,
+        review: "Sorry but I'm going to personally overrate the first 2 BHC movies. "
+    },
+    {
+        id: "269",
+        title: "Breathless",
+        poster: "https://image.tmdb.org/t/p/w200/9Wx0Wdn2EOqeCZU4SP6tlS3LOml.jpg",
+        rating: 4.5,
+        review: "I come to this film having not been forced to watch it in a class, but also not with complete ignorance of the era or what it's importance is. The jump cuts in this movie are very important to the viewer because they basically excuse all Michele's bad behaviour. When he does something terrible we know he does it, and yet because we never saw it we are not rooting against him. In fact we are rooting for him. He is almost out but then he's betrayed. Michele's is a bad guy from the beginning, but over the course of the movie it plays like we are watching an attorneys defense of him. This movie had me when they mentioned Bob le Flambeur and they really had me when Jean-Pierre Melville showed up.  "
+    },
+    {
+        id: "496603",
+        title: "48 Hours",
+        poster: "https://image.tmdb.org/t/p/w200/wJwoOiZYsugoVaMTMEbFrar5yPS.jpg",
+        rating: 3.5,
+        review: "This is similar to Jordan scoring 63 against the Celtics. It announces Eddie Murphy as a star. James Remar is great playing really evil. At the end when he can't believe he's been shot. The last section is a really great action scene. I still prefer the Beverly Hill Cop series though."
+    },
+    {
         id: "19827",
         title: "The In-Laws",
         poster: "https://image.tmdb.org/t/p/w200/dt82c6NAqBgENPiy7LHNwYiBKkY.jpg",
