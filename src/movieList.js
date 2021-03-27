@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "96",
+        title: "Beverly Hills Cop II",
+        poster: "https://image.tmdb.org/t/p/w200/yPXAvRwhstvr8gSmAb8sfJTCORS.jpg",
+        rating: 3.5,
+        review: "For most of my life I've thought that this was superior to BHC, but during this viewing it became clear to me that one was a better movies. I love Tony Scott movies but if BHC was a softer 48 Hours than this was a watered down version of BHC. Every beat from one is redone but not as well. I still want the jacket, and the car. The soundtrack is great and Gilbert steals the movies."
+    },
+    {
         id: "90",
         title: "Beverly Hills Cop",
         poster: "https://image.tmdb.org/t/p/w200/cCSqo23BEHDcnx7xgFyFqjBykOj.jpg",
