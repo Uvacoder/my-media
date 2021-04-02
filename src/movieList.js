@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "44800",
+        title: "The Gambler",
+        poster: "https://image.tmdb.org/t/p/w200/wyZyUHOm14wmStWnuBjflOkzajt.jpg",
+        rating: 4,
+        review: "This is Leaving Las Vegas for gambling. The spiral down and in the end it isn't about winning or losing it's about the juice. The whole movie can be summed up by the last frame and the look on grin on his face."
+    },
+    {
+        id: "11595",
+        title: "Another 48 Hrs.",
+        poster: "https://image.tmdb.org/t/p/w200/2gQaZQ6REriS7Gclv1akT5Urwgf.jpg",
+        rating: 3,
+        review: "I like the movie and it's really intense but it falls apart. The action scenes were better in the first movie. The ending is just way too convoluted. How about the fact that they have an actor that looks like he could be James Remars brother while having someone who doesn't look like Remar as the brother"
+    },
+    {
         id: "96",
         title: "Beverly Hills Cop II",
         poster: "https://image.tmdb.org/t/p/w200/yPXAvRwhstvr8gSmAb8sfJTCORS.jpg",
