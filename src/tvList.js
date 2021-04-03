@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "18347",
+        title: "Community",
+        poster: "https://image.tmdb.org/t/p/w200/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
+        rating: 4,
+        review: "A really fun and imaginative show. Like almost every comedy show on NBC at the time, it never saw its full potential due to NBC's upper management.  "
+    },
+    {
         id: "73107",
         title: "Barry",
         poster: "https://image.tmdb.org/t/p/w200/2rdMty10eLffdDRPkHdc9VXNFJK.jpg",
@@ -13,6 +20,7 @@ const tvWatched = [
         rating: 4.5,
         review: "Over 50 years old and still great. You could pluck Klugman and Randall out of time and put a modern version and it would still be funny. Every generation some young tv exec will try to remake it, and they just won't get what makes it special."
     },
+    
     {
         id: "69886",
         title: "Ultimate Beastmaster",
@@ -98,6 +106,13 @@ const tvWatched = [
         review: "A fun show that really depends on who the guest is. The episodes with Jerry's friends are 1000% better than the rest. The best episode is the one with Garry Shandling. "
     },
     {
+        id: "60694",
+        title: "Last Week Tonight with John Oliver",
+        poster: "https://image.tmdb.org/t/p/w200/hUpW9ZakeKpgIzvkck2T59RCHcH.jpg",
+        rating: 3,
+        review: "It's a fun if not infuriating watch. The number of researchers that they must employ. The best parts are And Now This or when John wastes HBO's money on something strange. "
+    },
+    {
         id: "66732",
         title: "Stranger Things",
         poster: "https://image.tmdb.org/t/p/w200/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
@@ -117,6 +132,13 @@ const tvWatched = [
         poster: "https://image.tmdb.org/t/p/w200/m4iNYM0ZaaH10Qzebd9dwSa6Zy6.jpg",
         rating: 4,
         review: "If you took Tim & Eric down a notch and turned up SNL, this is what you'd get. Highly quotable and memorable. This is the only sketch show that matter right now."
+    },
+    {
+        id: "60625",
+        title: "Rick and Morty",
+        poster: "https://image.tmdb.org/t/p/w200/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg",
+        rating: 4.5,
+        review: "The only animated show that I watch. I'm watching for the 4th season to show up on streaming. The Ricklantis Mixup is one of the best single episodes of a show to come out.  "
     },
     {
         id: "62560",
@@ -199,14 +221,6 @@ const tvWatching = [
         review: ""
     },
     {
-        id: "18347",
-        title: "Community",
-        poster: "https://image.tmdb.org/t/p/w200/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
-        rating: 4,
-        review: "A really fun and imaginative show. Like almost every comedy show on NBC at the time, it never saw its full potential due to NBC's upper management.  "
-    },
-    
-    {
         id: "1438",
         title: "The Wire",
         poster: "https://image.tmdb.org/t/p/w200/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
@@ -226,13 +240,6 @@ const tvWatching = [
         poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
         rating: 5,
         review: "Meta before meta. Such a perfect show that was so far ahead of it's time. Hank Kingsley is one of the greatest characters in TV history. It pairs well with Seinfeld and the Bill Carter books The Late Shift and The War for Late Night. "
-    },
-    {
-        id: "60625",
-        title: "Rick and Morty",
-        poster: "https://image.tmdb.org/t/p/w200/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg",
-        rating: 4,
-        review: "The only animated show that I watch. I'm watching for the 4th season to show up on streaming. The Ricklantis Mixup is one of the best single episodes of a show to come out.  "
     },
     {
         id: "2710",
@@ -262,13 +269,7 @@ const tvWatching = [
         rating: 3,
         review: "I love everything Jack Ryan so I was onboard. Ive become bogged down in the middle of season one though."
     },
-    {
-        id: "60694",
-        title: "Last Week Tonight with John Oliver",
-        poster: "https://image.tmdb.org/t/p/w200/hUpW9ZakeKpgIzvkck2T59RCHcH.jpg",
-        rating: 3,
-        review: "It's a fun if not infuriating watch. The number of researchers that they must employ. The best parts are And Now This or when John wastes HBO's money on something strange. "
-    },
+    
    
 ]
 
