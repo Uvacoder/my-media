@@ -537,6 +537,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "107",
+        title: "Snatch",
+        poster: "https://image.tmdb.org/t/p/w200/56mOJth6DJ6JhgoE2jtpilVqJO.jpg",
+        rating: 3.5,
+        review: ""
+    },
+    {
         id: "5919",
         title: "The Towering Inferno",
         poster: "https://image.tmdb.org/t/p/w200/mFM1GbrRrT3DWUFFo8koSITFnYe.jpg",
