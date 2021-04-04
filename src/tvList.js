@@ -1,5 +1,19 @@
 const tvWatched = [
     {
+        id: "753563",
+        title: "A West Wing Special to Benefit When We All Vote",
+        poster: "https://image.tmdb.org/t/p/w200/wmqqLKSm7d6Wwjupm4sOUodnAg9.jpg",
+        rating: 4,
+        review: "I'll be honest, I fast forwarded through the breaks. Sorkin came up as a playwright so its unsurprising that his scenes work so well on stage. There are probably 40 episodes that would have worked in this form. I really hope that this could become a semi annual series of plays. But it won't. I'm still holding out hope for a Sam Seaborn show."
+    },
+    {
+        id: "114604",
+        title: "Schulz Saves America",
+        poster: "https://image.tmdb.org/t/p/w200/uiM03VZDbxuNPmlVBC0TwgXkYfs.jpg",
+        rating: 3.5,
+        review: "If you could buy stock in peoples careers, and I'm sure that day is coming the two comedians that are about to explode are Andrew Schulz and Andrew Santino. This is a pretty good first mainstream effort. I would also suggest that you watch each episode more than once to get all the jokes. "
+    },
+    {
         id: "18347",
         title: "Community",
         poster: "https://image.tmdb.org/t/p/w200/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",

@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "522627",
+        title: "The Gentlemen",
+        poster: "https://image.tmdb.org/t/p/w200/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+        rating: 3.5,
+        review: "It's a thinly veiled homage to A Long Good Friday which might be the greatest British crime film of all time. I really thought for most of this movie that it was a Matthew Vaughan movie. I like the movie but I didn't love it. It's an enjoyable watch sure but way too over stylized. If you love Guy Ritchie movies, you'll love this. But I'm guy not sure that Rithie has grown as a director."
+    },
+    {
         id: "107",
         title: "Snatch",
         poster: "https://image.tmdb.org/t/p/w200/56mOJth6DJ6JhgoE2jtpilVqJO.jpg",
@@ -543,6 +550,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "11258",
+        title: "Hard Rain",
+        poster: "https://image.tmdb.org/t/p/w200/hhG5ppaEQIV83GbUVfPlBMDFvVu.jpg",
+        rating: 3,
+        review: ""
+    },
     {
         id: "2142",
         title: "Cop Land",
