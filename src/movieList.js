@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "107",
+        title: "Snatch",
+        poster: "https://image.tmdb.org/t/p/w200/56mOJth6DJ6JhgoE2jtpilVqJO.jpg",
+        rating: 3,
+        review: "I liked the movie but not as much as Lock, Stock. It's an easy watch and better made than Lock, Stock but other than some more well known actors I don't think its an improvement. Anything with Steven Graham though can't be too bad."
+    },
+    {
         id: "44800",
         title: "The Gambler",
         poster: "https://image.tmdb.org/t/p/w200/wyZyUHOm14wmStWnuBjflOkzajt.jpg",
@@ -537,10 +544,10 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
-        id: "107",
-        title: "Snatch",
-        poster: "https://image.tmdb.org/t/p/w200/56mOJth6DJ6JhgoE2jtpilVqJO.jpg",
-        rating: 3.5,
+        id: "2142",
+        title: "Cop Land",
+        poster: "https://image.tmdb.org/t/p/w200/qzR7m6kUhsbdid3xRK2jTXjyNmG.jpg",
+        rating: 4,
         review: ""
     },
     {
