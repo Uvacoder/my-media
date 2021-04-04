@@ -1,5 +1,4 @@
-import { red } from '@material-ui/core/colors'
-import React, {useState, useContext} from 'react'
+import React, {useContext} from 'react'
 import { Context } from './Context'
 
 
