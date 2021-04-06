@@ -173,11 +173,15 @@ nav > a {
   margin-top: -.5rem;
 }
 
+
+
 .star-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 .half-star {
   color: gold;
@@ -218,6 +222,10 @@ nav > a {
   margin-top: -1rem;
   margin-left: -1rem;
   box-shadow: 5px 5px 500px -3px rgba(255, 215, 0, .25);
+}
+
+.review:hover {
+  cursor: text;
 }
 
 .arrow_right_icon {
