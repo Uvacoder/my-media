@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "2142",
+        title: "Cop Land",
+        poster: "https://image.tmdb.org/t/p/w200/qzR7m6kUhsbdid3xRK2jTXjyNmG.jpg",
+        rating: 4,
+        review: "Part On The Waterfront, part High Noon. Cop Land has one of the best casts for what at the time was a smaller movie. Stallone would have you believe that this movie hurt his career and it's simply not true. Cop Land was one of the few bright spots in a downward trend. "
+    },
+    {
         id: "522627",
         title: "The Gentlemen",
         poster: "https://image.tmdb.org/t/p/w200/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
@@ -555,13 +562,6 @@ const moviesWatching = [
         title: "Hard Rain",
         poster: "https://image.tmdb.org/t/p/w200/hhG5ppaEQIV83GbUVfPlBMDFvVu.jpg",
         rating: 3,
-        review: ""
-    },
-    {
-        id: "2142",
-        title: "Cop Land",
-        poster: "https://image.tmdb.org/t/p/w200/qzR7m6kUhsbdid3xRK2jTXjyNmG.jpg",
-        rating: 4,
         review: ""
     },
     {

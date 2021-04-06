@@ -21,6 +21,13 @@ const tvWatched = [
         review: "A really fun and imaginative show. Like almost every comedy show on NBC at the time, it never saw its full potential due to NBC's upper management.  "
     },
     {
+        id: "2710",
+        title: "It's Always Sunny in Philadelphia",
+        poster: "https://image.tmdb.org/t/p/w200/xX3vAWdCb828T48HM9OvvD0p4PC.jpg",
+        rating: 3,
+        review: "Now the show is more hit or miss. I still like when a new season shows up on streaming but I now pick and choose rather than bingeing. "
+    },
+    {
         id: "73107",
         title: "Barry",
         poster: "https://image.tmdb.org/t/p/w200/2rdMty10eLffdDRPkHdc9VXNFJK.jpg",
@@ -254,13 +261,6 @@ const tvWatching = [
         poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
         rating: 5,
         review: "Meta before meta. Such a perfect show that was so far ahead of it's time. Hank Kingsley is one of the greatest characters in TV history. It pairs well with Seinfeld and the Bill Carter books The Late Shift and The War for Late Night. "
-    },
-    {
-        id: "2710",
-        title: "It's Always Sunny in Philadelphia",
-        poster: "https://image.tmdb.org/t/p/w200/xX3vAWdCb828T48HM9OvvD0p4PC.jpg",
-        rating: 3,
-        review: "Now the show is more hit or miss. I still like when a new season shows up on streaming but I now pick and choose rather than bingeing. "
     },
     {
         id: "1406",
