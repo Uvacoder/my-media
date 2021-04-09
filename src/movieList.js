@@ -558,6 +558,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "8052",
+        title: "Hard Eight",
+        poster: "https://image.tmdb.org/t/p/w200/1l5UaoP25Ak8PWCKIULQz70yF03.jpg",
+        rating: 3.5,
+        review: ""
+    },
+    {
         id: "11258",
         title: "Hard Rain",
         poster: "https://image.tmdb.org/t/p/w200/hhG5ppaEQIV83GbUVfPlBMDFvVu.jpg",

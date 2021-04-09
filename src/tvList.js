@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "9890",
+        title: "The Dick Cavett Show",
+        poster: "https://image.tmdb.org/t/p/w200/uDkndfnwbEGeSY4YmZbTRg4U5RQ.jpg",
+        rating: 4.5,
+        review: "I know that certain podcasters and hosts lately have been called great interviewers and maybe they are. But they are also compared to television that can't have one segment without running music under someone talking. You can hear the modern greats wind up to ask one of their lists of questions. Cavett is an all time great. Few interviewers give their guests such a rub. Find a guest you might be interested in and watch. Tell me who could get more out of them."
+    },
+    {
         id: "753563",
         title: "A West Wing Special to Benefit When We All Vote",
         poster: "https://image.tmdb.org/t/p/w200/wmqqLKSm7d6Wwjupm4sOUodnAg9.jpg",
