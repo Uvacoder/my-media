@@ -1,4 +1,19 @@
 const moviesWatched = [
+    
+    {
+        id: "11258",
+        title: "Hard Rain",
+        poster: "https://image.tmdb.org/t/p/w200/hhG5ppaEQIV83GbUVfPlBMDFvVu.jpg",
+        rating: 3.5,
+        review: "A fun action thriller. You can see the turns a mile away but the action is fun. I get that as the movie goes along it becomes more ridiculous but I know what I'm in for with this type of movie. Make no mistake that if they made this movie today, the things that were over the top would be multiplied 1000 times. "
+    },
+    {
+        id: "8052",
+        title: "Hard Eight",
+        poster: "https://image.tmdb.org/t/p/w200/1l5UaoP25Ak8PWCKIULQz70yF03.jpg",
+        rating: 3.5,
+        review: "Philip Baker Hall is one of those actors that people who watch a lot of movie love seeing in the movie that they've decided to watch. Much like David Paymer. PBH is great as the lead for once. I get the sense though that if I started to pull on some of the strings the plot might fall apart. A nice debut for Paul Thomas Anderson.  "
+    },
     {
         id: "2142",
         title: "Cop Land",
@@ -557,20 +572,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "8052",
-        title: "Hard Eight",
-        poster: "https://image.tmdb.org/t/p/w200/1l5UaoP25Ak8PWCKIULQz70yF03.jpg",
-        rating: 3.5,
-        review: ""
-    },
-    {
-        id: "11258",
-        title: "Hard Rain",
-        poster: "https://image.tmdb.org/t/p/w200/hhG5ppaEQIV83GbUVfPlBMDFvVu.jpg",
-        rating: 3,
-        review: ""
-    },
     {
         id: "5919",
         title: "The Towering Inferno",
