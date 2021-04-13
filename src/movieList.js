@@ -573,6 +573,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "32044",
+        title: "California Split",
+        poster: "https://image.tmdb.org/t/p/w200/zvHUfMKmo9EUWRrbV4LHFkdjWSh.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
         id: "5919",
         title: "The Towering Inferno",
         poster: "https://image.tmdb.org/t/p/w200/mFM1GbrRrT3DWUFFo8koSITFnYe.jpg",
