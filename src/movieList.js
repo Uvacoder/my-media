@@ -573,6 +573,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "10363",
+        title: "Plein soleil",
+        poster: "https://image.tmdb.org/t/p/w200/7n1KNXs4OFfeVLjJ3g10M8oK1fM.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "32044",
         title: "California Split",
         poster: "https://image.tmdb.org/t/p/w200/zvHUfMKmo9EUWRrbV4LHFkdjWSh.jpg",
