@@ -231,6 +231,13 @@ const tvWatched = [
         rating: 4,
         review: "I'm in on any adaptation of John le Carré. Tom Hiddleston and Hugh Laurie going toe to toe. A very thrilling watch thats on high end of le John le Carré adaptation's. "
     },
+    {
+        id: "1915a",
+        title: "The Larry Sanders Show",
+        poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
+        rating: 5,
+        review: "Meta before meta. Such a perfect show that was so far ahead of it's time. Hank Kingsley is one of the greatest characters in TV history. It pairs well with Seinfeld and the Bill Carter books The Late Shift and The War for Late Night. "
+    },
 ]
 
 const tvWatching = [
@@ -262,13 +269,7 @@ const tvWatching = [
         rating: 4,
         review: "A really good show where the couple seem like they enjoy digging a deeper hole rather than ever getting out. I'm close to the beginning of the 3rd season. "
     },
-    {
-        id: "1915a",
-        title: "The Larry Sanders Show",
-        poster: "https://image.tmdb.org/t/p/w200/qMRVylcs6y2naOp7s6RIawELTAL.jpg",
-        rating: 5,
-        review: "Meta before meta. Such a perfect show that was so far ahead of it's time. Hank Kingsley is one of the greatest characters in TV history. It pairs well with Seinfeld and the Bill Carter books The Late Shift and The War for Late Night. "
-    },
+    
     {
         id: "1406",
         title: "Deadwood",
