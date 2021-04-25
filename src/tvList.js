@@ -7,6 +7,13 @@ const tvWatched = [
         review: "I know that certain podcasters and hosts lately have been called great interviewers and maybe they are. But they are also compared to television that can't have one segment without running music under someone talking. You can hear the modern greats wind up to ask one of their lists of questions. Cavett is an all time great. Few interviewers give their guests such a rub. Find a guest you might be interested in and watch. Tell me who could get more out of them."
     },
     {
+        id: "109332",
+        title: "The Comedy Store",
+        poster: "https://image.tmdb.org/t/p/w200/5ya8191KScDWpfB1z1v4iuMgk3z.jpg",
+        rating: 3.5,
+        review: "Who knew that it would be almost a fitting end to a high water mark at the Comedy Store. But because of the pandemic and a lot of talent leaving L.A. thats what the doc has turned into. I will say though that I'm a little sick and tired of the technique of taking a photo and adding a 3d effect to the background. This is so over used in documentaries. It was cool the first time someone did it, now it takes away from an image. "
+    },
+    {
         id: "753563",
         title: "A West Wing Special to Benefit When We All Vote",
         poster: "https://image.tmdb.org/t/p/w200/wmqqLKSm7d6Wwjupm4sOUodnAg9.jpg",
@@ -241,13 +248,6 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-    {
-        id: "109332",
-        title: "The Comedy Store",
-        poster: "https://image.tmdb.org/t/p/w200/5ya8191KScDWpfB1z1v4iuMgk3z.jpg",
-        rating: 3.5,
-        review: ""
-    },
     {
         id: "79525",
         title: "The Last Dance",

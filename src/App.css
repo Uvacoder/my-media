@@ -185,9 +185,9 @@ nav > a {
 
 .half-star {
   color: gold;
-  margin-top: -1.5rem;
+  margin-top: -1rem;
   margin-left: .25rem;
-  font-size: .1rem;
+  font-size: .5rem;
 }
 .title {
   font-size: .75rem;
