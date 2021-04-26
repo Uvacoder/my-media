@@ -249,6 +249,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "1920",
+        title: "Twin Peaks: The Return",
+        poster: "https://image.tmdb.org/t/p/w200/ei7odFMfdnNV9pr5LyfrAAQOFes.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "79525",
         title: "The Last Dance",
         poster: "https://image.tmdb.org/t/p/w200/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
