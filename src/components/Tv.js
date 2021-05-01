@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react'
-import {tvWatched, tvWatching, handshakeFiveTv} from './tvList'
-import { Context } from './Context'
+import {tvWatched, tvWatching, handshakeFiveTv} from '../data/tvList'
+import { Context } from '../Context'
 
 function Tv() {
 

@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react'
-import {booksReading, booksRead, handshakeFiveBooks} from './bookList'
-import { Context } from './Context'
+import {booksReading, booksRead, handshakeFiveBooks} from '../data/bookList'
+import { Context } from '../Context'
 
 function Books() {
 
@@ -14,7 +14,7 @@ function Books() {
 
    const bookHandshake = handshakeFiveBooks.map((book, index) => (
         <div className="bookHandshake"  key={book.id} style={filterSet(book, handshakeReview)}>
-            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book"  />
+            <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
             <h4 className="title">{book.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(book.rating)}</h4><h4 className="half-star">{halfStarMaker(book.rating)}</h4></span>
@@ -78,7 +78,7 @@ function Books() {
    
     return (
         <div>
-            <h1 className="section_title" id="books" style={dimmer}>Books</h1>
+            <h1 className="section_title" id="books"  style={dimmer}>Books</h1>
             <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
             {bookHandshake}

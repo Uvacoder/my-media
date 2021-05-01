@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react'
-import { handshakeFiveMovies, moviesWatched, moviesWatching } from './movieList'
-import { Context } from './Context'
+import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movieList'
+import { Context } from '../Context'
 
 
  function Movies() {

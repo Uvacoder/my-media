@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import Books from './Books'
-import Movies from './Movies'
-import Tv from './Tv'
-import Footer from './Footer'
-import Header from './Header'
-import IconNav from './IconNav'
+import './style/App.css';
+import Books from './components/Books'
+import Movies from './components/Movies'
+import Tv from './components/Tv'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import IconNav from './components/IconNav'
 
 
 function App() {

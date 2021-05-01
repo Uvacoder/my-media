@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
-import useToggler from './useToggler'
-import { Context } from './Context'
+import useToggler from '../useToggler'
+import { Context } from '../Context'
 
 function Header(){
     const [show, toggle] = useToggler(true)
