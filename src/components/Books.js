@@ -78,16 +78,16 @@ function Books() {
    
     return (
         <div>
-            <h1 className="section_title" id="books"  style={dimmer}>Books</h1>
-            <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
+            <h1 className="section_title" id="books"   style={dimmer}>Books</h1>
+            <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
             {bookHandshake}
             </div>
-            <h2 className="sub_section_title" style={dimmer}>Currently Reading</h2>
+            <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Reading</h2>
             <div className="currently_reading_flex">
             {nowReading}
             </div>
-            <h2 className="sub_section_title" style={dimmer}>Recently Read</h2>
+            <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Read</h2>
             <div className="recently_read_flex">
             {recentlyRead}
             </div>
