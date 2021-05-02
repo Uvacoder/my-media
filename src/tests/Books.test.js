@@ -3,7 +3,17 @@ import { render, fireEvent, cleanup } from '@testing-library/react'
 import Books from '../components/Books'
 import {ContextProvider} from '../Context'
 import Context from '../Context'
-import { ExpansionPanelActions } from '@material-ui/core'
+
+
+afterEach(cleanup)
+
+test('take a snapshot of Books', () => {
+    const { asFragment } = render(<ContextProvider><Books /></ContextProvider>)
+    expect(asFragment(<Books />)).toMatchSnapshot()
+})
+
+
+
 
 
 test('check book component render', () => {

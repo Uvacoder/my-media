@@ -1,0 +1,1041 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`take a snapshot of Books 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="section_title"
+      id="books"
+      style="opacity: 1; transition: .5s;"
+    >
+      Books
+    </h1>
+    <h2
+      class="sub_section_title"
+      style="opacity: 1; transition: .5s;"
+      title="handShakeFiveBooks"
+    >
+      Handshake Five
+    </h2>
+    <div
+      class="book_handshake_flex"
+    >
+      <div
+        class="bookHandshake"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0802130208-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            A Confederacy of Dunces
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="bookHandshake"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0061177571-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Post Office
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="bookHandshake"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780553381344-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Bonfire of the Vanities
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="bookHandshake"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0345476093-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Guns of August
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="bookHandshake"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0385333846-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Slaughterhouse-Five
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+    </div>
+    <h2
+      class="sub_section_title"
+      style="opacity: 1; transition: .5s;"
+      title="currentlyReading"
+    >
+      Currently Reading
+    </h2>
+    <div
+      class="currently_reading_flex"
+    >
+      <div
+        class="now_reading"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780300120486-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Caesar Life of a Colossus
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+            style="display: none;"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="now_reading"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780606107211-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Heir to the Empire
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="now_reading"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0345332687-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            London Match
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+            style="display: none;"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="now_reading"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780679746492-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            What It Takes: The Way to the White House
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="now_reading"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0441012035-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Neuromancer
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+            style="display: none;"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+    </div>
+    <h2
+      class="sub_section_title"
+      style="opacity: 1; transition: .5s;"
+      title="recentlyRead"
+    >
+      Recently Read
+    </h2>
+    <div
+      class="recently_read_flex"
+    >
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0393038912-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Guns, germs, and steel
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/044376256-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Adventures in the Screen Trade
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780060539825-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Burning Chrome
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0345314999-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Mexico set
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780345418340-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Berlin game
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0446677736-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Score
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780446677721-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Mourner
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0140185003-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Quiet American
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780140184938-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Our Man in Havana
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780876852637-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Factotum
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0061177571-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Post Office
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780876859261-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Pulp
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/1626566747-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The New Confessions of an Economic Hit Man
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0446674672-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Outfit
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0446674664-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Man With The Getaway Face
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0226770990-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            The Hunter
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/0345520491-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Dream Team
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            >
+              1/2
+            </h4>
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
