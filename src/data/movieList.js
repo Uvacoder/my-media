@@ -573,6 +573,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "45138",
+        title: "Machine Gun McCain",
+        poster: "https://image.tmdb.org/t/p/w200/jcMfYvVJyHRUhr4xgsxTO61qKMo.jpg",
+        rating: 3.5,
+        review: ""
+    },
+    {
         id: "10363",
         title: "Plein soleil",
         poster: "https://image.tmdb.org/t/p/w200/7n1KNXs4OFfeVLjJ3g10M8oK1fM.jpg",
