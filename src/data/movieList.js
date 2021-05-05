@@ -1,4 +1,11 @@
 const moviesWatched = [
+    {
+        id: "45138",
+        title: "Machine Gun McCain",
+        poster: "https://image.tmdb.org/t/p/w200/jcMfYvVJyHRUhr4xgsxTO61qKMo.jpg",
+        rating: 3.5,
+        review: "The movie ends like every European crime movie. Cassavetes and Falk in a movie is an instant watch for me. They never actually rub up against each other though. The dubbing was a little distracting."
+    },
     
     {
         id: "11258",
@@ -572,13 +579,7 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "45138",
-        title: "Machine Gun McCain",
-        poster: "https://image.tmdb.org/t/p/w200/jcMfYvVJyHRUhr4xgsxTO61qKMo.jpg",
-        rating: 3.5,
-        review: ""
-    },
+   
     {
         id: "10363",
         title: "Plein soleil",
