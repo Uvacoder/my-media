@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "14886",
+        title: "The Last Detail",
+        poster: "https://image.tmdb.org/t/p/w200/eZnywWVD5iZZ2LjXhi03qXa36JF.jpg",
+        rating: 4,
+        review: "Nicholson has another great performance maybe his one of his best. Another gem in the heart of Hal Ashby's string of great movies."
+    },
+    {
         id: "45138",
         title: "Machine Gun McCain",
         poster: "https://image.tmdb.org/t/p/w200/jcMfYvVJyHRUhr4xgsxTO61qKMo.jpg",
@@ -579,7 +586,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-   
+    {
+        id: "26719",
+        title: "House of Games",
+        poster: "https://image.tmdb.org/t/p/w200/pIWXSYrXlMcULRwmSHyO36RTHrq.jpg",
+        rating: 3.5,
+        review: ""
+    },
     {
         id: "10363",
         title: "Plein soleil",
