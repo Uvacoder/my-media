@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "26719",
+        title: "House of Games",
+        poster: "https://image.tmdb.org/t/p/w200/pIWXSYrXlMcULRwmSHyO36RTHrq.jpg",
+        rating: 4,
+        review: "I wouldn't suggest shotgunning a handful of Mamet movies in a row, it can be a little much. Everything that makes Mamet movie is here; the rain, the empty streets, the dialogue. But this is a really good con artist movie, and its greatest feat is how you as the viewer can be ahead of the main character in regards to the con at points and then fall back behind."
+    },
+    {
         id: "14886",
         title: "The Last Detail",
         poster: "https://image.tmdb.org/t/p/w200/eZnywWVD5iZZ2LjXhi03qXa36JF.jpg",
@@ -586,13 +593,7 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "26719",
-        title: "House of Games",
-        poster: "https://image.tmdb.org/t/p/w200/pIWXSYrXlMcULRwmSHyO36RTHrq.jpg",
-        rating: 3.5,
-        review: ""
-    },
+    
     {
         id: "10363",
         title: "Plein soleil",
