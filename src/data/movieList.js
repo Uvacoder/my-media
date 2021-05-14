@@ -593,7 +593,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    
+    {
+        id: "1923",
+        title: "Twin Peaks: Fire Walk with Me",
+        poster: "https://image.tmdb.org/t/p/w200/mxsGXqetGnirf99qapYd5MMY1VL.jpg",
+        rating: 4,
+        review: ""
+    },
     {
         id: "10363",
         title: "Plein soleil",
