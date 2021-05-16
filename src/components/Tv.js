@@ -14,7 +14,7 @@ function Tv() {
 
     const handshakeTv = handshakeFiveTv.map((tv, index) => (
         <div className="tvHandshake"  key={tv.id} style={filterSet(tv, handshakeReview)}>
-             <img src={tv.poster} alt="tv posters" className="tv" />
+             <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
              <div className="word_box">
              <h4 className="title">{tv.title}</h4>
              <span className="star-container" ><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
@@ -36,7 +36,7 @@ function Tv() {
 
     const nowWatchingTv = tvWatching.map((tv, index) => (
         <div className="now_watching_tv"    key={tv.id} style={filterSet(tv, watchingReview)}>
-             <img src={tv.poster} alt="tv posters" className="tv" />
+             <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
              <div className="word_box">
             <h4 className="title">{tv.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>
@@ -58,7 +58,7 @@ function Tv() {
 
     const recentlyWatchedTv = tvWatched.map((tv, index) => (
         <div className="recently_watched_tv"  key={tv.id} style={filterSet(tv, watchedReview)}>
-            <img src={tv.poster} alt="tv posters" className="tv" />
+            <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
             <div className="word_box"> 
             <h4 className="title">{tv.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(tv.rating)}</h4><h4 className="half-star">{halfStarMaker(tv.rating)}</h4></span>

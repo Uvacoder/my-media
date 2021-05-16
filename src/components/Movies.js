@@ -19,7 +19,7 @@ import { Context } from '../Context'
         
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
         <div className="movieHandshake"  key={movie.id} style={filterSet(movie, handshakeReview)}>
-            <img src={movie.poster} alt="movie posters" className="movie" />
+            <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title" >{movie.title}</h4>
            <span className="star-container" ><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
@@ -41,7 +41,7 @@ import { Context } from '../Context'
 
     const nowWatchingMovies = moviesWatching.map((movie, index) => (
         <div className="now_watching_movies"    key={movie.id} style={filterSet(movie, watchingReview)}>
-            <img src={movie.poster} alt="movie posters" className="movie" />
+            <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie" />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <span className="star-container"><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
@@ -62,7 +62,7 @@ import { Context } from '../Context'
 
     const recentlyWatchedMovies = moviesWatched.map((movie, index) => (
         <div className="recently_watched_movies"  key={movie.id}  style={filterSet(movie, watchedReview)}>
-            <img src={movie.poster} alt="movie posters" className="movie"  />
+            <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie"  />
             <div className="word_box">
             <h4 className="title">{movie.title}</h4>
             <span className="star-container" ><h4 className="star">{ fullStarMaker(movie.rating)}</h4><h4 className="half-star">{halfStarMaker(movie.rating)}</h4></span>
