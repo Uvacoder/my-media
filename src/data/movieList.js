@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "603",
+        title: "The Matrix",
+        poster: "/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        rating: 3.5,
+        review: "This was the first killer movie experience that made people run out and by a dvd player. The effects don't age to badly but that has more to do with the look of the movie. Now a lot of the movie is ripped from other sources. That's probably what make's this movie so good and the sequels so bad."
+    },
+    {
         id: "26719",
         title: "House of Games",
         poster: "/pIWXSYrXlMcULRwmSHyO36RTHrq.jpg",
