@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "1920",
+        title: "Twin Peaks: The Return",
+        poster: "/ei7odFMfdnNV9pr5LyfrAAQOFes.jpg",
+        rating: 4,
+        review: "People like to lament that we'll never see anything like that anymore while also saying that what just happened is the greatest thing to ever happen. But with the way creators today basically spoon feed their viewers both in the actual content and then in subsequent interviews, it's rare to see someone like David Lynch that lets you come to your own conclusions. I think that this season of Twin Peaks was able to tie both the first run and the movie together while also being standalone. I also think that the penultimate episode was really beautiful and that the final episode showed just how impossible Dale Coopers attempts to save Laura Palmer ultimately are."
+    },
+    {
         id: "9890",
         title: "The Dick Cavett Show",
         poster: "/uDkndfnwbEGeSY4YmZbTRg4U5RQ.jpg",
@@ -248,13 +255,7 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-    {
-        id: "1920",
-        title: "Twin Peaks: The Return",
-        poster: "/ei7odFMfdnNV9pr5LyfrAAQOFes.jpg",
-        rating: 4,
-        review: ""
-    },
+    
     {
         id: "79525",
         title: "The Last Dance",
