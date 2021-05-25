@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "503736",
+        title: "Army of the Dead",
+        poster: "/x3taBaWfRzw1NIKhEPpKPwKBAOC.jpg",
+        rating: 2.5,
+        review: "I guess I'm one of the few people on the internet that doesn't have a strong opinion one way or another on Zach Snyder. This movie though is a mess. It's both too long and too short at the same time. There are a lot of storylines that could have been fleshed out over a series but a given short shrift  We have now reached the era in which movie writing has come down to the quality of video game writing. From a golden age of TV to an era of quantity over quality. I will say that Dave Bautista is really good as an action star that can play vulnerable. When he puts his reading glasses on in a movie a 300lber is suddenly becomes fragile."
+    },
+    {
+        id: "6946813",
+        title: "The Last Blockbuster",
+        poster: "/wnsryyae99q7YmbKaH4sqmZS2Qr.jpg",
+        rating: 2.5,
+        review: "Watching this movie I started to wonder if it was worse to have to sit through 20 minutes of commercials in an hour show or was it worse to have to watch 90 minutes of a movie that should have been a hour. I miss video rental stores and I was a charter member when Netflix started but I have no love for Blockbuster. This movie plays like a Netflix and Blockbuster joint propaganda film. Modern documentaries come in three forms; Netflix has the needlessly long docs, HBO has docs that lately are just rehashes of stories from the 90's or the omnipresent doc about that claims to be about a subject but is really is all about the director for some reason. "
+    },
+    {
         id: "603",
         title: "The Matrix",
         poster: "/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
