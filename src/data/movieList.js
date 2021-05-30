@@ -615,6 +615,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "26983",
+        title: "Odds Against Tomorrow",
+        poster: "/3odDtAnFb9vjhF3EORVhHN5ewb1.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "1923",
         title: "Twin Peaks: Fire Walk with Me",
         poster: "/mxsGXqetGnirf99qapYd5MMY1VL.jpg",
