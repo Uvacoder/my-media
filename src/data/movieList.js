@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "26983",
+        title: "Odds Against Tomorrow",
+        poster: "/3odDtAnFb9vjhF3EORVhHN5ewb1.jpg",
+        rating: 4,
+        review: "I read that this was one of Melville's favorite movies and that enough for me. Harry Belafonte, Robert Robert Ryan and Ed Begley in a heist movie. A gamble, a racist, and a crooked ex-cop plot a robbery. Such an easy to pull off robbery if not for the fact that the three are just born losers. "
+    },
+    {
         id: "503736",
         title: "Army of the Dead",
         poster: "/x3taBaWfRzw1NIKhEPpKPwKBAOC.jpg",
@@ -614,13 +621,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "26983",
-        title: "Odds Against Tomorrow",
-        poster: "/3odDtAnFb9vjhF3EORVhHN5ewb1.jpg",
-        rating: 4,
-        review: ""
-    },
     {
         id: "1923",
         title: "Twin Peaks: Fire Walk with Me",
