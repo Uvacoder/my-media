@@ -255,7 +255,13 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-    
+    {
+        id: "1908",
+        title: "Miami Vice",
+        poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
+        rating: 4,
+        review: ""
+    },
     {
         id: "79525",
         title: "The Last Dance",

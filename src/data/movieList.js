@@ -4,7 +4,14 @@ const moviesWatched = [
         title: "Odds Against Tomorrow",
         poster: "/3odDtAnFb9vjhF3EORVhHN5ewb1.jpg",
         rating: 4,
-        review: "I read that this was one of Melville's favorite movies and that enough for me. Harry Belafonte, Robert Robert Ryan and Ed Begley in a heist movie. A gamble, a racist, and a crooked ex-cop plot a robbery. Such an easy to pull off robbery if not for the fact that the three are just born losers. "
+        review: "I read that this was one of Melville's favorite movies and that enough for me. Harry Belafonte, Robert Robert Ryan and Ed Begley in a heist movie. A gamble, a racist, and a crooked ex-cop plot a robbery. Such an easy to pull off robbery if not for the fact that the three are just born losers."
+    },
+    {
+        id: "2171",
+        title: "Wet Hot American Summer",
+        poster: "/dVdHnfcLZFSscEUZqCzctwOVjC0.jpg",
+        rating: 3,
+        review: "Just a really fun movie that hits more than it misses. It's a who's who of the Alt Comedy scene, which in this case is a good thing. Never more than a minute goes by with a solid laugh."
     },
     {
         id: "503736",
