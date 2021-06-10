@@ -1,5 +1,12 @@
 const tvWatched = [
     {
+        id: "79525",
+        title: "The Last Dance",
+        poster: "/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
+        rating: 4.5,
+        review: "You couldn't have asked for better timing on a release. Not just the pandemic, but a lot of other factor helped this release. People have known about this footage that the NBA had been hiding for 20 years and it was thought that it would never be seen. I was shocked that how little young people knew about Jordan and that their eyes were opened by this doc. I knew about almost every Hall of Fame player and I didn't have on demand highlights at a finger click. How can you love a sport and not know it's history. The doc really just cements Jordan as the greatest."
+    },
+    {
         id: "1920",
         title: "Twin Peaks: The Return",
         poster: "/ei7odFMfdnNV9pr5LyfrAAQOFes.jpg",
@@ -259,13 +266,6 @@ const tvWatching = [
         id: "1908",
         title: "Miami Vice",
         poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
-        rating: 4,
-        review: ""
-    },
-    {
-        id: "79525",
-        title: "The Last Dance",
-        poster: "/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
         rating: 4,
         review: ""
     },
