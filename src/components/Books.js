@@ -1,10 +1,11 @@
 import React, {useState, useContext} from 'react'
 import {booksReading, booksRead, handshakeFiveBooks} from '../data/bookList'
 import { Context } from '../Context'
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 function Books() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice} = useContext(Context)
       
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
@@ -34,7 +35,7 @@ function Books() {
         </div>
     ))
 
-    const nowReading = booksReading.map((book, index) => (
+    const nowReading = booksReading.slice(0, booksReadingSlice).map((book, index) => (
         <div className="now_reading"    key={book.id} style={filterSet(book, watchingReview)}>
             <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
@@ -55,7 +56,7 @@ function Books() {
         </div>
     ))
 
-    const recentlyRead = booksRead.map((book, index) => (
+    const recentlyRead = booksRead.slice(0, booksReadSlice).map((book, index) => (
         <div className="recently_read"  key={book.id} style={filterSet(book, watchedReview)} >
             <img src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`} alt="book covers" className="book" />
             <div  className="word_box">
@@ -81,15 +82,21 @@ function Books() {
             <h1 className="section_title" id="books"   style={dimmer}>Books</h1>
             <h2 className="sub_section_title" title="handShakeFiveBooks" style={dimmer}>Handshake Five</h2>
             <div className="book_handshake_flex">
-            {bookHandshake}
+                {bookHandshake}
             </div>
             <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Reading</h2>
             <div className="currently_reading_flex">
-            {nowReading}
+                {nowReading}
+                {/* <div className="currently_watching_slice_toggle" >
+                    <span className="currently_watching_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadingArrowToggle} className={booksReadingSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                </div> */}
             </div>
             <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Read</h2>
             <div className="recently_read_flex">
-            {recentlyRead}
+                {recentlyRead}
+                <div className="recently_watched_slice_toggle" >
+                    <span className="recently_watched_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                </div>
             </div>
         </div>
     )

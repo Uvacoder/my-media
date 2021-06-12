@@ -1,10 +1,11 @@
 import React, {useState, useContext} from 'react'
 import {tvWatched, tvWatching, handshakeFiveTv} from '../data/tvList'
 import { Context } from '../Context'
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 function Tv() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle, filterSet, dimmer, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
@@ -34,7 +35,7 @@ function Tv() {
         </div>
     ))
 
-    const nowWatchingTv = tvWatching.map((tv, index) => (
+    const nowWatchingTv = tvWatching.slice(0, tvWatchingSlice).map((tv, index) => (
         <div className="now_watching_tv"    key={tv.id} style={filterSet(tv, watchingReview)}>
              <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
              <div className="word_box">
@@ -56,7 +57,7 @@ function Tv() {
     ))
 
 
-    const recentlyWatchedTv = tvWatched.map((tv, index) => (
+    const recentlyWatchedTv = tvWatched.slice(0, tvWatchedSlice).map((tv, index) => (
         <div className="recently_watched_tv"  key={tv.id} style={filterSet(tv, watchedReview)}>
             <img src={`https://image.tmdb.org/t/p/w200${tv.poster}`} alt="tv posters" className="tv" />
             <div className="word_box"> 
@@ -87,11 +88,17 @@ function Tv() {
             <h2 className="sub_section_title" style={dimmer}>Currently Watching
             </h2>
             <div className="currently_watching_tv_flex">
-            {nowWatchingTv}
+                {nowWatchingTv}
+                {/* <div className="currently_watching_slice_toggle" >
+                    <span className="currently_watching_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleTvWatchingArrowToggle} className={tvWatchingSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                </div> */}
             </div>
             <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched__tv_flex">
-            {recentlyWatchedTv}
+                {recentlyWatchedTv}
+                <div className="recently_watched_slice_toggle" >
+                    <span className="recently_watched_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleTvWatchedArrowToggle} className={tvWatchedSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                </div>
             </div>
         </div>
     )

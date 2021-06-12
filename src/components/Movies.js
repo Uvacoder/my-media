@@ -1,22 +1,19 @@
 import React, {useState, useContext} from 'react'
 import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movieList'
 import { Context } from '../Context'
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 
  function Movies() {
 
-    const {fullStarMaker, halfStarMaker, reviewToggle,filterSet, dimmer} = useContext(Context)
+    const {fullStarMaker, halfStarMaker, reviewToggle,filterSet, dimmer, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice} = useContext(Context)
 
     const [handshakeReview, setHandshakeReview] = useState()
     const [watchedReview, setWatchedReview] = useState()
     const [watchingReview, setWatchingReview] = useState()
+    
 
-    
-   
-    
-    
-   
-        
+       
     const handshakeId = handshakeFiveMovies.map((movie, index) => (
         <div className="movieHandshake"  key={movie.id} style={filterSet(movie, handshakeReview)}>
             <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie" />
@@ -39,7 +36,7 @@ import { Context } from '../Context'
         </div>
     ))
 
-    const nowWatchingMovies = moviesWatching.map((movie, index) => (
+    const nowWatchingMovies = moviesWatching.slice(0, moviesWatchingSlice).map((movie, index) => (
         <div className="now_watching_movies"    key={movie.id} style={filterSet(movie, watchingReview)}>
             <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie" />
             <div className="word_box">
@@ -60,7 +57,8 @@ import { Context } from '../Context'
         </div>
     ))
 
-    const recentlyWatchedMovies = moviesWatched.map((movie, index) => (
+
+    const recentlyWatchedMovies = moviesWatched.slice(0, moviesWatchedSlice).map((movie, index) => (
         <div className="recently_watched_movies"  key={movie.id}  style={filterSet(movie, watchedReview)}>
             <img src={`https://image.tmdb.org/t/p/w200${movie.poster}`} alt="movie posters" className="movie"  />
             <div className="word_box">
@@ -80,22 +78,29 @@ import { Context } from '../Context'
             </div>     
         </div>
     ))
-    
+  
     return (
         <div >
             <h1 className="section_title" id="movies" style={dimmer}>Movies</h1>
             <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
             <div className="movies_handshake_flex">
-            {handshakeId}
+                {handshakeId}
             </div>
             <h2 className="sub_section_title" style={dimmer}>Currently Watching
             </h2>
             <div className="currently_watching_flex">
-            {nowWatchingMovies}
+                {nowWatchingMovies}
+                <div className="currently_watching_slice_toggle" >
+                    <span className="currently_watching_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchingArrowToggle} className={moviesWatchingSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                </div>
             </div>
+                
             <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched_flex">
-            {recentlyWatchedMovies}
+                {recentlyWatchedMovies}
+                <div className="recently_watched_slice_toggle" >
+                    <span className="recently_watched_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchedArrowToggle} className={moviesWatchedSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                </div>
             </div>
         </div>
     )
