@@ -157,7 +157,7 @@ nav > a {
     padding-top: 1.5rem;
 }
 
-.currently_watching_slice_toggle, .recently_watched_slice_toggle {
+.slice_toggle {
   width: 100%;
   height: 100px;
   display: flex;
@@ -165,12 +165,12 @@ nav > a {
   justify-content: center;
 }
 
-.currently_watching_toggle_arrow, .recently_watched_toggle_arrow {
+.toggle_arrow {
   color: white;
 }
 
 
-.currently_watching_toggle_arrow:hover, .recently_watched_toggle_arrow:hover {
+.toggle_arrow:hover {
   cursor: pointer;
 }
 

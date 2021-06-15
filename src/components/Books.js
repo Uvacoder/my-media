@@ -87,15 +87,15 @@ function Books() {
             <h2 className="sub_section_title" title="currentlyReading" style={dimmer}>Currently Reading</h2>
             <div className="currently_reading_flex">
                 {nowReading}
-                {/* <div className="currently_watching_slice_toggle" >
-                    <span className="currently_watching_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadingArrowToggle} className={booksReadingSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                {/* <div className="slice_toggle" >
+                    <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadingArrowToggle} className={booksReadingSlice === 10 ? '' : 'rotate_arrow'} /></span>
                 </div> */}
             </div>
             <h2 className="sub_section_title"  title="recentlyRead" style={dimmer}>Recently Read</h2>
             <div className="recently_read_flex">
                 {recentlyRead}
-                <div className="recently_watched_slice_toggle" >
-                    <span className="recently_watched_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                <div className="slice_toggle" >
+                    <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleBooksReadArrowToggle} className={booksReadSlice === 10 ? '' : 'rotate_arrow'} /></span>
                 </div>
             </div>
         </div>

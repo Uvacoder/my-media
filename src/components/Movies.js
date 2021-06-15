@@ -90,16 +90,16 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
             </h2>
             <div className="currently_watching_flex">
                 {nowWatchingMovies}
-                <div className="currently_watching_slice_toggle" >
-                    <span className="currently_watching_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchingArrowToggle} className={moviesWatchingSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                <div className="slice_toggle" >
+                    <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchingArrowToggle} className={moviesWatchingSlice === 10 ? '' : 'rotate_arrow'} /></span>
                 </div>
             </div>
                 
             <h2 className="sub_section_title" style={dimmer}>Recently Watched</h2>
             <div className="recently_watched_flex">
                 {recentlyWatchedMovies}
-                <div className="recently_watched_slice_toggle" >
-                    <span className="recently_watched_toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchedArrowToggle} className={moviesWatchedSlice === 10 ? '' : 'rotate_arrow'} /></span>
+                <div className="slice_toggle" >
+                    <span className="toggle_arrow" ><ArrowDropDownCircleIcon style={{ fontSize: 50 }} onClick={handleMovieWatchedArrowToggle} className={moviesWatchedSlice === 10 ? '' : 'rotate_arrow'} /></span>
                 </div>
             </div>
         </div>
