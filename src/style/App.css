@@ -115,6 +115,16 @@ nav > a {
   font-weight: 100;
 }
 
+.tool_tip:hover {
+  cursor: pointer;
+}
+
+.help_icon {
+  position: absolute;
+  padding: 0 2.5px;
+  font-size: 15px !important;
+}
+
 
 .section_title {
   color: white;

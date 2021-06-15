@@ -2,6 +2,8 @@ import React, {useState, useContext} from 'react'
 import { handshakeFiveMovies, moviesWatched, moviesWatching } from '../data/movieList'
 import { Context } from '../Context'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import Tooltip from '@material-ui/core/Tooltip';
 
 
  function Movies() {
@@ -82,7 +84,11 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
     return (
         <div >
             <h1 className="section_title" id="movies" style={dimmer}>Movies</h1>
-            <h2 className="sub_section_title" style={dimmer}>Handshake Five</h2>
+            <h2 className="sub_section_title" style={dimmer}>Handshake Five
+                <Tooltip className="tool_tip" title="Handshake Five isn’t necessarily my five favorite. But based on those five you should be able to get a good sense of the types of content I’m interested in and I could get a good sense from your five." placement="right">
+                    <HelpOutlineIcon className="help_icon" fontSize={"inherit"} /> 
+                </Tooltip>  
+            </h2>
             <div className="movies_handshake_flex">
                 {handshakeId}
             </div>
