@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "1627",
+        title: "Career Opportunities",
+        poster: "/3LoVEXCgVion883GgBHTeTkJi1F.jpg",
+        rating: 2,
+        review: "This could've been a John Hughes classic, but it on the lower end of his movies. The movie could use another 20 minutes of scenes to fill in what feels like a very rushed movie. Everything with the robbers is just plain bad. Perhaps if Joe Pesci and Daniel Stern came in as the robbers it would have been a little better but how do they just walk right into a Target at night? The John Candy scene was the best part."
+    },
+    {
+        id: "60308",
+        title: "Moneyball",
+        poster: "/4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
+        rating: 4,
+        review: "Moneyball is a very rewatchable movie that glides from scene to scene. It's as good as the book it's based and there is some really great casting. The real problem with Moneyball though is that it has spread to all sports and intrenched it followers in front offices across leagues. In an attempt to become the next Peter Brand, everybody creates new pseudostats that are guaranteed to help you find the next great team. These stats then spread to all teams and alter the play of the games. Brad Pitt not watching games isn't a quirk of Billy Beane, it's a tenet of Sabermetrics. You need only look that the advanced analytics to see what happened in the game. Day to day gameplay has become unwatchable and the each sport has morphed into an almost yearly race to alter the sport to target the next hip stat. "
+    },
+    {
         id: "26983",
         title: "Odds Against Tomorrow",
         poster: "/3odDtAnFb9vjhF3EORVhHN5ewb1.jpg",
