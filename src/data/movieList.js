@@ -643,6 +643,20 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "14746",
+        title: "Streets of Fire",
+        poster: "/tmYHBKCZkbmiUfhfOQKgfh0jvXK.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
+        id: "8073",
+        title: "Bande à part",
+        poster: "/9oqyj79xmcypxLajJdefOtrYx64.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "1923",
         title: "Twin Peaks: Fire Walk with Me",
         poster: "/mxsGXqetGnirf99qapYd5MMY1VL.jpg",

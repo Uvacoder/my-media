@@ -32,6 +32,7 @@ exports[`take a snapshot of Books 1`] = `
         <div
           class="word_box"
         >
+          use
           <h4
             class="title"
           >
@@ -68,6 +69,7 @@ exports[`take a snapshot of Books 1`] = `
         <div
           class="word_box"
         >
+          use
           <h4
             class="title"
           >
@@ -106,6 +108,7 @@ exports[`take a snapshot of Books 1`] = `
         <div
           class="word_box"
         >
+          use
           <h4
             class="title"
           >
@@ -144,6 +147,7 @@ exports[`take a snapshot of Books 1`] = `
         <div
           class="word_box"
         >
+          use
           <h4
             class="title"
           >
@@ -180,6 +184,7 @@ exports[`take a snapshot of Books 1`] = `
         <div
           class="word_box"
         >
+          use
           <h4
             class="title"
           >
@@ -415,6 +420,42 @@ exports[`take a snapshot of Books 1`] = `
     <div
       class="recently_read_flex"
     >
+      <div
+        class="recently_read"
+        style="opacity: 1; transition: .5s;"
+      >
+        <img
+          alt="book covers"
+          class="book"
+          src="https://covers.openlibrary.org/b/isbn/9780606107211-M.jpg"
+        />
+        <div
+          class="word_box"
+        >
+          <h4
+            class="title"
+          >
+            Heir to the Empire
+          </h4>
+          <span
+            class="star-container"
+          >
+            <h4
+              class="star"
+            >
+              ✭✭✭✭
+            </h4>
+            <h4
+              class="half-star"
+            />
+          </span>
+          <i
+            class="material-icons arrow_right_icon"
+          >
+            arrow_right_icon
+          </i>
+        </div>
+      </div>
       <div
         class="recently_read"
         style="opacity: 1; transition: .5s;"
@@ -731,42 +772,6 @@ exports[`take a snapshot of Books 1`] = `
               class="star"
             >
               ✭✭✭✭
-            </h4>
-            <h4
-              class="half-star"
-            />
-          </span>
-          <i
-            class="material-icons arrow_right_icon"
-          >
-            arrow_right_icon
-          </i>
-        </div>
-      </div>
-      <div
-        class="recently_read"
-        style="opacity: 1; transition: .5s;"
-      >
-        <img
-          alt="book covers"
-          class="book"
-          src="https://covers.openlibrary.org/b/isbn/9780876852637-M.jpg"
-        />
-        <div
-          class="word_box"
-        >
-          <h4
-            class="title"
-          >
-            Factotum
-          </h4>
-          <span
-            class="star-container"
-          >
-            <h4
-              class="star"
-            >
-              ✭✭✭
             </h4>
             <h4
               class="half-star"

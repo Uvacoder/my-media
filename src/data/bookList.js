@@ -20,11 +20,11 @@
         review: ""
     },
     {   
-        id: "27",
-        title: "Heir to the Empire",
-        isbn: "9780606107211",
-        rating: 4,
-        review: "Not the biggest Star Wars fan but after watching the Mandalorian, I pick this up. This is a really fun read. I can't put it down.  "
+        id: "29",
+        title: "Dark Force Rising",
+        isbn: "9780785792918",
+        rating: 3.5,
+        review: ""
     },
     {   
         id: "28",
@@ -38,6 +38,13 @@
 
 
 const booksRead = [
+    {   
+        id: "27",
+        title: "Heir to the Empire",
+        isbn: "9780606107211",
+        rating: 4,
+        review: "A really enjoyable read. You start with a big idea: Why did the empire fall apart so fast after the Emperors death? Add a great powerful and unstoppable villain. Its not hard and yet today media companies would rather give you shades of gray than good versus evil. Congrats, you read Watchmen and Dark Knight Returns. The reason those stood out in 1986 was because they were counter to the mainstream comics. Everyday life is shades of gray and current creators are not Moore and Miller."
+    },
     {   
         id: "26",
         title: "Guns, germs, and steel",
