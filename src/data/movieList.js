@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "9386",
+        title: "In The Line of Fire",
+        poster: "/3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
+        rating: 4.5,
+        review: "I could watch this movie everyday for the rest of my life and still enjoy it. When it came out, I practically did. It has one of the greatest villains of all time against one of movies greatest hero actors. Beside that, what really make the movie great is that it combines the best parts of movies like The Day of the Jackal and mixes it with JFK conspiracy theory but trims off all the fat. There is also a few subtle nods to Casablanca that I've only recently noticed."
+    },
+    {
         id: "1627",
         title: "Career Opportunities",
         poster: "/3LoVEXCgVion883GgBHTeTkJi1F.jpg",
