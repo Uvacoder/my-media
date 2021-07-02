@@ -32,7 +32,13 @@
         isbn: "9780300120486",
         rating: 4,
         review: ""
-    }
+    },
+    {   id: "30",
+        title: "Once Upon a Time in Hollywood",
+        isbn: "9780063112520",
+        rating: 4,
+        review: ""
+    },
 ].reverse()
 
 
