@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "11454",
+        title: "The Manhunter",
+        poster: "/n1FQNiMi00Rq85771JQHUINafCC.jpg",
+        rating: 4,
+        review: "Very stylized like all of Mann's movies but a really good movie. Sometimes he can over do it with the music and that only happens during the final credits. Peterson is great in this and in the now almost impossible to find To Live and Die in LA. Tom Noonan is extra creeping as the main villian."
+    },
+    {
         id: "9386",
         title: "In The Line of Fire",
         poster: "/3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
@@ -649,13 +656,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "11454",
-        title: "The Manhunter",
-        poster: "/n1FQNiMi00Rq85771JQHUINafCC.jpg",
-        rating: 4,
-        review: ""
-    },
     {
         id: "14746",
         title: "Streets of Fire",
