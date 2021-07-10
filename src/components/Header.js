@@ -1,27 +1,25 @@
 import React, {useContext} from 'react'
-import useToggler from '../useToggler'
 import { Context } from '../Context'
 
 function Header(){
-    const [show, toggle] = useToggler(true)
-    const {fullDim} = useContext(Context)
+    const {fullDim, handleHamburgerClick, dropDownNavClick, isNavOpen} = useContext(Context)
 
     return (
         <div  className="header" style={fullDim}>
         <h1 className="main_title">Media Consumption</h1>
         <i className="material-icons menu-icon" 
-             onClick={toggle}
-             style={{ display: show ? "block" : "none"}}
+             onClick={() => handleHamburgerClick()}
+             style={{ display: isNavOpen ? "none" : "block"}}
              >menu_icon</i>
-        <nav style={{display: show ? "none" : "block"}} className="nav-container">
+        <nav style={{display: isNavOpen ? "block" : "none"}} className="nav-container">
           
           <i className="material-icons close-icon"
-              onClick={toggle}
-              style={{display: show ? "none" : "block"}}
+              onClick={() => handleHamburgerClick()}
+              style={{display: isNavOpen ? "block" : "none"}}
               >close_icon</i>
-            <a href="#movies" className="firstAnchor">Movies</a>
-            <a href="#television">Television</a>
-            <a href="#books" className="lastAnchor">Books</a> 
+            <a href="#movies" className="firstAnchor" onClick={dropDownNavClick}>Movies</a>
+            <a href="#television" onClick={dropDownNavClick}>Television</a>
+            <a href="#books" className="lastAnchor" onClick={dropDownNavClick}>Books</a> 
         </nav>
         </div>
     )

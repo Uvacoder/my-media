@@ -85,11 +85,20 @@ function ContextProvider({children}) {
     }
 
 
-    
+    const [isNavOpen, setIsNavOpen] = useState(false)
+
+
+    function handleHamburgerClick() {
+        setIsNavOpen(prevState => !prevState)
+    }
+
+    function dropDownNavClick() {
+        setIsNavOpen(false)
+    }
 
 
     return (
-        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice, handleTvWatchingArrowToggle, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleBooksReadingArrowToggle, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice}}>
+        <Context.Provider value={{fullStarMaker, halfStarMaker, reviewToggle,filterSet, currentReview, dimmer, fullDim, handleMovieWatchingArrowToggle, handleMovieWatchedArrowToggle, moviesWatchingSlice, moviesWatchedSlice, handleTvWatchingArrowToggle, handleTvWatchedArrowToggle, tvWatchingSlice, tvWatchedSlice, handleBooksReadingArrowToggle, handleBooksReadArrowToggle, booksReadingSlice, booksReadSlice, handleHamburgerClick, dropDownNavClick, isNavOpen}}>
             {children}
         </Context.Provider>
     )
