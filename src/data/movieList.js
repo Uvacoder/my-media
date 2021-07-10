@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "20858",
+        title: "8 Million Ways to Die",
+        poster: "/xSvEwTz6nrZVEoyrajdKxLB0oVl.jpg",
+        rating: 2.5,
+        review: "There are some reason nice scenes but theres also almost no setup. I have no problem filling in the negative space of a movie on my own but this movie doesn't even give you a line. A battle between Ashby and the Studio supposedly ruined this movie. It's very likely that this was on track to be a neo noir classic but as is its more a waste of actors in their prime."
+    },
+    {
         id: "11454",
         title: "The Manhunter",
         poster: "/n1FQNiMi00Rq85771JQHUINafCC.jpg",
