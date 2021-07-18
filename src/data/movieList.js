@@ -664,6 +664,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "11507",
+        title: "Body Double",
+        poster: "/lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
         id: "14746",
         title: "Streets of Fire",
         poster: "/tmYHBKCZkbmiUfhfOQKgfh0jvXK.jpg",

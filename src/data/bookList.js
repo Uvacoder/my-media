@@ -33,9 +33,9 @@
         rating: 4,
         review: ""
     },
-    {   id: "30",
-        title: "Once Upon a Time in Hollywood",
-        isbn: "9780063112520",
+    {   id: "31",
+        title: "Easy Riders, Raging Bulls",
+        isbn: "9780684857084",
         rating: 4,
         review: ""
     },
@@ -44,6 +44,12 @@
 
 
 const booksRead = [
+    {   id: "30",
+        title: "Once Upon a Time in Hollywood",
+        isbn: "9780063112520",
+        rating: 4.5,
+        review: "If you only watch the movie or only read the book then you will only get half of the story. The book answers a lot of question and back fills story while never really stepping on the movies toes."
+    },
     {   
         id: "27",
         title: "Heir to the Empire",
