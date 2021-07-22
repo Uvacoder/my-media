@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "11507",
+        title: "Body Double",
+        poster: "/lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+        rating: 2.5,
+        review: "There are some really nice set pieces and everyone knows the drill scene but it doesn't add up to a good movie. I wish I liked this movie more, I think there are parts that are very rewatchable but as a whole it's a lesser De Palma movie."
+    },
+    {
         id: "20858",
         title: "8 Million Ways to Die",
         poster: "/xSvEwTz6nrZVEoyrajdKxLB0oVl.jpg",
@@ -663,13 +670,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "11507",
-        title: "Body Double",
-        poster: "/lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
-        rating: 3,
-        review: ""
-    },
     {
         id: "14746",
         title: "Streets of Fire",
