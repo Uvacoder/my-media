@@ -1,5 +1,19 @@
 const moviesWatched = [
     {
+        id: "13809",
+        title: "RockNRolla",
+        poster: "/i7eyngqjdvKB7NvrWtCjjTNNq8N.jpg",
+        rating: 3,
+        review: "Like all Guy Ritchie movies it's very watchable. But it its a middling Ritchie movie. I don't know that there is one scene that I'll remember after a couple of days. A lot happens off screen and thats fine but what happens on screen is any thing spectacular."
+    },
+    {
+        id: "22828",
+        title: "Homicide",
+        poster: "/eTfz8CTaHkYFCccZt6p6iop2e6U.jpg",
+        rating: 3.5,
+        review: "When I rewatched this movie this time it really flew by. Mostly because of Mamet's dialog. The problem I have this time watching it is that Gold wanting to help so baldly happens way too quickly. He's been played from almost the beginning but unlike House of Games it's missing a romance or something to bait him into the trap. Still a good movie with a great cast."
+    },
+    {
         id: "11507",
         title: "Body Double",
         poster: "/lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
@@ -670,6 +684,13 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
+    {
+        id: "32042",
+        title: "Night Moves",
+        poster: "/o6ZYabmfGPiuyTyUEXDsZOq90mR.jpg",
+        rating: 4,
+        review: ""
+    },
     {
         id: "14746",
         title: "Streets of Fire",
