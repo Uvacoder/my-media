@@ -39,9 +39,9 @@
         rating: 4,
         review: ""
     },
-    {   id: "32",
-        title: "The End Is Always Near",
-        isbn: "9780062868046",
+    {   id: "33",
+        title: "I want my MTV",
+        isbn: "9780525952305",
         rating: 4,
         review: ""
     },
@@ -50,6 +50,12 @@
 
 
 const booksRead = [
+    {   id: "32",
+        title: "The End Is Always Near",
+        isbn: "9780062868046",
+        rating: 3.5,
+        review: "If you've listened to the Hardcore History podcast then there is really nothing new in this book. However it's still a good read and acts as a spine of the podcast as a whole. A good first effort."
+    },
     {   id: "30",
         title: "Once Upon a Time in Hollywood",
         isbn: "9780063112520",
