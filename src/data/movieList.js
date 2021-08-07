@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "436969",
+        title: "The Suicide Squad",
+        poster: "/lSEr1nphZuCqXli3VziIgCI8Ivf.jpg",
+        rating: 3,
+        review: "On one hand this is a decent comic book movie, on the other hand why should I care? Not why should I care about The Suicide Squad, but rather why should I care about any superhero movie? At first it was cool to see comic characters and parts of story arcs from the comics on screen. But now comics movies are on rail rollercoaster rides that go nowhere and say nothing. There was a time when video games wanted to be movies, but now movies want to be video games. The Squad did a hell of a lot of platform jumping, and anyone who saw last years Rick and Morty episode new exactly what the javelin was for. There were parts of the movie that were funny, at least funnier than the Marvel movies have been. Just remember, don't think too hard and ..... consume consume consume."
+    },
+    {
         id: "13809",
         title: "RockNRolla",
         poster: "/i7eyngqjdvKB7NvrWtCjjTNNq8N.jpg",
