@@ -233,10 +233,11 @@ nav > a {
 .review {
   opacity: 1;
   margin: 0 auto;
-  width: 200px;
+  width: 500px;
   height: auto;
   min-height: 0;
   font-size: .75rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   /* border-radius: 5px;
   border-bottom-right-radius: 0px; */
   text-align: start;
@@ -246,7 +247,7 @@ nav > a {
   color: white;
   padding: 1rem 1rem;
   cursor: pointer;
-  line-height: 1.5;
+  line-height: 2;
   margin-top: -1rem;
   margin-left: -1rem;
   box-shadow: 5px 5px 500px -3px rgba(255, 215, 0, .25);
@@ -283,7 +284,7 @@ nav > a {
   font-size: 1rem;
   color: gold;
   /* font-weight: 900; */
-  font-family: 'Libre Baskerville', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .footer {
@@ -396,6 +397,10 @@ nav > a {
   transition: .5s ease-in;
 }
 
+.review {
+  width: 75%;
+}
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -472,6 +477,10 @@ nav > a {
     left: 1rem;
     width: 40px;
   } 
+
+  .review {
+    left: 15%;
+  }
 }
 
 @media only screen and (max-width: 376px) {

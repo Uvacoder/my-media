@@ -39,9 +39,9 @@
         rating: 4,
         review: ""
     },
-    {   id: "33",
-        title: "I want my MTV",
-        isbn: "9780525952305",
+    {   id: "34",
+        title: "Down and Dirty Pictures",
+        isbn: "0684862581",
         rating: 4,
         review: ""
     },
@@ -50,6 +50,12 @@
 
 
 const booksRead = [
+    {   id: "33",
+        title: "I Want My MTV",
+        isbn: "9780525952305",
+        rating: 4,
+        review: "When I started the book its stated that it covered 1981-1991 and I wondered about the years following, but the fact is that those ten years is about all you need to know about Mtv. It's funny that things in culture go from idea to iconic so quickly and when people start to recognize it as iconic it's already on the way down. The Mtv from 1995 to now is just a husk. I'm quite sure it makes a lot of money, more than ever. But would anybody miss it if it went off the air tomorrow? Sure the it would get a couple days of the new cycle and a nice obituary. But it's long since past. Sure in late 90's people wished they played more videos but anyone saying that today is being disingenuous. Personally the first ten years were electric. But after the deaths of Cobain, Tupac and Biggie the channel wandered. It's a ghost ship now, but I'm sure someone will let you pay $15 a month to lick the bones."
+    },
     {   id: "32",
         title: "The End Is Always Near",
         isbn: "9780062868046",
