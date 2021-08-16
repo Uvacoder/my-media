@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "32042",
+        title: "Night Moves",
+        poster: "/o6ZYabmfGPiuyTyUEXDsZOq90mR.jpg",
+        rating: 4,
+        review: "Like every Neo-Noir film, this wasn't a hit. It's also a movie that only pops up on streaming a few time a year. So when I happen to see it I always watch it before it disappears. Every time I rewatch the movie it becomes more about the character and less about the story and the great ending.  Could've been called No One Gets Out Alive even though thats not true. It's all here: private eye, L.A. and murder but in the New Hollywood style that only became appreciated after the fact. Whats really interesting to me is that all the characters are in transition, unlike most movies where almost all the characters are stagnant. I can't wait to watch it again when it pops up."
+    },
+    {
         id: "436969",
         title: "The Suicide Squad",
         poster: "/lSEr1nphZuCqXli3VziIgCI8Ivf.jpg",
@@ -691,13 +698,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "32042",
-        title: "Night Moves",
-        poster: "/o6ZYabmfGPiuyTyUEXDsZOq90mR.jpg",
-        rating: 4,
-        review: ""
-    },
     {
         id: "14746",
         title: "Streets of Fire",
