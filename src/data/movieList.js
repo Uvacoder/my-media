@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "14761",
+        title: "Cocaine Cowboys",
+        poster: "/hkU1V6DBJoCUxi3xVHiI0OI38oN.jpg",
+        rating: 3,
+        review: "I should've watched this when it first came out 15 years ago. I happen to be watching Miami Vice all the way through again and Vice is less dated than this movie. The colors and sound mix are off. Luckily unlike most docs today, the hand of the creator isn't all over it. I might check out the new series on Netflix."
+    },
+    {
         id: "32042",
         title: "Night Moves",
         poster: "/o6ZYabmfGPiuyTyUEXDsZOq90mR.jpg",
