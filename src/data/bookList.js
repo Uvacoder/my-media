@@ -45,6 +45,18 @@
         rating: 4,
         review: ""
     },
+    {   id: "35",
+        title: "The Men Who Would Be King",
+        isbn: "9780547134703",
+        rating: 4,
+        review: ""
+    },
+    {   id: "36",
+        title: "Disney War",
+        isbn: "9780743267090",
+        rating: 4,
+        review: ""
+    },
 ].reverse()
 
 

@@ -706,6 +706,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "32040",
+        title: "The Killing of a Chinese Bookie",
+        poster: "/clQgmbmBOxvA2NepvijoL7YUCvr.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "14746",
         title: "Streets of Fire",
         poster: "/tmYHBKCZkbmiUfhfOQKgfh0jvXK.jpg",
