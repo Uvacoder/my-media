@@ -39,12 +39,7 @@
         rating: 4,
         review: ""
     },
-    {   id: "34",
-        title: "Down and Dirty Pictures",
-        isbn: "0684862581",
-        rating: 4,
-        review: ""
-    },
+   
     {   id: "35",
         title: "The Men Who Would Be King",
         isbn: "9780547134703",
@@ -62,6 +57,12 @@
 
 
 const booksRead = [
+     {   id: "34",
+        title: "Down and Dirty Pictures",
+        isbn: "0684862581",
+        rating: 4,
+        review: "The Weinstein's were bullies and monsters and Robert Redford was a passive aggressive slow footed leader. The entertainment industry builds marble statues of people that don't deserve it and when those leaders fall and they start smashing the statue's nose the blame the audience for paying for the marble. It's very telling that the people that dared stand up to Harvey remained close and everyone else was a speed bump. People leaving good jobs to help Redford build and empire that he really wasn't ever going to get off the ground, it's one in the same. 'Nobody knows anything.' The industry is a series of competing ant colonies acting as if there is a magic formula to it all other than make the Queen rich. I suspect currently we are in an era that will be ripe for a new Biskind book as the movie industry turns into a content industry, preferring content and consumption to quality and praise."
+    },
     {   id: "33",
         title: "I Want My MTV",
         isbn: "9780525952305",
