@@ -263,6 +263,13 @@ const tvWatched = [
 
 const tvWatching = [
     {
+        id: "873",
+        title: "Columbo",
+        poster: "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
+        rating: 4,
+        review: ""
+    },
+    {
         id: "1908",
         title: "Miami Vice",
         poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
