@@ -39,13 +39,6 @@
         rating: 4,
         review: ""
     },
-   
-    {   id: "35",
-        title: "The Men Who Would Be King",
-        isbn: "9780547134703",
-        rating: 4,
-        review: ""
-    },
     {   id: "36",
         title: "Disney War",
         isbn: "9780743267090",
@@ -57,6 +50,13 @@
 
 
 const booksRead = [
+    {   id: "35",
+        title: "The Men Who Would Be King",
+        isbn: "9780547134703",
+        rating: 4.5,
+        review: "A great Hollywood book filled with a lot of nuts and bolts. Did you know Spielberg made $175 million on Men In Black for basically just adding his name to the project. This though is really a Jeffrey Katzenberg story as much as it's the story of Dreamworks. Yes, Geffen and Spielberg are equal part of this book and of Dreamworks, you could argue that Dreamworks was founded to give Katzenberg the role he lost out on at Disney. Another book that shows that there is no secret formula and that 'Nobody knows anything.'"
+    },
+
      {   id: "34",
         title: "Down and Dirty Pictures",
         isbn: "0684862581",
@@ -66,7 +66,7 @@ const booksRead = [
     {   id: "33",
         title: "I Want My MTV",
         isbn: "9780525952305",
-        rating: 4,
+        rating: 3.5,
         review: "When I started the book its stated that it covered 1981-1991 and I wondered about the years following, but the fact is that those ten years is about all you need to know about Mtv. It's funny that things in culture go from idea to iconic so quickly and when people start to recognize it as iconic it's already on the way down. The Mtv from 1995 to now is just a husk. I'm quite sure it makes a lot of money, more than ever. But would anybody miss it if it went off the air tomorrow? Sure the it would get a couple days of the new cycle and a nice obituary. But it's long since past. Sure in late 90's people wished they played more videos but anyone saying that today is being disingenuous. Personally the first ten years were electric. But after the deaths of Cobain, Tupac and Biggie the channel wandered. It's a ghost ship now, but I'm sure someone will let you pay $15 a month to lick the bones."
     },
     {   id: "32",
