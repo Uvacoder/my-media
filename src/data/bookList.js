@@ -39,9 +39,9 @@
         rating: 4,
         review: ""
     },
-    {   id: "36",
-        title: "Disney War",
-        isbn: "9780743267090",
+    {   id: "37",
+        title: "Barbarians at the Gate",
+        isbn: "0060920386",
         rating: 4,
         review: ""
     },
@@ -50,6 +50,12 @@
 
 
 const booksRead = [
+    {   id: "36",
+        title: "Disney War",
+        isbn: "9780743267090",
+        rating: 5,
+        review: "Of the entertainment books I've been reading, Disney War is the best. In an industry where projects fail as much as they succeed and for reasons that are only apparent in hindsight, Michael Eisners tenure at  Disney has to be judged as somewhat of a failure. So much money was wasted cleaning up his mistakes, and yet his unwillingness not to entertain AOL in merger talks was a company saving decision. "
+    },
     {   id: "35",
         title: "The Men Who Would Be King",
         isbn: "9780547134703",
