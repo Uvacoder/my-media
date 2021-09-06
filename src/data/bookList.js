@@ -42,7 +42,7 @@
     {   id: "37",
         title: "Barbarians at the Gate",
         isbn: "0060920386",
-        rating: 4,
+        rating: 5,
         review: ""
     },
 ].reverse()
