@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "12560",
+        title: "The Big Chill",
+        poster: "/rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
+        rating: 4,
+        review: "I don't get the that hate that I see sometimes for this movie. It's a really good movie about a group of Yippies reuniting after one of their friends suicide. It has one of the best cast and an almost too on the nose soundtrack. Perhaps if my generation had one ounce of self reflection they'd be able to relate to this movie, because it is a timeless theme. Kline accent is not good though."
+    },
+    {
         id: "14761",
         title: "Cocaine Cowboys",
         poster: "/hkU1V6DBJoCUxi3xVHiI0OI38oN.jpg",
@@ -706,9 +713,9 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
-        id: "12560",
-        title: "The Big Chill",
-        poster: "/rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
+        id: "9008",
+        title: "The Insider",
+        poster: "/w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
         rating: 4,
         review: ""
     },

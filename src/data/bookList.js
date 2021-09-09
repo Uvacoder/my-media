@@ -33,12 +33,7 @@
         rating: 4,
         review: ""
     },
-    {   id: "31",
-        title: "Easy Riders, Raging Bulls",
-        isbn: "9780684857084",
-        rating: 4,
-        review: ""
-    },
+    
     {   id: "37",
         title: "Barbarians at the Gate",
         isbn: "0060920386",
@@ -50,6 +45,12 @@
 
 
 const booksRead = [
+    {   id: "31",
+        title: "Easy Riders, Raging Bulls",
+        isbn: "9780684857084",
+        rating: 4.5,
+        review: "It ends on kind of a downbeat. However as the decades have passed and the current content has been so poor, this era and its failures have become greater. The movies of the seventies are more influential than any other decade in movies. In so much as movie have vision other than to churn out quantity, its the stories or images of that decade that find its way subtly in to film or tv now. Movie are in a bad way right now and there are no strong leaders who can cut through the double speak that shows up in the entertainment media. But perhaps the future is in the past."
+    },
     {   id: "36",
         title: "Disney War",
         isbn: "9780743267090",
