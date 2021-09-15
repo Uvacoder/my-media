@@ -243,12 +243,11 @@ const handshakeFiveBooks = [
         rating: 4.5,
         review: "This book made me decide to change careers. In the same way Dunces was relevant to me in my late 20's this was in my 30's. There are part's of this book as far as the job that are scene's from my real life."
     },
-    {   
-        id: "3",
-        title: "The Bonfire of the Vanities",
-        isbn: "9780553381344",
-        rating: 4.5,
-        review: " When Sherman McCoy is with his mistress he hit's and kill someone. The story of politics and the media and how they effect justice. This book is more relevant today than it was then."
+    {   id: "3799",
+        title: "Barbarians at the Gate",
+        isbn: "0060920386",
+        rating: 5,
+        review: ""
     },
     {   
         id: "4",
