@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "9008",
+        title: "The Insider",
+        poster: "/w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+        rating: 4,
+        review: "A movie a that Michael Eisner tried to burry. It really should have been better supported by the studio because it's Michael Mann making a less stylized thriller, more of a grown up movie. The scene with everyone yelling in the newsroom as the tension rises is probably the highlight. Pacino on the beach in the dark though is a classic Mann shot. You believe that Crowe has a temper and could snap at any moment. It might not be a top 5 Mann movie, but it would be a top movie for all but a few directors. "
+    },
+    {
         id: "12560",
         title: "The Big Chill",
         poster: "/rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
@@ -712,13 +719,6 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "9008",
-        title: "The Insider",
-        poster: "/w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
-        rating: 4,
-        review: ""
-    },
     {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
