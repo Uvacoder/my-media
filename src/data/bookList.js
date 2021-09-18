@@ -33,24 +33,31 @@
         rating: 4,
         review: ""
     },
-    
-    {   id: "37",
-        title: "Barbarians at the Gate",
-        isbn: "0060920386",
-        rating: 5,
-        review: ""
-    },
     {   id: "38",
         title: "Powerhouse",
         isbn: "9780062441386",
         rating: 4,
         review: ""
     },
+    {   id: "39",
+        title: "Den of Thieves",
+        isbn: "9780671638023",
+        rating: 4,
+        review: ""
+    },
+
+
 ].reverse()
 
 
 
 const booksRead = [
+    {   id: "37",
+        title: "Barbarians at the Gate",
+        isbn: "0060920386",
+        rating: 5,
+        review: "Easily one of the best books I've ever read. There is a reason that this book is so highly regarded. Even though most of the financial manuevers and people have been lost in the sands of time the book at its core is a thrill ride. The founding of RJR is as fascinating as the main drive of the story. Even when it seems to be over, it has only begun."
+    },
     {   id: "31",
         title: "Easy Riders, Raging Bulls",
         isbn: "9780684857084",
@@ -247,7 +254,7 @@ const handshakeFiveBooks = [
         title: "Barbarians at the Gate",
         isbn: "0060920386",
         rating: 5,
-        review: ""
+        review: "Easily one of the best books I've ever read. There is a reason that this book is so highly regarded. Even though most of the financial manuevers and people have been lost in the sands of time the book at its core is a thrill ride. The founding of RJR is as fascinating as the main drive of the story. Even when it seems to be over, it has only begun."
     },
     {   
         id: "4",
