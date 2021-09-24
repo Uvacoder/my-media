@@ -720,6 +720,13 @@ const moviesWatched = [
 
 const moviesWatching = [
     {
+        id: "513310",
+        title: "Boss Level",
+        poster: "/i6QFXv4lZyxRMknH0EDkCIz02XP.jpg",
+        rating: 3,
+        review: ""
+    },
+    {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
         poster: "/clQgmbmBOxvA2NepvijoL7YUCvr.jpg",

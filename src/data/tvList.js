@@ -1,5 +1,19 @@
 const tvWatched = [
     {
+        id: "1908",
+        title: "Miami Vice",
+        poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
+        rating: 4.5,
+        review: "You would think that it would be dated, it somewhat was when I was watching it in syndication in the 90's. But as time has gone on it has become distinct. Vice starts with on of the greatest pilot episodes ever and only starts to fall of in about the fourth season. Much like all network show you could trim about 4 episodes from every season. The come in late and leave early storytelling is sadly lacking today. There are probably 20 episodes that are great as just standalone stories. The boxing episode is one of the biggest gut punches up until Law and Order lost a ADA."
+    },
+    {
+        id: "42154",
+        title: "World War II In HD Colour",
+        poster: "/1in5DbN4t8a7Osw9hCqWEmNoEZF.jpg",
+        rating: 4,
+        review: "The series hits all the necessary beats and is relatively centered. Some of the color looks amazing but some of it looks down right awful. My real criticism comes from the over use of the same footage. During the first ten episodes you believe that what you are seeing is from that exact moment, but during the last few episodes the footage is reused and over used casting doubt to the origin and time frame of the images."
+    },
+    {
         id: "79525",
         title: "The Last Dance",
         poster: "/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
@@ -262,24 +276,11 @@ const tvWatched = [
 ]
 
 const tvWatching = [
-    {
-        id: "42154",
-        title: "World War II In HD Colour",
-        poster: "/1in5DbN4t8a7Osw9hCqWEmNoEZF.jpg",
-        rating: 4,
-        review: ""
-    },
+    
     {
         id: "873",
         title: "Columbo",
         poster: "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
-        rating: 4,
-        review: ""
-    },
-    {
-        id: "1908",
-        title: "Miami Vice",
-        poster: "/6psPEKu03UCiLqBxzeSy7wRQOVN.jpg",
         rating: 4,
         review: ""
     },
