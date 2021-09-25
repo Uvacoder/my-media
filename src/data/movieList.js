@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "513310",
+        title: "Boss Level",
+        poster: "/i6QFXv4lZyxRMknH0EDkCIz02XP.jpg",
+        rating: 3,
+        review: "Obviously it's not as great as Groundhog Day or as good as Edge of Tomorrow, but it's a fun little movie. The soundtrack is good and not overused. The ending worked for me, the whole movie had show us what was to happen and we didn't need to see it again. "
+    },
+    {
         id: "9008",
         title: "The Insider",
         poster: "/w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
@@ -719,13 +726,7 @@ const moviesWatched = [
 ]
 
 const moviesWatching = [
-    {
-        id: "513310",
-        title: "Boss Level",
-        poster: "/i6QFXv4lZyxRMknH0EDkCIz02XP.jpg",
-        rating: 3,
-        review: ""
-    },
+    
     {
         id: "32040",
         title: "The Killing of a Chinese Bookie",
