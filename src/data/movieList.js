@@ -1,5 +1,12 @@
 const moviesWatched = [
     {
+        id: "34813",
+        title: "The Losers",
+        poster: "/e5oD3fuQpjZ8Po6WNW0VkUJmW52.jpg",
+        rating: 2,
+        review: "It's everything thats wrong with modern movies. The bad jokes, the plot holes, exposition dumps etc... But at least its short. Today the movie would be 2 1/2 hours long. This exists. It's hard to explain how big the comic was at the time though. It was one of the big titles of the last great age of comics."
+    },
+    {
         id: "513310",
         title: "Boss Level",
         poster: "/i6QFXv4lZyxRMknH0EDkCIz02XP.jpg",
