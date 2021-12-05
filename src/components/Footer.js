@@ -14,7 +14,7 @@ function Footer() {
                     className="logo"
                     />
             </a>
-                <h1 className="copy_footer"> by Scott Jellen  &#169; 2020</h1>
+                <h1 className="copy_footer"> by uvacoder &#169; 2021</h1>
             </div>
     )
 }
